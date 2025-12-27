@@ -8,7 +8,7 @@
 
 # Cursor metadata
 .cursor/
-
+.vscode/
 # Asset catalog stray files
 IronPath/IronPath/Assets.xcassets/.DS_Store
 
