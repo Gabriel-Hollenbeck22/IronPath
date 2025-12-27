@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+*/.DS_Store
+
+# Xcode user state
+**/xcuserdata/
+*.xcuserstate
+
+# Cursor metadata
+.cursor/
+
+# Asset catalog stray files
+IronPath/IronPath/Assets.xcassets/.DS_Store
+

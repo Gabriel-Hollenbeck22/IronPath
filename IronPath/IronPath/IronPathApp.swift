@@ -12,9 +12,27 @@ import SwiftData
 struct IronPathApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            // Core Models
+            UserProfile.self,
+            DailySummary.self,
+            
+            // Workout Models
+            Exercise.self,
+            Workout.self,
+            WorkoutSet.self,
+            
+            // Nutrition Models
+            FoodItem.self,
+            LoggedFood.self,
+            Recipe.self,
+            RecipeIngredient.self
         ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
+        
+        let modelConfiguration = ModelConfiguration(
+            schema: schema,
+            isStoredInMemoryOnly: false,
+            allowsSave: true
+        )
 
         do {
             return try ModelContainer(for: schema, configurations: [modelConfiguration])

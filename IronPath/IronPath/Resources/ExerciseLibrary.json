@@ -1,0 +1,1209 @@
+{
+  "exercises": [
+    {
+      "name": "Barbell Bench Press",
+      "muscleGroup": "chest",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Lie on flat bench. Lower bar to chest, press up to full extension."
+    },
+    {
+      "name": "Incline Barbell Bench Press",
+      "muscleGroup": "chest",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Set bench to 30-45 degrees. Press barbell from upper chest."
+    },
+    {
+      "name": "Decline Barbell Bench Press",
+      "muscleGroup": "chest",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Set bench to decline position. Press barbell from lower chest."
+    },
+    {
+      "name": "Dumbbell Bench Press",
+      "muscleGroup": "chest",
+      "equipment": "dumbbell",
+      "isCompound": true,
+      "instructions": "Press dumbbells from chest level to full extension, maintaining control."
+    },
+    {
+      "name": "Incline Dumbbell Press",
+      "muscleGroup": "chest",
+      "equipment": "dumbbell",
+      "isCompound": true,
+      "instructions": "On incline bench, press dumbbells up from shoulder level."
+    },
+    {
+      "name": "Dumbbell Flyes",
+      "muscleGroup": "chest",
+      "equipment": "dumbbell",
+      "isCompound": false,
+      "instructions": "On flat bench, arc dumbbells out and down, then squeeze back together."
+    },
+    {
+      "name": "Cable Crossover",
+      "muscleGroup": "chest",
+      "equipment": "cable",
+      "isCompound": false,
+      "instructions": "Pull high cables down and across body, squeezing chest at center."
+    },
+    {
+      "name": "Push-Ups",
+      "muscleGroup": "chest",
+      "equipment": "bodyweight",
+      "isCompound": true,
+      "instructions": "Lower body until chest nearly touches floor, push back up."
+    },
+    {
+      "name": "Dips",
+      "muscleGroup": "chest",
+      "equipment": "bodyweight",
+      "isCompound": true,
+      "instructions": "Lean forward, lower body by bending elbows, push back up."
+    },
+    {
+      "name": "Pec Deck Machine",
+      "muscleGroup": "chest",
+      "equipment": "machine",
+      "isCompound": false,
+      "instructions": "Bring handles together in front of chest, control release."
+    },
+    {
+      "name": "Barbell Row",
+      "muscleGroup": "back",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Hinge at hips, pull barbell to lower chest, squeeze shoulder blades."
+    },
+    {
+      "name": "Deadlift",
+      "muscleGroup": "back",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Lift barbell from floor by extending hips and knees simultaneously."
+    },
+    {
+      "name": "Romanian Deadlift",
+      "muscleGroup": "hamstrings",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Lower barbell with slight knee bend, feel hamstring stretch, return to standing."
+    },
+    {
+      "name": "Pull-Ups",
+      "muscleGroup": "back",
+      "equipment": "bodyweight",
+      "isCompound": true,
+      "instructions": "Hang from bar, pull body up until chin over bar."
+    },
+    {
+      "name": "Chin-Ups",
+      "muscleGroup": "back",
+      "equipment": "bodyweight",
+      "isCompound": true,
+      "instructions": "Underhand grip, pull body up emphasizing biceps and lats."
+    },
+    {
+      "name": "Lat Pulldown",
+      "muscleGroup": "back",
+      "equipment": "machine",
+      "isCompound": true,
+      "instructions": "Pull bar down to upper chest, squeeze shoulder blades together."
+    },
+    {
+      "name": "Seated Cable Row",
+      "muscleGroup": "back",
+      "equipment": "cable",
+      "isCompound": true,
+      "instructions": "Pull handle to torso, squeeze back at contraction."
+    },
+    {
+      "name": "T-Bar Row",
+      "muscleGroup": "back",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Pull loaded end of barbell to chest while stabilizing body."
+    },
+    {
+      "name": "Single-Arm Dumbbell Row",
+      "muscleGroup": "back",
+      "equipment": "dumbbell",
+      "isCompound": true,
+      "instructions": "Support body on bench, row dumbbell to hip."
+    },
+    {
+      "name": "Face Pulls",
+      "muscleGroup": "shoulders",
+      "equipment": "cable",
+      "isCompound": false,
+      "instructions": "Pull rope attachment to face level, externally rotate shoulders."
+    },
+    {
+      "name": "Overhead Press",
+      "muscleGroup": "shoulders",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Press barbell from shoulders to overhead, lock out at top."
+    },
+    {
+      "name": "Dumbbell Shoulder Press",
+      "muscleGroup": "shoulders",
+      "equipment": "dumbbell",
+      "isCompound": true,
+      "instructions": "Press dumbbells overhead from shoulder height."
+    },
+    {
+      "name": "Arnold Press",
+      "muscleGroup": "shoulders",
+      "equipment": "dumbbell",
+      "isCompound": true,
+      "instructions": "Start with palms facing you, rotate and press overhead."
+    },
+    {
+      "name": "Lateral Raises",
+      "muscleGroup": "shoulders",
+      "equipment": "dumbbell",
+      "isCompound": false,
+      "instructions": "Raise dumbbells out to sides until parallel with floor."
+    },
+    {
+      "name": "Front Raises",
+      "muscleGroup": "shoulders",
+      "equipment": "dumbbell",
+      "isCompound": false,
+      "instructions": "Raise dumbbells in front of body to shoulder height."
+    },
+    {
+      "name": "Rear Delt Flyes",
+      "muscleGroup": "shoulders",
+      "equipment": "dumbbell",
+      "isCompound": false,
+      "instructions": "Bent over, raise dumbbells out to sides focusing on rear delts."
+    },
+    {
+      "name": "Upright Row",
+      "muscleGroup": "shoulders",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Pull barbell up front of body to chin level."
+    },
+    {
+      "name": "Shrugs",
+      "muscleGroup": "shoulders",
+      "equipment": "dumbbell",
+      "isCompound": false,
+      "instructions": "Elevate shoulders straight up, squeeze traps at top."
+    },
+    {
+      "name": "Barbell Curl",
+      "muscleGroup": "biceps",
+      "equipment": "barbell",
+      "isCompound": false,
+      "instructions": "Curl barbell up to shoulders, keep elbows stationary."
+    },
+    {
+      "name": "Dumbbell Curl",
+      "muscleGroup": "biceps",
+      "equipment": "dumbbell",
+      "isCompound": false,
+      "instructions": "Curl dumbbells alternating or simultaneously to shoulders."
+    },
+    {
+      "name": "Hammer Curl",
+      "muscleGroup": "biceps",
+      "equipment": "dumbbell",
+      "isCompound": false,
+      "instructions": "Curl dumbbells with neutral grip (palms facing each other)."
+    },
+    {
+      "name": "Preacher Curl",
+      "muscleGroup": "biceps",
+      "equipment": "barbell",
+      "isCompound": false,
+      "instructions": "Curl barbell with arms braced on preacher bench."
+    },
+    {
+      "name": "Cable Curl",
+      "muscleGroup": "biceps",
+      "equipment": "cable",
+      "isCompound": false,
+      "instructions": "Curl cable attachment to shoulders, constant tension."
+    },
+    {
+      "name": "Concentration Curl",
+      "muscleGroup": "biceps",
+      "equipment": "dumbbell",
+      "isCompound": false,
+      "instructions": "Seated, brace elbow on inner thigh, curl dumbbell up."
+    },
+    {
+      "name": "Close-Grip Bench Press",
+      "muscleGroup": "triceps",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Bench press with hands closer than shoulder width."
+    },
+    {
+      "name": "Tricep Dips",
+      "muscleGroup": "triceps",
+      "equipment": "bodyweight",
+      "isCompound": true,
+      "instructions": "Keep body upright, lower and press focusing on triceps."
+    },
+    {
+      "name": "Overhead Tricep Extension",
+      "muscleGroup": "triceps",
+      "equipment": "dumbbell",
+      "isCompound": false,
+      "instructions": "Hold dumbbell overhead, lower behind head, extend up."
+    },
+    {
+      "name": "Tricep Pushdown",
+      "muscleGroup": "triceps",
+      "equipment": "cable",
+      "isCompound": false,
+      "instructions": "Push cable attachment down to full elbow extension."
+    },
+    {
+      "name": "Skull Crushers",
+      "muscleGroup": "triceps",
+      "equipment": "barbell",
+      "isCompound": false,
+      "instructions": "Lower barbell to forehead level, extend back up."
+    },
+    {
+      "name": "Diamond Push-Ups",
+      "muscleGroup": "triceps",
+      "equipment": "bodyweight",
+      "isCompound": true,
+      "instructions": "Push-ups with hands forming diamond shape under chest."
+    },
+    {
+      "name": "Barbell Squat",
+      "muscleGroup": "quads",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Lower body by bending knees and hips, return to standing."
+    },
+    {
+      "name": "Front Squat",
+      "muscleGroup": "quads",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Hold bar across front shoulders, perform squat."
+    },
+    {
+      "name": "Goblet Squat",
+      "muscleGroup": "quads",
+      "equipment": "dumbbell",
+      "isCompound": true,
+      "instructions": "Hold dumbbell at chest, perform deep squat."
+    },
+    {
+      "name": "Bulgarian Split Squat",
+      "muscleGroup": "quads",
+      "equipment": "dumbbell",
+      "isCompound": true,
+      "instructions": "Rear foot elevated, lower front leg into lunge position."
+    },
+    {
+      "name": "Leg Press",
+      "muscleGroup": "quads",
+      "equipment": "machine",
+      "isCompound": true,
+      "instructions": "Press platform away using legs, control return."
+    },
+    {
+      "name": "Leg Extension",
+      "muscleGroup": "quads",
+      "equipment": "machine",
+      "isCompound": false,
+      "instructions": "Extend lower legs until knees are straight."
+    },
+    {
+      "name": "Lunges",
+      "muscleGroup": "quads",
+      "equipment": "dumbbell",
+      "isCompound": true,
+      "instructions": "Step forward into lunge, alternate legs."
+    },
+    {
+      "name": "Leg Curl",
+      "muscleGroup": "hamstrings",
+      "equipment": "machine",
+      "isCompound": false,
+      "instructions": "Curl legs up toward glutes against resistance."
+    },
+    {
+      "name": "Nordic Hamstring Curl",
+      "muscleGroup": "hamstrings",
+      "equipment": "bodyweight",
+      "isCompound": false,
+      "instructions": "Kneel, lower body forward with control, hamstrings resist."
+    },
+    {
+      "name": "Good Mornings",
+      "muscleGroup": "hamstrings",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Hinge at hips with bar on shoulders, return to standing."
+    },
+    {
+      "name": "Hip Thrust",
+      "muscleGroup": "glutes",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Shoulders on bench, thrust hips up squeezing glutes."
+    },
+    {
+      "name": "Glute Bridge",
+      "muscleGroup": "glutes",
+      "equipment": "bodyweight",
+      "isCompound": false,
+      "instructions": "Lie on back, thrust hips up squeezing glutes at top."
+    },
+    {
+      "name": "Cable Pull-Through",
+      "muscleGroup": "glutes",
+      "equipment": "cable",
+      "isCompound": true,
+      "instructions": "Pull cable between legs by extending hips, squeeze glutes."
+    },
+    {
+      "name": "Standing Calf Raise",
+      "muscleGroup": "calves",
+      "equipment": "machine",
+      "isCompound": false,
+      "instructions": "Raise up on toes, lower with control."
+    },
+    {
+      "name": "Seated Calf Raise",
+      "muscleGroup": "calves",
+      "equipment": "machine",
+      "isCompound": false,
+      "instructions": "Seated, push up on toes against resistance."
+    },
+    {
+      "name": "Calf Raise on Leg Press",
+      "muscleGroup": "calves",
+      "equipment": "machine",
+      "isCompound": false,
+      "instructions": "On leg press, push platform with toes only."
+    },
+    {
+      "name": "Plank",
+      "muscleGroup": "abs",
+      "equipment": "bodyweight",
+      "isCompound": false,
+      "instructions": "Hold body in straight line on forearms and toes."
+    },
+    {
+      "name": "Crunches",
+      "muscleGroup": "abs",
+      "equipment": "bodyweight",
+      "isCompound": false,
+      "instructions": "Lie on back, curl shoulders toward hips."
+    },
+    {
+      "name": "Hanging Leg Raises",
+      "muscleGroup": "abs",
+      "equipment": "bodyweight",
+      "isCompound": false,
+      "instructions": "Hang from bar, raise legs to parallel or higher."
+    },
+    {
+      "name": "Russian Twists",
+      "muscleGroup": "abs",
+      "equipment": "bodyweight",
+      "isCompound": false,
+      "instructions": "Seated with feet up, rotate torso side to side."
+    },
+    {
+      "name": "Cable Woodchoppers",
+      "muscleGroup": "abs",
+      "equipment": "cable",
+      "isCompound": false,
+      "instructions": "Pull cable diagonally across body in chopping motion."
+    },
+    {
+      "name": "Ab Wheel Rollout",
+      "muscleGroup": "abs",
+      "equipment": "other",
+      "isCompound": false,
+      "instructions": "Roll wheel forward, maintain tight core, return."
+    },
+    {
+      "name": "Mountain Climbers",
+      "muscleGroup": "abs",
+      "equipment": "bodyweight",
+      "isCompound": true,
+      "instructions": "Plank position, alternate driving knees to chest quickly."
+    },
+    {
+      "name": "Bicycle Crunches",
+      "muscleGroup": "abs",
+      "equipment": "bodyweight",
+      "isCompound": false,
+      "instructions": "Alternate bringing opposite elbow to opposite knee."
+    },
+    {
+      "name": "Farmer's Walk",
+      "muscleGroup": "fullBody",
+      "equipment": "dumbbell",
+      "isCompound": true,
+      "instructions": "Walk with heavy dumbbells or kettlebells in each hand."
+    },
+    {
+      "name": "Burpees",
+      "muscleGroup": "fullBody",
+      "equipment": "bodyweight",
+      "isCompound": true,
+      "instructions": "Drop to push-up, jump feet forward, jump up, repeat."
+    },
+    {
+      "name": "Kettlebell Swings",
+      "muscleGroup": "fullBody",
+      "equipment": "kettlebell",
+      "isCompound": true,
+      "instructions": "Swing kettlebell between legs, thrust hips to swing up."
+    },
+    {
+      "name": "Clean and Press",
+      "muscleGroup": "fullBody",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Clean bar to shoulders, press overhead in one motion."
+    },
+    {
+      "name": "Snatch",
+      "muscleGroup": "fullBody",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Pull bar from floor to overhead in one explosive motion."
+    },
+    {
+      "name": "Thrusters",
+      "muscleGroup": "fullBody",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Front squat directly into overhead press."
+    },
+    {
+      "name": "Box Jumps",
+      "muscleGroup": "quads",
+      "equipment": "bodyweight",
+      "isCompound": true,
+      "instructions": "Jump explosively onto elevated box, step down."
+    },
+    {
+      "name": "Battle Ropes",
+      "muscleGroup": "fullBody",
+      "equipment": "other",
+      "isCompound": true,
+      "instructions": "Create waves with heavy ropes using various patterns."
+    },
+    {
+      "name": "Sled Push",
+      "muscleGroup": "fullBody",
+      "equipment": "other",
+      "isCompound": true,
+      "instructions": "Push loaded sled across floor explosively."
+    },
+    {
+      "name": "Sled Pull",
+      "muscleGroup": "fullBody",
+      "equipment": "other",
+      "isCompound": true,
+      "instructions": "Pull loaded sled toward you with rope or harness."
+    },
+    {
+      "name": "Wall Balls",
+      "muscleGroup": "fullBody",
+      "equipment": "other",
+      "isCompound": true,
+      "instructions": "Squat with medicine ball, throw to target on wall."
+    },
+    {
+      "name": "Wrist Curls",
+      "muscleGroup": "forearms",
+      "equipment": "dumbbell",
+      "isCompound": false,
+      "instructions": "Forearms on bench, curl weight up using wrists."
+    },
+    {
+      "name": "Reverse Wrist Curls",
+      "muscleGroup": "forearms",
+      "equipment": "dumbbell",
+      "isCompound": false,
+      "instructions": "Palms down, extend wrists up against resistance."
+    },
+    {
+      "name": "Plate Pinch",
+      "muscleGroup": "forearms",
+      "equipment": "other",
+      "isCompound": false,
+      "instructions": "Pinch weight plates together and hold for time."
+    },
+    {
+      "name": "Incline Bench Press (Smith Machine)",
+      "muscleGroup": "chest",
+      "equipment": "machine",
+      "isCompound": true,
+      "instructions": "Perform incline press on guided smith machine."
+    },
+    {
+      "name": "Chest Press Machine",
+      "muscleGroup": "chest",
+      "equipment": "machine",
+      "isCompound": true,
+      "instructions": "Press handles forward from chest level."
+    },
+    {
+      "name": "Assisted Pull-Up",
+      "muscleGroup": "back",
+      "equipment": "machine",
+      "isCompound": true,
+      "instructions": "Pull-up with assistance from machine counterweight."
+    },
+    {
+      "name": "Hyperextensions",
+      "muscleGroup": "back",
+      "equipment": "bodyweight",
+      "isCompound": false,
+      "instructions": "On hyperextension bench, hinge at hips and return to extension."
+    },
+    {
+      "name": "Pendlay Row",
+      "muscleGroup": "back",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Explosive row from floor to chest, return to floor each rep."
+    },
+    {
+      "name": "Machine Row",
+      "muscleGroup": "back",
+      "equipment": "machine",
+      "isCompound": true,
+      "instructions": "Pull handles to torso on seated row machine."
+    },
+    {
+      "name": "Reverse Flyes",
+      "muscleGroup": "shoulders",
+      "equipment": "cable",
+      "isCompound": false,
+      "instructions": "Bent over, pull cables apart focusing on rear delts."
+    },
+    {
+      "name": "Military Press",
+      "muscleGroup": "shoulders",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Standing strict press, no leg drive."
+    },
+    {
+      "name": "Push Press",
+      "muscleGroup": "shoulders",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Use slight leg drive to assist overhead press."
+    },
+    {
+      "name": "Landmine Press",
+      "muscleGroup": "shoulders",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Press angled barbell from shoulder upward."
+    },
+    {
+      "name": "Cable Lateral Raise",
+      "muscleGroup": "shoulders",
+      "equipment": "cable",
+      "isCompound": false,
+      "instructions": "Raise cable laterally with constant tension."
+    },
+    {
+      "name": "EZ-Bar Curl",
+      "muscleGroup": "biceps",
+      "equipment": "barbell",
+      "isCompound": false,
+      "instructions": "Curl angled EZ bar to reduce wrist strain."
+    },
+    {
+      "name": "Incline Dumbbell Curl",
+      "muscleGroup": "biceps",
+      "equipment": "dumbbell",
+      "isCompound": false,
+      "instructions": "On incline bench, curl dumbbells with full stretch."
+    },
+    {
+      "name": "Spider Curl",
+      "muscleGroup": "biceps",
+      "equipment": "barbell",
+      "isCompound": false,
+      "instructions": "Chest against incline bench, curl barbell up."
+    },
+    {
+      "name": "Cable Tricep Kickback",
+      "muscleGroup": "triceps",
+      "equipment": "cable",
+      "isCompound": false,
+      "instructions": "Bent over, extend arm back using cable."
+    },
+    {
+      "name": "Rope Tricep Extension",
+      "muscleGroup": "triceps",
+      "equipment": "cable",
+      "isCompound": false,
+      "instructions": "Push rope attachment down, split at bottom."
+    },
+    {
+      "name": "Dumbbell Kickback",
+      "muscleGroup": "triceps",
+      "equipment": "dumbbell",
+      "isCompound": false,
+      "instructions": "Bent over, extend dumbbell back to full extension."
+    },
+    {
+      "name": "JM Press",
+      "muscleGroup": "triceps",
+      "equipment": "barbell",
+      "isCompound": false,
+      "instructions": "Hybrid between close-grip bench and skull crusher."
+    },
+    {
+      "name": "Hack Squat",
+      "muscleGroup": "quads",
+      "equipment": "machine",
+      "isCompound": true,
+      "instructions": "Squat on hack squat machine with back support."
+    },
+    {
+      "name": "Smith Machine Squat",
+      "muscleGroup": "quads",
+      "equipment": "machine",
+      "isCompound": true,
+      "instructions": "Perform squat on guided smith machine rails."
+    },
+    {
+      "name": "Sumo Squat",
+      "muscleGroup": "quads",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Wide stance squat emphasizing inner thighs and glutes."
+    },
+    {
+      "name": "Pistol Squat",
+      "muscleGroup": "quads",
+      "equipment": "bodyweight",
+      "isCompound": true,
+      "instructions": "Single-leg squat with other leg extended forward."
+    },
+    {
+      "name": "Step-Ups",
+      "muscleGroup": "quads",
+      "equipment": "dumbbell",
+      "isCompound": true,
+      "instructions": "Step up onto elevated platform, alternate legs."
+    },
+    {
+      "name": "Sissy Squat",
+      "muscleGroup": "quads",
+      "equipment": "bodyweight",
+      "isCompound": false,
+      "instructions": "Lean back while bending knees, intense quad stretch."
+    },
+    {
+      "name": "Walking Lunges",
+      "muscleGroup": "quads",
+      "equipment": "dumbbell",
+      "isCompound": true,
+      "instructions": "Perform lunges while moving forward continuously."
+    },
+    {
+      "name": "Reverse Lunges",
+      "muscleGroup": "quads",
+      "equipment": "dumbbell",
+      "isCompound": true,
+      "instructions": "Step backward into lunge position."
+    },
+    {
+      "name": "Single-Leg Deadlift",
+      "muscleGroup": "hamstrings",
+      "equipment": "dumbbell",
+      "isCompound": true,
+      "instructions": "Hinge on one leg, extending other leg back for balance."
+    },
+    {
+      "name": "Stiff-Leg Deadlift",
+      "muscleGroup": "hamstrings",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Deadlift with minimal knee bend, emphasize hamstrings."
+    },
+    {
+      "name": "Glute Ham Raise",
+      "muscleGroup": "hamstrings",
+      "equipment": "machine",
+      "isCompound": false,
+      "instructions": "On GHR machine, curl body up using hamstrings."
+    },
+    {
+      "name": "Lying Leg Curl",
+      "muscleGroup": "hamstrings",
+      "equipment": "machine",
+      "isCompound": false,
+      "instructions": "Lying face down, curl legs up toward glutes."
+    },
+    {
+      "name": "Standing Leg Curl",
+      "muscleGroup": "hamstrings",
+      "equipment": "machine",
+      "isCompound": false,
+      "instructions": "Standing, curl one leg at a time."
+    },
+    {
+      "name": "Sumo Deadlift",
+      "muscleGroup": "back",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Wide stance deadlift, hands inside legs."
+    },
+    {
+      "name": "Trap Bar Deadlift",
+      "muscleGroup": "back",
+      "equipment": "other",
+      "isCompound": true,
+      "instructions": "Deadlift using hexagonal trap bar, more quad emphasis."
+    },
+    {
+      "name": "Barbell Shrug",
+      "muscleGroup": "shoulders",
+      "equipment": "barbell",
+      "isCompound": false,
+      "instructions": "Elevate shoulders straight up with barbell."
+    },
+    {
+      "name": "Cable Shrug",
+      "muscleGroup": "shoulders",
+      "equipment": "cable",
+      "isCompound": false,
+      "instructions": "Shrug with cable for constant tension throughout range."
+    },
+    {
+      "name": "Smith Machine Shrug",
+      "muscleGroup": "shoulders",
+      "equipment": "machine",
+      "isCompound": false,
+      "instructions": "Perform shrugs on guided smith machine."
+    },
+    {
+      "name": "Single-Arm Cable Fly",
+      "muscleGroup": "chest",
+      "equipment": "cable",
+      "isCompound": false,
+      "instructions": "Pull cable across body one arm at a time."
+    },
+    {
+      "name": "Decline Push-Ups",
+      "muscleGroup": "chest",
+      "equipment": "bodyweight",
+      "isCompound": true,
+      "instructions": "Push-ups with feet elevated on bench or box."
+    },
+    {
+      "name": "Wide-Grip Pull-Up",
+      "muscleGroup": "back",
+      "equipment": "bodyweight",
+      "isCompound": true,
+      "instructions": "Pull-up with hands wider than shoulder width."
+    },
+    {
+      "name": "Close-Grip Pull-Up",
+      "muscleGroup": "back",
+      "equipment": "bodyweight",
+      "isCompound": true,
+      "instructions": "Pull-up with hands close together."
+    },
+    {
+      "name": "Inverted Row",
+      "muscleGroup": "back",
+      "equipment": "bodyweight",
+      "isCompound": true,
+      "instructions": "Horizontal pulling under bar at waist height."
+    },
+    {
+      "name": "Meadows Row",
+      "muscleGroup": "back",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "One-arm row using landmine setup."
+    },
+    {
+      "name": "Chest-Supported Row",
+      "muscleGroup": "back",
+      "equipment": "dumbbell",
+      "isCompound": true,
+      "instructions": "Row with chest supported on incline bench."
+    },
+    {
+      "name": "Rack Pull",
+      "muscleGroup": "back",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Partial deadlift from elevated position in power rack."
+    },
+    {
+      "name": "Deficit Deadlift",
+      "muscleGroup": "back",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Deadlift while standing on platform for increased range."
+    },
+    {
+      "name": "Banded Pull-Apart",
+      "muscleGroup": "shoulders",
+      "equipment": "band",
+      "isCompound": false,
+      "instructions": "Pull resistance band apart at chest level."
+    },
+    {
+      "name": "Band Face Pull",
+      "muscleGroup": "shoulders",
+      "equipment": "band",
+      "isCompound": false,
+      "instructions": "Pull band to face with external rotation."
+    },
+    {
+      "name": "Resistance Band Curl",
+      "muscleGroup": "biceps",
+      "equipment": "band",
+      "isCompound": false,
+      "instructions": "Curl against band resistance."
+    },
+    {
+      "name": "Band Tricep Extension",
+      "muscleGroup": "triceps",
+      "equipment": "band",
+      "isCompound": false,
+      "instructions": "Extend arms down against band resistance."
+    },
+    {
+      "name": "Banded Squat",
+      "muscleGroup": "quads",
+      "equipment": "band",
+      "isCompound": true,
+      "instructions": "Squat with resistance band for variable resistance."
+    },
+    {
+      "name": "Banded Deadlift",
+      "muscleGroup": "back",
+      "equipment": "band",
+      "isCompound": true,
+      "instructions": "Add band tension to barbell deadlift for accommodating resistance."
+    },
+    {
+      "name": "Paused Bench Press",
+      "muscleGroup": "chest",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Bench press with 1-2 second pause at chest."
+    },
+    {
+      "name": "Paused Squat",
+      "muscleGroup": "quads",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Squat with pause at bottom position."
+    },
+    {
+      "name": "Paused Deadlift",
+      "muscleGroup": "back",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Deadlift with pause at knee level."
+    },
+    {
+      "name": "Tempo Squat",
+      "muscleGroup": "quads",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Squat with controlled tempo, e.g., 3-1-1-0."
+    },
+    {
+      "name": "Pin Press",
+      "muscleGroup": "chest",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Bench press starting from pins at various heights."
+    },
+    {
+      "name": "Pin Squat",
+      "muscleGroup": "quads",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Squat to pins at predetermined depth."
+    },
+    {
+      "name": "Board Press",
+      "muscleGroup": "chest",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Bench press to board on chest for partial range of motion."
+    },
+    {
+      "name": "Floor Press",
+      "muscleGroup": "chest",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Bench press lying on floor, limited range at bottom."
+    },
+    {
+      "name": "Z Press",
+      "muscleGroup": "shoulders",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Seated overhead press on floor with legs extended."
+    },
+    {
+      "name": "Overhead Squat",
+      "muscleGroup": "fullBody",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Squat while holding barbell overhead."
+    },
+    {
+      "name": "Turkish Get-Up",
+      "muscleGroup": "fullBody",
+      "equipment": "kettlebell",
+      "isCompound": true,
+      "instructions": "Stand up from lying position while holding weight overhead."
+    },
+    {
+      "name": "Windmill",
+      "muscleGroup": "abs",
+      "equipment": "kettlebell",
+      "isCompound": true,
+      "instructions": "Hold weight overhead, bend sideways to touch floor."
+    },
+    {
+      "name": "Pallof Press",
+      "muscleGroup": "abs",
+      "equipment": "cable",
+      "isCompound": false,
+      "instructions": "Press cable out resisting rotation."
+    },
+    {
+      "name": "Side Plank",
+      "muscleGroup": "abs",
+      "equipment": "bodyweight",
+      "isCompound": false,
+      "instructions": "Hold body in straight line on one forearm."
+    },
+    {
+      "name": "Dead Bug",
+      "muscleGroup": "abs",
+      "equipment": "bodyweight",
+      "isCompound": false,
+      "instructions": "Alternate extending opposite arm and leg while on back."
+    },
+    {
+      "name": "Bird Dog",
+      "muscleGroup": "abs",
+      "equipment": "bodyweight",
+      "isCompound": false,
+      "instructions": "On hands and knees, extend opposite arm and leg."
+    },
+    {
+      "name": "Hollow Body Hold",
+      "muscleGroup": "abs",
+      "equipment": "bodyweight",
+      "isCompound": false,
+      "instructions": "Hold hollow position on back with arms and legs extended."
+    },
+    {
+      "name": "L-Sit",
+      "muscleGroup": "abs",
+      "equipment": "bodyweight",
+      "isCompound": false,
+      "instructions": "Support body on hands with legs extended forward."
+    },
+    {
+      "name": "Dragon Flag",
+      "muscleGroup": "abs",
+      "equipment": "bodyweight",
+      "isCompound": false,
+      "instructions": "Lower entire body from bench while holding on."
+    },
+    {
+      "name": "Toes to Bar",
+      "muscleGroup": "abs",
+      "equipment": "bodyweight",
+      "isCompound": false,
+      "instructions": "Hang from bar, bring toes up to touch bar."
+    },
+    {
+      "name": "Decline Sit-Up",
+      "muscleGroup": "abs",
+      "equipment": "bodyweight",
+      "isCompound": false,
+      "instructions": "Perform sit-ups on decline bench."
+    },
+    {
+      "name": "GHD Sit-Up",
+      "muscleGroup": "abs",
+      "equipment": "machine",
+      "isCompound": false,
+      "instructions": "Full range sit-up on GHD machine."
+    },
+    {
+      "name": "Weighted Plank",
+      "muscleGroup": "abs",
+      "equipment": "other",
+      "isCompound": false,
+      "instructions": "Hold plank with weight plate on back."
+    },
+    {
+      "name": "Suitcase Carry",
+      "muscleGroup": "abs",
+      "equipment": "dumbbell",
+      "isCompound": true,
+      "instructions": "Walk with heavy weight in one hand, resisting side bend."
+    },
+    {
+      "name": "Overhead Carry",
+      "muscleGroup": "shoulders",
+      "equipment": "kettlebell",
+      "isCompound": true,
+      "instructions": "Walk with weight held overhead."
+    },
+    {
+      "name": "Waiter's Walk",
+      "muscleGroup": "shoulders",
+      "equipment": "dumbbell",
+      "isCompound": true,
+      "instructions": "Walk with dumbbell held overhead like a waiter's tray."
+    },
+    {
+      "name": "Zercher Squat",
+      "muscleGroup": "quads",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Squat with barbell held in crook of elbows."
+    },
+    {
+      "name": "Anderson Squat",
+      "muscleGroup": "quads",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Start each squat rep from bottom position on pins."
+    },
+    {
+      "name": "Box Squat",
+      "muscleGroup": "quads",
+      "equipment": "barbell",
+      "isCompound": true,
+      "instructions": "Squat to box, pause briefly, then stand."
+    },
+    {
+      "name": "Safety Bar Squat",
+      "muscleGroup": "quads",
+      "equipment": "other",
+      "isCompound": true,
+      "instructions": "Squat using cambered safety squat bar."
+    },
+    {
+      "name": "Belt Squat",
+      "muscleGroup": "quads",
+      "equipment": "machine",
+      "isCompound": true,
+      "instructions": "Squat with weight attached to belt, no spinal load."
+    },
+    {
+      "name": "Hatfield Squat",
+      "muscleGroup": "quads",
+      "equipment": "other",
+      "isCompound": true,
+      "instructions": "Safety bar squat while holding onto racks for support."
+    },
+    {
+      "name": "Curtsy Lunge",
+      "muscleGroup": "glutes",
+      "equipment": "dumbbell",
+      "isCompound": true,
+      "instructions": "Cross one leg behind other into lunge position."
+    },
+    {
+      "name": "Clamshell",
+      "muscleGroup": "glutes",
+      "equipment": "band",
+      "isCompound": false,
+      "instructions": "Lying on side, open and close legs like clamshell."
+    },
+    {
+      "name": "Fire Hydrant",
+      "muscleGroup": "glutes",
+      "equipment": "bodyweight",
+      "isCompound": false,
+      "instructions": "On hands and knees, raise leg out to side."
+    },
+    {
+      "name": "Donkey Kick",
+      "muscleGroup": "glutes",
+      "equipment": "bodyweight",
+      "isCompound": false,
+      "instructions": "On hands and knees, kick one leg back and up."
+    },
+    {
+      "name": "Single-Leg Hip Thrust",
+      "muscleGroup": "glutes",
+      "equipment": "bodyweight",
+      "isCompound": false,
+      "instructions": "Hip thrust with one leg extended."
+    },
+    {
+      "name": "Frog Pump",
+      "muscleGroup": "glutes",
+      "equipment": "bodyweight",
+      "isCompound": false,
+      "instructions": "Hip thrust with soles of feet together, knees out."
+    },
+    {
+      "name": "Banded Hip Abduction",
+      "muscleGroup": "glutes",
+      "equipment": "band",
+      "isCompound": false,
+      "instructions": "Push legs apart against band resistance."
+    },
+    {
+      "name": "Cable Hip Abduction",
+      "muscleGroup": "glutes",
+      "equipment": "cable",
+      "isCompound": false,
+      "instructions": "Pull leg out to side against cable resistance."
+    },
+    {
+      "name": "Deficit Calf Raise",
+      "muscleGroup": "calves",
+      "equipment": "dumbbell",
+      "isCompound": false,
+      "instructions": "Calf raise standing on elevated surface for deeper stretch."
+    },
+    {
+      "name": "Single-Leg Calf Raise",
+      "muscleGroup": "calves",
+      "equipment": "bodyweight",
+      "isCompound": false,
+      "instructions": "Calf raise on one leg at a time."
+    },
+    {
+      "name": "Tibialis Raise",
+      "muscleGroup": "calves",
+      "equipment": "bodyweight",
+      "isCompound": false,
+      "instructions": "Seated, raise toes up toward shin."
+    }
+  ]
+}
+
