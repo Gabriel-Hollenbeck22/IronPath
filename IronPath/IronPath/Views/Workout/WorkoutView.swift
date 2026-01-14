@@ -10,20 +10,24 @@ import SwiftData
 
 struct WorkoutView: View {
     @Environment(\.modelContext) private var modelContext
+    @Query(
+        filter: #Predicate<Workout> { !$0.isCompleted },
+        sort: [SortDescriptor(\.startTime, order: .reverse)]
+    ) private var activeWorkouts: [Workout]
+    
     @State private var workoutManager: WorkoutManager?
     @State private var isWorkoutActive = false
     
     var body: some View {
         NavigationStack {
             Group {
-                if isWorkoutActive {
-                    if let manager = workoutManager, let workout = manager.activeWorkout {
-                        WorkoutSessionView(workout: workout, manager: manager)
+                if let activeWorkout = activeWorkouts.first {
+                    if let manager = workoutManager {
+                        WorkoutSessionView(workout: activeWorkout, manager: manager)
                     } else {
                         ContentUnavailableView(
-                            "No Active Workout",
-                            systemImage: "dumbbell.fill",
-                            description: Text("Something went wrong")
+                            "Loading...",
+                            systemImage: "dumbbell.fill"
                         )
                     }
                 } else {
@@ -32,12 +36,13 @@ struct WorkoutView: View {
             }
             .navigationTitle("Workout")
             .navigationBarTitleDisplayMode(.large)
-            .onChange(of: workoutManager?.isWorkoutActive) { _, newValue in
-                isWorkoutActive = newValue ?? false
-            }
             .onAppear {
                 workoutManager = WorkoutManager(modelContext: modelContext)
-                isWorkoutActive = workoutManager?.isWorkoutActive ?? false
+                // Load active workout into manager if it exists
+                if let activeWorkout = activeWorkouts.first {
+                    workoutManager?.activeWorkout = activeWorkout
+                    isWorkoutActive = true
+                }
             }
         }
     }
@@ -46,7 +51,7 @@ struct WorkoutView: View {
         VStack(spacing: Spacing.xl) {
             Image(systemName: "dumbbell.fill")
                 .font(.system(size: 80))
-                .foregroundStyle(.ironPathPrimary)
+                .foregroundStyle(Color.ironPathPrimary)
             
             Text("Ready to Train?")
                 .font(.title)
@@ -72,9 +77,13 @@ struct WorkoutView: View {
     
     private func startWorkout() {
         guard let manager = workoutManager else { return }
-        let workout = manager.startWorkout(name: "Workout")
-        isWorkoutActive = true
-        HapticManager.mediumImpact()
+        do {
+            _ = try manager.startWorkout(name: "Workout")
+            isWorkoutActive = true
+            HapticManager.mediumImpact()
+        } catch {
+            print("Failed to start workout:", error)
+        }
     }
 }
 
@@ -82,4 +91,3 @@ struct WorkoutView: View {
     WorkoutView()
         .modelContainer(for: Workout.self, inMemory: true)
 }
-

@@ -12,7 +12,14 @@ struct MainTabView: View {
     
     var body: some View {
         TabView(selection: $selectedTab) {
-            DashboardView()
+            DashboardView(selectedTab: Binding(
+                get: { selectedTab == 0 ? selectedTab : nil },
+                set: { newValue in
+                    if let newValue = newValue {
+                        selectedTab = newValue
+                    }
+                }
+            ))
                 .tabItem {
                     Label("Dashboard", systemImage: "gauge.with.dots.needle.bottom.50percent")
                 }

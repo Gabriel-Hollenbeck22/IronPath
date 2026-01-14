@@ -182,7 +182,7 @@ struct ExerciseSetsView: View {
     NavigationStack {
         WorkoutSessionView(
             workout: Workout(name: "Push Day"),
-            manager: WorkoutManager(modelContext: ModelContext(ModelContainer(for: Workout.self)))
+            manager: WorkoutManager(modelContext: try! ModelContext(ModelContainer(for: Workout.self)))
         )
     }
 }

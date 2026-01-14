@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct WorkoutSummaryView: View {
     @Environment(\.dismiss) private var dismiss
@@ -97,7 +98,7 @@ struct WorkoutSummaryView: View {
 #Preview {
     WorkoutSummaryView(
         workout: Workout(name: "Push Day"),
-        manager: WorkoutManager(modelContext: ModelContext(ModelContainer(for: Workout.self)))
+        manager: WorkoutManager(modelContext: try! ModelContext(ModelContainer(for: Workout.self)))
     )
 }
 

@@ -6,8 +6,10 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct QuickActionsSection: View {
+    @Binding var selectedTab: Int?  // Add this
     @State private var showingWorkout = false
     @State private var showingNutrition = false
     
@@ -44,7 +46,7 @@ struct QuickActionsSection: View {
             }
         }
         .sheet(isPresented: $showingWorkout) {
-            WorkoutQuickStartView()
+            WorkoutQuickStartView(selectedTab: $selectedTab)
         }
         .sheet(isPresented: $showingNutrition) {
             FoodSearchView()
@@ -57,7 +59,7 @@ struct QuickActionsSection: View {
 struct WorkoutQuickStartView: View {
     @Environment(\.dismiss) private var dismiss
     @Environment(\.modelContext) private var modelContext
-    @State private var workoutManager: WorkoutManager?
+    @Binding var selectedTab: Int?  // Add this
     @State private var workoutName = "Workout"
     
     var body: some View {
@@ -87,22 +89,27 @@ struct WorkoutQuickStartView: View {
                     }
                 }
             }
-            .onAppear {
-                workoutManager = WorkoutManager(modelContext: modelContext)
-            }
         }
     }
     
     private func startWorkout() {
-        guard let manager = workoutManager else { return }
-        _ = manager.startWorkout(name: workoutName.isEmpty ? "Workout" : workoutName)
-        HapticManager.success()
-        dismiss()
+        let workout = Workout(name: workoutName.isEmpty ? "Workout" : workoutName)
+        modelContext.insert(workout)
+        
+        do {
+            try modelContext.save()
+            HapticManager.success()
+            // Switch to Workout tab (index 1)
+            selectedTab = 1
+            dismiss()
+        } catch {
+            print("Error starting workout: \(error)")
+            HapticManager.error()
+        }
     }
 }
 
 #Preview {
-    QuickActionsSection()
+    QuickActionsSection(selectedTab: .constant(0))
         .padding()
 }
-

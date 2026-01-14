@@ -70,12 +70,9 @@ struct FoodSearchView: View {
                     )
                 } else {
                     List {
-                        // Group by source
-                        let grouped = Dictionary(grouping: searchResults) { $0.sourceLabel }
-                        
-                        ForEach(Array(grouped.keys.sorted()), id: \.self) { source in
+                        ForEach(groupedResults.keys.sorted(), id: \.self) { source in
                             Section(source) {
-                                ForEach(grouped[source] ?? []) { result in
+                                ForEach(groupedResults[source] ?? [], id: \.foodItem.id) { result in
                                     FoodItemRow(
                                         foodItem: result.foodItem,
                                         sourceLabel: result.sourceLabel
@@ -121,6 +118,10 @@ struct FoodSearchView: View {
                 }
             }
         }
+    }
+    
+    private var groupedResults: [String: [FoodSearchResult]] {
+        Dictionary(grouping: searchResults) { $0.sourceLabel }
     }
     
     private func performSearch() {

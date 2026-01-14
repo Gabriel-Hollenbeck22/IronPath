@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct SetLoggerView: View {
     @Environment(\.dismiss) private var dismiss
@@ -193,7 +194,7 @@ struct SetLoggerView: View {
     SetLoggerView(
         exercise: Exercise(name: "Barbell Bench Press", muscleGroup: .chest, equipment: .barbell),
         workout: Workout(name: "Push Day"),
-        manager: WorkoutManager(modelContext: ModelContext(ModelContainer(for: Workout.self)))
+        manager: WorkoutManager(modelContext: try! ModelContext(ModelContainer(for: Workout.self)))
     )
 }
 

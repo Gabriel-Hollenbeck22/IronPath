@@ -28,8 +28,11 @@ final class WorkoutManager {
     // MARK: - Workout Session Management
     
     /// Start a new workout session
-    func startWorkout(name: String) -> Workout {
+    func startWorkout(name: String) throws -> Workout {
         let workout = Workout(name: name, startTime: Date())
+        modelContext.insert(workout)
+        try modelContext.save()
+        
         activeWorkout = workout
         return workout
     }
@@ -186,16 +189,15 @@ final class WorkoutManager {
     
     /// Get estimated 1RM history for an exercise
     func get1RMHistory(for exercise: Exercise, limit: Int = 10) -> [WorkoutSet] {
+        let exerciseID = exercise.id
         let descriptor = FetchDescriptor<WorkoutSet>(
-            predicate: #Predicate { set in
-                set.exercise?.id == exercise.id
-            },
             sortBy: [SortDescriptor(\.timestamp, order: .reverse)]
         )
         
         do {
-            let sets = try modelContext.fetch(descriptor)
-            return Array(sets.prefix(limit))
+            let allSets = try modelContext.fetch(descriptor)
+            let filteredSets = allSets.filter { $0.exercise?.id == exerciseID }
+            return Array(filteredSets.prefix(limit))
         } catch {
             print("Error fetching 1RM history: \(error)")
             return []
@@ -204,15 +206,13 @@ final class WorkoutManager {
     
     /// Get personal record (highest 1RM) for an exercise
     func getPersonalRecord(for exercise: Exercise) -> WorkoutSet? {
-        let descriptor = FetchDescriptor<WorkoutSet>(
-            predicate: #Predicate { set in
-                set.exercise?.id == exercise.id
-            }
-        )
+        let exerciseID = exercise.id
+        let descriptor = FetchDescriptor<WorkoutSet>()
         
         do {
-            let sets = try modelContext.fetch(descriptor)
-            return sets.max { $0.estimated1RM < $1.estimated1RM }
+            let allSets = try modelContext.fetch(descriptor)
+            let filteredSets = allSets.filter { $0.exercise?.id == exerciseID }
+            return filteredSets.max { $0.estimated1RM < $1.estimated1RM }
         } catch {
             print("Error fetching personal record: \(error)")
             return nil

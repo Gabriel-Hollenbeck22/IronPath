@@ -57,9 +57,8 @@ final class NutritionService {
     private func searchUserHistory(query: String) -> [FoodItem] {
         let lowercaseQuery = query.lowercased()
         let descriptor = FetchDescriptor<FoodItem>(
-            predicate: #Predicate { food in
-                food.source == .userHistory &&
-                food.name.localizedStandardContains(lowercaseQuery)
+            predicate: #Predicate<FoodItem> { food in
+                food.source.rawValue == "user_history"
             },
             sortBy: [
                 SortDescriptor(\.useCount, order: .reverse),
@@ -68,7 +67,9 @@ final class NutritionService {
         )
         
         do {
-            return try modelContext.fetch(descriptor).prefix(5).map { $0 }
+            let allItems = try modelContext.fetch(descriptor)
+            let filtered = allItems.filter { $0.name.localizedStandardContains(lowercaseQuery) }
+            return Array(filtered.prefix(5))
         } catch {
             print("Error searching user history: \(error)")
             return []
@@ -234,7 +235,7 @@ final class NutritionService {
             return summary
         }
         
-        return try loadOrCreateTodaysSummary()
+        return loadOrCreateTodaysSummary()
     }
     
     @discardableResult

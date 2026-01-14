@@ -22,14 +22,14 @@ struct CorrelationChartView: View {
                         x: .value("Date", point.date, unit: .day),
                         y: .value("Protein", point.proteinIntake)
                     )
-                    .foregroundStyle(.macroProtein)
+                    .foregroundStyle(Color.macroProtein)
                     .interpolationMethod(.catmullRom)
                     
                     LineMark(
                         x: .value("Date", point.date, unit: .day),
                         y: .value("Volume", point.workoutVolume / 10)
                     )
-                    .foregroundStyle(.macroCarbs)
+                    .foregroundStyle(Color.macroCarbs)
                     .interpolationMethod(.catmullRom)
                 }
             }

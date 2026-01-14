@@ -54,7 +54,7 @@ struct ProfileView: View {
         VStack(spacing: Spacing.md) {
             Image(systemName: "person.circle.fill")
                 .font(.system(size: 80))
-                .foregroundStyle(.ironPathPrimary)
+                .foregroundStyle(Color.ironPathPrimary)
             
             if let weight = profile.bodyWeight {
                 Text(FormatHelpers.weight(weight))
