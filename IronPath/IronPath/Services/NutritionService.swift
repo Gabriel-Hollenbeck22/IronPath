@@ -67,7 +67,7 @@ final class NutritionService {
         // #endregion
         results.append(contentsOf: userResults.map { .userHistory(FoodSearchItem(from: $0)) })
         
-        // Tier 2: Bundled Foods (convert FoodItem to FoodSearchItem)
+        // Tier 2: Bundled Foods (convert FoodItem to FoodSearchItem) - Show immediately
         // #region agent log
         debugLogNutrition("NutritionService.swift:searchFood-tier2", "Searching bundled foods", [:], hypothesisId: "A")
         // #endregion
@@ -77,16 +77,46 @@ final class NutritionService {
         // #endregion
         results.append(contentsOf: bundledResults.map { .bundled(FoodSearchItem(from: $0)) })
         
-        // Tier 3: Open Food Facts (already returns FoodSearchItem)
-        if results.count < 10 {
+        // Tier 3: Cached API results (fast, synchronous)
+        // #region agent log
+        debugLogNutrition("NutritionService.swift:searchFood-tier3-cache", "Searching cached API results", [:], hypothesisId: "A")
+        // #endregion
+        let cachedResults = searchCachedFoods(query: query)
+        // #region agent log
+        debugLogNutrition("NutritionService.swift:searchFood-tier3-cache-done", "Cached results search complete", ["count": cachedResults.count], hypothesisId: "A")
+        // #endregion
+        results.append(contentsOf: cachedResults.map { .openFoodFacts($0) })
+        
+        // Tier 4: Open Food Facts API (async, only if we need more results)
+        // Increase threshold to 30 results for more options
+        if results.count < 30 {
             // #region agent log
-            debugLogNutrition("NutritionService.swift:searchFood-tier3", "Searching Open Food Facts API", [:], hypothesisId: "A")
+            debugLogNutrition("NutritionService.swift:searchFood-tier4-api", "Searching Open Food Facts API", [:], hypothesisId: "A")
             // #endregion
-            let apiResults = try await searchOpenFoodFacts(query: query)
+            do {
+                let apiResults = try await searchOpenFoodFacts(query: query)
+                // #region agent log
+                debugLogNutrition("NutritionService.swift:searchFood-tier4-api-done", "Open Food Facts search complete", ["count": apiResults.count], hypothesisId: "A")
+                // #endregion
+                // Only add results not already in our list (avoid duplicates)
+                let existingNames = Set(results.map { $0.searchItem.name.lowercased() })
+                let newResults = apiResults.filter { !existingNames.contains($0.name.lowercased()) }
+                results.append(contentsOf: newResults.map { .openFoodFacts($0) })
+            } catch {
+                // #region agent log
+                debugLogNutrition("NutritionService.swift:searchFood-tier4-api-error", "Open Food Facts API failed", ["error": "\(error)"], hypothesisId: "A")
+                // #endregion
+                print("Open Food Facts API error: \(error)")
+            }
+        }
+        
+        // Tier 5: Fallback - ensure we always return at least one result
+        if results.isEmpty {
             // #region agent log
-            debugLogNutrition("NutritionService.swift:searchFood-tier3-done", "Open Food Facts search complete", ["count": apiResults.count], hypothesisId: "A")
+            debugLogNutrition("NutritionService.swift:searchFood-fallback", "No results found, creating fallback", [:], hypothesisId: "A")
             // #endregion
-            results.append(contentsOf: apiResults.map { .openFoodFacts($0) })
+            let fallbackItem = createFallbackFoodItem(query: query)
+            results.append(.openFoodFacts(fallbackItem))
         }
         
         // #region agent log
@@ -139,19 +169,22 @@ final class NutritionService {
         }
     }
     
-    /// Search bundled common foods
+    /// Search bundled common foods (optimized for speed)
     private func searchBundledFoods(query: String) -> [FoodItem] {
         let lowercaseQuery = query.lowercased()
+        // Increase results to 30 for more options, use localizedStandardContains for better matching
         return bundledFoods.filter { food in
+            food.name.lowercased().localizedStandardContains(lowercaseQuery) ||
             food.name.lowercased().contains(lowercaseQuery)
-        }.prefix(5).map { $0 }
+        }.prefix(30).map { $0 }
     }
     
-    /// Search Open Food Facts API
+    /// Search Open Food Facts API (cache check is done in searchFood, this just fetches from API)
     private func searchOpenFoodFacts(query: String) async throws -> [FoodSearchItem] {
+        // Fetch from API (cache is checked in searchFood method)
         let baseURL = AppConfiguration.openFoodFactsBaseURL
         let encodedQuery = query.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? query
-        let urlString = "\(baseURL)/search?search_terms=\(encodedQuery)&page_size=10&json=true"
+        let urlString = "\(baseURL)/search?search_terms=\(encodedQuery)&page_size=30&json=true"
         
         guard let url = URL(string: urlString) else {
             throw NutritionError.invalidURL
@@ -167,9 +200,193 @@ final class NutritionService {
         let decoder = JSONDecoder()
         let searchResponse = try decoder.decode(OpenFoodFactsSearchResponse.self, from: data)
         
-        return searchResponse.products.compactMap { product in
+        let apiResults = searchResponse.products.compactMap { product in
             parseSearchItemFromAPI(product)
         }
+        
+        // Cache the results
+        cacheFoodItems(apiResults)
+        
+        return apiResults
+    }
+    
+    /// Search cached foods from SwiftData (30-day expiration)
+    private func searchCachedFoods(query: String) -> [FoodSearchItem] {
+        let thirtyDaysAgo = Calendar.current.date(byAdding: .day, value: -30, to: Date()) ?? Date()
+        
+        // Fetch all foods and filter in memory (SwiftData predicates don't support enum comparison)
+        let descriptor = FetchDescriptor<FoodItem>(
+            sortBy: [SortDescriptor(\.useCount, order: .reverse), SortDescriptor(\.lastUsed, order: .reverse)]
+        )
+        
+        do {
+            let allFoods = try modelContext.fetch(descriptor)
+            let lowercaseQuery = query.lowercased()
+            
+            // Filter by source, date, and query in memory - use better matching
+            return allFoods
+                .filter { food in
+                    food.source == .openFoodFacts &&
+                    food.lastUsed != nil &&
+                    food.lastUsed! >= thirtyDaysAgo &&
+                    (food.name.lowercased().localizedStandardContains(lowercaseQuery) ||
+                     food.name.lowercased().contains(lowercaseQuery))
+                }
+                .prefix(30)
+                .map { FoodSearchItem(from: $0) }
+        } catch {
+            print("Error searching cached foods: \(error)")
+            return []
+        }
+    }
+    
+    /// Cache food items from API search
+    private func cacheFoodItems(_ searchItems: [FoodSearchItem]) {
+        for searchItem in searchItems {
+            // Extract values for predicate (SwiftData predicates can't reference external values directly)
+            let searchItemID = searchItem.id
+            let searchItemBarcode = searchItem.barcode
+            
+            // Check if already exists by ID
+            let idDescriptor = FetchDescriptor<FoodItem>(
+                predicate: #Predicate<FoodItem> { food in
+                    food.id == searchItemID
+                }
+            )
+            
+            do {
+                var existing = try modelContext.fetch(idDescriptor).first
+                
+                // If not found by ID, check by barcode
+                if existing == nil, let barcode = searchItemBarcode {
+                    let barcodeDescriptor = FetchDescriptor<FoodItem>(
+                        predicate: #Predicate<FoodItem> { food in
+                            food.barcode == barcode
+                        }
+                    )
+                    existing = try modelContext.fetch(barcodeDescriptor).first
+                }
+                
+                if existing == nil {
+                    // Create and cache new food item
+                    let foodItem = createFoodItem(from: searchItem)
+                    foodItem.source = .openFoodFacts
+                    foodItem.lastUsed = Date()
+                    try? modelContext.save()
+                } else {
+                    // Update last used
+                    existing?.lastUsed = Date()
+                    try? modelContext.save()
+                }
+            } catch {
+                print("Error caching food item: \(error)")
+            }
+        }
+    }
+    
+    /// Create a fallback food item with estimated macros when no search results are found
+    /// Uses heuristics to estimate macros based on food type keywords
+    private func createFallbackFoodItem(query: String) -> FoodSearchItem {
+        let lowercaseQuery = query.lowercased()
+        
+        // Estimate macros based on food type
+        var estimatedCalories: Double = 100
+        var estimatedProtein: Double = 5
+        var estimatedCarbs: Double = 15
+        var estimatedFat: Double = 2
+        
+        // Protein-rich foods
+        if lowercaseQuery.contains("chicken") || lowercaseQuery.contains("poultry") {
+            estimatedCalories = 165
+            estimatedProtein = 31
+            estimatedCarbs = 0
+            estimatedFat = 3.6
+        } else if lowercaseQuery.contains("beef") || lowercaseQuery.contains("steak") {
+            estimatedCalories = 250
+            estimatedProtein = 26
+            estimatedCarbs = 0
+            estimatedFat = 17
+        } else if lowercaseQuery.contains("fish") || lowercaseQuery.contains("salmon") || lowercaseQuery.contains("tuna") {
+            estimatedCalories = 150
+            estimatedProtein = 25
+            estimatedCarbs = 0
+            estimatedFat = 5
+        } else if lowercaseQuery.contains("egg") {
+            estimatedCalories = 155
+            estimatedProtein = 13
+            estimatedCarbs = 1.1
+            estimatedFat = 11
+        } else if lowercaseQuery.contains("milk") || lowercaseQuery.contains("yogurt") || lowercaseQuery.contains("cheese") {
+            estimatedCalories = 100
+            estimatedProtein = 8
+            estimatedCarbs = 5
+            estimatedFat = 5
+        }
+        // Carb-rich foods
+        else if lowercaseQuery.contains("rice") {
+            estimatedCalories = 130
+            estimatedProtein = 2.7
+            estimatedCarbs = 28
+            estimatedFat = 0.3
+        } else if lowercaseQuery.contains("pasta") || lowercaseQuery.contains("noodle") {
+            estimatedCalories = 131
+            estimatedProtein = 5
+            estimatedCarbs = 25
+            estimatedFat = 1.1
+        } else if lowercaseQuery.contains("bread") {
+            estimatedCalories = 247
+            estimatedProtein = 13
+            estimatedCarbs = 41
+            estimatedFat = 4.2
+        } else if lowercaseQuery.contains("potato") || lowercaseQuery.contains("sweet potato") {
+            estimatedCalories = 86
+            estimatedProtein = 1.6
+            estimatedCarbs = 20
+            estimatedFat = 0.1
+        } else if lowercaseQuery.contains("oat") {
+            estimatedCalories = 389
+            estimatedProtein = 17
+            estimatedCarbs = 66
+            estimatedFat = 7
+        }
+        // Fruits
+        else if lowercaseQuery.contains("apple") || lowercaseQuery.contains("banana") || lowercaseQuery.contains("orange") {
+            estimatedCalories = 50
+            estimatedProtein = 0.5
+            estimatedCarbs = 13
+            estimatedFat = 0.2
+        }
+        // Vegetables
+        else if lowercaseQuery.contains("broccoli") || lowercaseQuery.contains("spinach") || lowercaseQuery.contains("lettuce") {
+            estimatedCalories = 25
+            estimatedProtein = 2
+            estimatedCarbs = 5
+            estimatedFat = 0.3
+        }
+        // Nuts/Seeds
+        else if lowercaseQuery.contains("nut") || lowercaseQuery.contains("almond") || lowercaseQuery.contains("peanut") {
+            estimatedCalories = 600
+            estimatedProtein = 20
+            estimatedCarbs = 20
+            estimatedFat = 50
+        }
+        // Fats/Oils
+        else if lowercaseQuery.contains("oil") || lowercaseQuery.contains("butter") {
+            estimatedCalories = 900
+            estimatedProtein = 0
+            estimatedCarbs = 0
+            estimatedFat = 100
+        }
+        
+        return FoodSearchItem(
+            name: query.capitalized,
+            caloriesPer100g: estimatedCalories,
+            proteinPer100g: estimatedProtein,
+            carbsPer100g: estimatedCarbs,
+            fatPer100g: estimatedFat,
+            fiberPer100g: 2.0,
+            source: .openFoodFacts
+        )
     }
     
     /// Search by barcode
@@ -431,9 +648,34 @@ final class NutritionService {
     }
     
     private func loadBundledFoods() {
-        // This will be populated from ExerciseLibrary.json
-        // For now, it's empty - will be implemented with the JSON file
-        bundledFoods = []
+        guard let url = Bundle.main.url(forResource: "CommonFoods", withExtension: "json") else {
+            print("CommonFoods.json not found in bundle")
+            bundledFoods = []
+            return
+        }
+        
+        do {
+            let data = try Data(contentsOf: url)
+            let decoder = JSONDecoder()
+            let commonFoodsResponse = try decoder.decode(CommonFoodsResponse.self, from: data)
+            
+            bundledFoods = commonFoodsResponse.foods.map { foodData in
+                FoodItem(
+                    name: foodData.name,
+                    caloriesPer100g: foodData.caloriesPer100g,
+                    proteinPer100g: foodData.proteinPer100g,
+                    carbsPer100g: foodData.carbsPer100g,
+                    fatPer100g: foodData.fatPer100g,
+                    fiberPer100g: foodData.fiberPer100g,
+                    source: .bundled
+                )
+            }
+            
+            print("Loaded \(bundledFoods.count) bundled foods")
+        } catch {
+            print("Failed to load CommonFoods.json: \(error)")
+            bundledFoods = []
+        }
     }
     
     /// Parse API response to transient FoodSearchItem (not SwiftData)
@@ -592,6 +834,21 @@ enum FoodSearchResult: Identifiable {
         case .openFoodFacts: return "Database"
         }
     }
+}
+
+// MARK: - Common Foods JSON Models
+
+struct CommonFoodsResponse: Codable {
+    let foods: [CommonFoodData]
+}
+
+struct CommonFoodData: Codable {
+    let name: String
+    let caloriesPer100g: Double
+    let proteinPer100g: Double
+    let carbsPer100g: Double
+    let fatPer100g: Double
+    let fiberPer100g: Double
 }
 
 // MARK: - Open Food Facts API Models

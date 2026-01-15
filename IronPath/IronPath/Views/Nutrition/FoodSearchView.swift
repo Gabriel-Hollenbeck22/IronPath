@@ -21,6 +21,7 @@ struct FoodSearchView: View {
     @State private var selectedSearchItem: FoodSearchItem?
     @State private var showingFoodDetail = false
     @State private var searchTask: Task<Void, Never>?
+    @State private var debounceTask: Task<Void, Never>?
     
     var body: some View {
         NavigationStack {
@@ -29,7 +30,23 @@ struct FoodSearchView: View {
                 HStack(spacing: Spacing.sm) {
                     TextField("Search foods...", text: $searchText)
                         .textFieldStyle(.roundedBorder)
+                        .onChange(of: searchText) { oldValue, newValue in
+                            // Cancel previous debounce task
+                            debounceTask?.cancel()
+                            
+                            // Debounce: wait 300ms after user stops typing
+                            debounceTask = Task {
+                                try? await Task.sleep(nanoseconds: 300_000_000) // 300ms
+                                
+                                if !Task.isCancelled && !newValue.isEmpty {
+                                    await performSearch()
+                                } else if newValue.isEmpty {
+                                    searchResults = []
+                                }
+                            }
+                        }
                         .onSubmit {
+                            debounceTask?.cancel()
                             Task {
                                 await performSearch()
                             }

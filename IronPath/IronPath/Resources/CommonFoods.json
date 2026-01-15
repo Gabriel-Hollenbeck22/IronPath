@@ -1,0 +1,8188 @@
+{
+  "foods": [
+    {
+      "name": "Chicken Breast",
+      "caloriesPer100g": 165,
+      "proteinPer100g": 31,
+      "carbsPer100g": 0,
+      "fatPer100g": 3.6,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Chicken Thigh",
+      "caloriesPer100g": 209,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0,
+      "fatPer100g": 10.9,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Ground Turkey",
+      "caloriesPer100g": 189,
+      "proteinPer100g": 27,
+      "carbsPer100g": 0,
+      "fatPer100g": 8,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Salmon",
+      "caloriesPer100g": 208,
+      "proteinPer100g": 20,
+      "carbsPer100g": 0,
+      "fatPer100g": 12,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Tuna",
+      "caloriesPer100g": 144,
+      "proteinPer100g": 30,
+      "carbsPer100g": 0,
+      "fatPer100g": 1,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Eggs",
+      "caloriesPer100g": 155,
+      "proteinPer100g": 13,
+      "carbsPer100g": 1.1,
+      "fatPer100g": 11,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Egg Whites",
+      "caloriesPer100g": 52,
+      "proteinPer100g": 11,
+      "carbsPer100g": 0.7,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Greek Yogurt",
+      "caloriesPer100g": 59,
+      "proteinPer100g": 10,
+      "carbsPer100g": 3.6,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Cottage Cheese",
+      "caloriesPer100g": 98,
+      "proteinPer100g": 11,
+      "carbsPer100g": 3.4,
+      "fatPer100g": 4.3,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Whey Protein Powder",
+      "caloriesPer100g": 370,
+      "proteinPer100g": 75,
+      "carbsPer100g": 8,
+      "fatPer100g": 5,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Brown Rice",
+      "caloriesPer100g": 111,
+      "proteinPer100g": 2.6,
+      "carbsPer100g": 23,
+      "fatPer100g": 0.9,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "White Rice",
+      "caloriesPer100g": 130,
+      "proteinPer100g": 2.7,
+      "carbsPer100g": 28,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 0.4
+    },
+    {
+      "name": "Quinoa",
+      "caloriesPer100g": 120,
+      "proteinPer100g": 4.4,
+      "carbsPer100g": 22,
+      "fatPer100g": 1.9,
+      "fiberPer100g": 2.8
+    },
+    {
+      "name": "Oats",
+      "caloriesPer100g": 389,
+      "proteinPer100g": 17,
+      "carbsPer100g": 66,
+      "fatPer100g": 7,
+      "fiberPer100g": 11
+    },
+    {
+      "name": "Sweet Potato",
+      "caloriesPer100g": 86,
+      "proteinPer100g": 1.6,
+      "carbsPer100g": 20,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 3
+    },
+    {
+      "name": "White Potato",
+      "caloriesPer100g": 77,
+      "proteinPer100g": 2,
+      "carbsPer100g": 17,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 2.2
+    },
+    {
+      "name": "Pasta",
+      "caloriesPer100g": 131,
+      "proteinPer100g": 5,
+      "carbsPer100g": 25,
+      "fatPer100g": 1.1,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Whole Wheat Bread",
+      "caloriesPer100g": 247,
+      "proteinPer100g": 13,
+      "carbsPer100g": 41,
+      "fatPer100g": 4.2,
+      "fiberPer100g": 7
+    },
+    {
+      "name": "Broccoli",
+      "caloriesPer100g": 34,
+      "proteinPer100g": 2.8,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 2.6
+    },
+    {
+      "name": "Spinach",
+      "caloriesPer100g": 23,
+      "proteinPer100g": 2.9,
+      "carbsPer100g": 3.6,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 2.2
+    },
+    {
+      "name": "Asparagus",
+      "caloriesPer100g": 20,
+      "proteinPer100g": 2.2,
+      "carbsPer100g": 3.9,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 2.1
+    },
+    {
+      "name": "Green Beans",
+      "caloriesPer100g": 31,
+      "proteinPer100g": 1.8,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2.7
+    },
+    {
+      "name": "Carrots",
+      "caloriesPer100g": 41,
+      "proteinPer100g": 0.9,
+      "carbsPer100g": 10,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2.8
+    },
+    {
+      "name": "Bell Pepper",
+      "caloriesPer100g": 31,
+      "proteinPer100g": 1,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 2.5
+    },
+    {
+      "name": "Banana",
+      "caloriesPer100g": 89,
+      "proteinPer100g": 1.1,
+      "carbsPer100g": 23,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 2.6
+    },
+    {
+      "name": "Apple",
+      "caloriesPer100g": 52,
+      "proteinPer100g": 0.3,
+      "carbsPer100g": 14,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2.4
+    },
+    {
+      "name": "Blueberries",
+      "caloriesPer100g": 57,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 14,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 2.4
+    },
+    {
+      "name": "Strawberries",
+      "caloriesPer100g": 32,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 8,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Almonds",
+      "caloriesPer100g": 579,
+      "proteinPer100g": 21,
+      "carbsPer100g": 22,
+      "fatPer100g": 50,
+      "fiberPer100g": 12
+    },
+    {
+      "name": "Peanut Butter",
+      "caloriesPer100g": 588,
+      "proteinPer100g": 25,
+      "carbsPer100g": 20,
+      "fatPer100g": 50,
+      "fiberPer100g": 6
+    },
+    {
+      "name": "Avocado",
+      "caloriesPer100g": 160,
+      "proteinPer100g": 2,
+      "carbsPer100g": 9,
+      "fatPer100g": 15,
+      "fiberPer100g": 7
+    },
+    {
+      "name": "Olive Oil",
+      "caloriesPer100g": 884,
+      "proteinPer100g": 0,
+      "carbsPer100g": 0,
+      "fatPer100g": 100,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Coconut Oil",
+      "caloriesPer100g": 862,
+      "proteinPer100g": 0,
+      "carbsPer100g": 0,
+      "fatPer100g": 100,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Beef",
+      "caloriesPer100g": 250,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0,
+      "fatPer100g": 17,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Lean Ground Beef",
+      "caloriesPer100g": 172,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0,
+      "fatPer100g": 7,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Pork Tenderloin",
+      "caloriesPer100g": 143,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0,
+      "fatPer100g": 3.5,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Turkey Breast",
+      "caloriesPer100g": 135,
+      "proteinPer100g": 30,
+      "carbsPer100g": 0,
+      "fatPer100g": 1,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Cod",
+      "caloriesPer100g": 82,
+      "proteinPer100g": 18,
+      "carbsPer100g": 0,
+      "fatPer100g": 0.7,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Tilapia",
+      "caloriesPer100g": 128,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0,
+      "fatPer100g": 2.7,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Shrimp",
+      "caloriesPer100g": 99,
+      "proteinPer100g": 24,
+      "carbsPer100g": 0.2,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Black Beans",
+      "caloriesPer100g": 132,
+      "proteinPer100g": 8.9,
+      "carbsPer100g": 24,
+      "fatPer100g": 0.5,
+      "fiberPer100g": 8.7
+    },
+    {
+      "name": "Chickpeas",
+      "caloriesPer100g": 164,
+      "proteinPer100g": 8.9,
+      "carbsPer100g": 27,
+      "fatPer100g": 2.6,
+      "fiberPer100g": 7.6
+    },
+    {
+      "name": "Lentils",
+      "caloriesPer100g": 116,
+      "proteinPer100g": 9,
+      "carbsPer100g": 20,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 7.9
+    },
+    {
+      "name": "Tofu",
+      "caloriesPer100g": 76,
+      "proteinPer100g": 8,
+      "carbsPer100g": 1.9,
+      "fatPer100g": 4.8,
+      "fiberPer100g": 0.3
+    },
+    {
+      "name": "Milk",
+      "caloriesPer100g": 42,
+      "proteinPer100g": 3.4,
+      "carbsPer100g": 5,
+      "fatPer100g": 1,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Almond Milk",
+      "caloriesPer100g": 17,
+      "proteinPer100g": 0.6,
+      "carbsPer100g": 1.5,
+      "fatPer100g": 1.2,
+      "fiberPer100g": 0.2
+    },
+    {
+      "name": "Orange",
+      "caloriesPer100g": 47,
+      "proteinPer100g": 0.9,
+      "carbsPer100g": 12,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 2.4
+    },
+    {
+      "name": "Grapes",
+      "caloriesPer100g": 69,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 18,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 0.9
+    },
+    {
+      "name": "Watermelon",
+      "caloriesPer100g": 30,
+      "proteinPer100g": 0.6,
+      "carbsPer100g": 8,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 0.4
+    },
+    {
+      "name": "Mushrooms",
+      "caloriesPer100g": 22,
+      "proteinPer100g": 3.1,
+      "carbsPer100g": 3.3,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 1
+    },
+    {
+      "name": "Zucchini",
+      "caloriesPer100g": 17,
+      "proteinPer100g": 1.2,
+      "carbsPer100g": 3.1,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 1
+    },
+    {
+      "name": "Cucumber",
+      "caloriesPer100g": 16,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 4,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 0.5
+    },
+    {
+      "name": "Tomato",
+      "caloriesPer100g": 18,
+      "proteinPer100g": 0.9,
+      "carbsPer100g": 3.9,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 1.2
+    },
+    {
+      "name": "Onion",
+      "caloriesPer100g": 40,
+      "proteinPer100g": 1.1,
+      "carbsPer100g": 9,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.7
+    },
+    {
+      "name": "Chicken Breast - Raw",
+      "caloriesPer100g": 165,
+      "proteinPer100g": 31,
+      "carbsPer100g": 0,
+      "fatPer100g": 3.6,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Chicken Breast - Cooked",
+      "caloriesPer100g": 165,
+      "proteinPer100g": 31,
+      "carbsPer100g": 0,
+      "fatPer100g": 3.6,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Chicken Breast - Grilled",
+      "caloriesPer100g": 165,
+      "proteinPer100g": 31,
+      "carbsPer100g": 0,
+      "fatPer100g": 3.6,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Chicken Breast - Baked",
+      "caloriesPer100g": 165,
+      "proteinPer100g": 31,
+      "carbsPer100g": 0,
+      "fatPer100g": 3.6,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Chicken Breast - Fried",
+      "caloriesPer100g": 231,
+      "proteinPer100g": 28,
+      "carbsPer100g": 2,
+      "fatPer100g": 11,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Chicken Thigh - Raw",
+      "caloriesPer100g": 209,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0,
+      "fatPer100g": 10.9,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Chicken Thigh - Cooked",
+      "caloriesPer100g": 209,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0,
+      "fatPer100g": 10.9,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Chicken Wing",
+      "caloriesPer100g": 203,
+      "proteinPer100g": 30,
+      "carbsPer100g": 0,
+      "fatPer100g": 8,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Chicken Drumstick",
+      "caloriesPer100g": 172,
+      "proteinPer100g": 28,
+      "carbsPer100g": 0,
+      "fatPer100g": 5.7,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Chicken Whole",
+      "caloriesPer100g": 239,
+      "proteinPer100g": 27,
+      "carbsPer100g": 0,
+      "fatPer100g": 14,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Ground Chicken",
+      "caloriesPer100g": 189,
+      "proteinPer100g": 27,
+      "carbsPer100g": 0,
+      "fatPer100g": 8,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Beef Steak - Ribeye",
+      "caloriesPer100g": 291,
+      "proteinPer100g": 25,
+      "carbsPer100g": 0,
+      "fatPer100g": 21,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Beef Steak - Sirloin",
+      "caloriesPer100g": 252,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0,
+      "fatPer100g": 15,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Beef Steak - Filet Mignon",
+      "caloriesPer100g": 267,
+      "proteinPer100g": 27,
+      "carbsPer100g": 0,
+      "fatPer100g": 17,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Beef - Ground 80/20",
+      "caloriesPer100g": 254,
+      "proteinPer100g": 17,
+      "carbsPer100g": 0,
+      "fatPer100g": 20,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Beef - Ground 90/10",
+      "caloriesPer100g": 200,
+      "proteinPer100g": 20,
+      "carbsPer100g": 0,
+      "fatPer100g": 12,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Beef - Ground 95/5",
+      "caloriesPer100g": 172,
+      "proteinPer100g": 22,
+      "carbsPer100g": 0,
+      "fatPer100g": 7,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Beef - Chuck Roast",
+      "caloriesPer100g": 250,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0,
+      "fatPer100g": 17,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Beef - Brisket",
+      "caloriesPer100g": 250,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0,
+      "fatPer100g": 17,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Beef - Round Steak",
+      "caloriesPer100g": 133,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0,
+      "fatPer100g": 3,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Beef - Flank Steak",
+      "caloriesPer100g": 192,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0,
+      "fatPer100g": 8,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Pork Chop",
+      "caloriesPer100g": 242,
+      "proteinPer100g": 27,
+      "carbsPer100g": 0,
+      "fatPer100g": 14,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Pork Loin",
+      "caloriesPer100g": 242,
+      "proteinPer100g": 27,
+      "carbsPer100g": 0,
+      "fatPer100g": 14,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Pork Shoulder",
+      "caloriesPer100g": 242,
+      "proteinPer100g": 27,
+      "carbsPer100g": 0,
+      "fatPer100g": 14,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Ground Pork",
+      "caloriesPer100g": 263,
+      "proteinPer100g": 16,
+      "carbsPer100g": 0,
+      "fatPer100g": 21,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Bacon",
+      "caloriesPer100g": 541,
+      "proteinPer100g": 37,
+      "carbsPer100g": 1.4,
+      "fatPer100g": 42,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Ham",
+      "caloriesPer100g": 145,
+      "proteinPer100g": 21,
+      "carbsPer100g": 1.5,
+      "fatPer100g": 5.5,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Salmon - Raw",
+      "caloriesPer100g": 208,
+      "proteinPer100g": 20,
+      "carbsPer100g": 0,
+      "fatPer100g": 12,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Salmon - Cooked",
+      "caloriesPer100g": 231,
+      "proteinPer100g": 25,
+      "carbsPer100g": 0,
+      "fatPer100g": 12,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Salmon - Smoked",
+      "caloriesPer100g": 117,
+      "proteinPer100g": 18,
+      "carbsPer100g": 0,
+      "fatPer100g": 4.3,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Tuna - Raw",
+      "caloriesPer100g": 144,
+      "proteinPer100g": 30,
+      "carbsPer100g": 0,
+      "fatPer100g": 1,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Tuna - Canned in Water",
+      "caloriesPer100g": 116,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0,
+      "fatPer100g": 0.8,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Tuna - Canned in Oil",
+      "caloriesPer100g": 198,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0,
+      "fatPer100g": 8,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Cod - Raw",
+      "caloriesPer100g": 82,
+      "proteinPer100g": 18,
+      "carbsPer100g": 0,
+      "fatPer100g": 0.7,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Cod - Cooked",
+      "caloriesPer100g": 105,
+      "proteinPer100g": 23,
+      "carbsPer100g": 0,
+      "fatPer100g": 0.9,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Tilapia - Raw",
+      "caloriesPer100g": 128,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0,
+      "fatPer100g": 2.7,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Tilapia - Cooked",
+      "caloriesPer100g": 128,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0,
+      "fatPer100g": 2.7,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Halibut",
+      "caloriesPer100g": 111,
+      "proteinPer100g": 23,
+      "carbsPer100g": 0,
+      "fatPer100g": 2,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Mackerel",
+      "caloriesPer100g": 205,
+      "proteinPer100g": 19,
+      "carbsPer100g": 0,
+      "fatPer100g": 14,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Sardines - Canned",
+      "caloriesPer100g": 208,
+      "proteinPer100g": 25,
+      "carbsPer100g": 0,
+      "fatPer100g": 11,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Trout",
+      "caloriesPer100g": 148,
+      "proteinPer100g": 21,
+      "carbsPer100g": 0,
+      "fatPer100g": 6.6,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Mahi Mahi",
+      "caloriesPer100g": 85,
+      "proteinPer100g": 20,
+      "carbsPer100g": 0,
+      "fatPer100g": 0.7,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Sea Bass",
+      "caloriesPer100g": 97,
+      "proteinPer100g": 18,
+      "carbsPer100g": 0,
+      "fatPer100g": 2,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Snapper",
+      "caloriesPer100g": 100,
+      "proteinPer100g": 20,
+      "carbsPer100g": 0,
+      "fatPer100g": 1.3,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Grouper",
+      "caloriesPer100g": 92,
+      "proteinPer100g": 19,
+      "carbsPer100g": 0,
+      "fatPer100g": 1.3,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Shrimp - Raw",
+      "caloriesPer100g": 99,
+      "proteinPer100g": 24,
+      "carbsPer100g": 0.2,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Shrimp - Cooked",
+      "caloriesPer100g": 99,
+      "proteinPer100g": 24,
+      "carbsPer100g": 0.2,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Lobster",
+      "caloriesPer100g": 89,
+      "proteinPer100g": 19,
+      "carbsPer100g": 0.5,
+      "fatPer100g": 0.5,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Crab",
+      "caloriesPer100g": 87,
+      "proteinPer100g": 18,
+      "carbsPer100g": 0,
+      "fatPer100g": 1,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Scallops",
+      "caloriesPer100g": 69,
+      "proteinPer100g": 12,
+      "carbsPer100g": 3.2,
+      "fatPer100g": 0.5,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Mussels",
+      "caloriesPer100g": 86,
+      "proteinPer100g": 12,
+      "carbsPer100g": 3.7,
+      "fatPer100g": 2.2,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Oysters",
+      "caloriesPer100g": 81,
+      "proteinPer100g": 9,
+      "carbsPer100g": 4.2,
+      "fatPer100g": 2.3,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Clams",
+      "caloriesPer100g": 74,
+      "proteinPer100g": 12,
+      "carbsPer100g": 2.6,
+      "fatPer100g": 0.8,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Octopus",
+      "caloriesPer100g": 82,
+      "proteinPer100g": 15,
+      "carbsPer100g": 2.2,
+      "fatPer100g": 1,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Squid",
+      "caloriesPer100g": 92,
+      "proteinPer100g": 16,
+      "carbsPer100g": 3.1,
+      "fatPer100g": 1.4,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Eggs - Whole",
+      "caloriesPer100g": 155,
+      "proteinPer100g": 13,
+      "carbsPer100g": 1.1,
+      "fatPer100g": 11,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Eggs - Hard Boiled",
+      "caloriesPer100g": 155,
+      "proteinPer100g": 13,
+      "carbsPer100g": 1.1,
+      "fatPer100g": 11,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Eggs - Scrambled",
+      "caloriesPer100g": 149,
+      "proteinPer100g": 10,
+      "carbsPer100g": 1.6,
+      "fatPer100g": 11,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Eggs - Fried",
+      "caloriesPer100g": 196,
+      "proteinPer100g": 14,
+      "carbsPer100g": 0.8,
+      "fatPer100g": 15,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Egg Yolk",
+      "caloriesPer100g": 322,
+      "proteinPer100g": 16,
+      "carbsPer100g": 3.6,
+      "fatPer100g": 27,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Greek Yogurt - Plain",
+      "caloriesPer100g": 59,
+      "proteinPer100g": 10,
+      "carbsPer100g": 3.6,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Greek Yogurt - Vanilla",
+      "caloriesPer100g": 97,
+      "proteinPer100g": 9,
+      "carbsPer100g": 9,
+      "fatPer100g": 3,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Greek Yogurt - Strawberry",
+      "caloriesPer100g": 97,
+      "proteinPer100g": 9,
+      "carbsPer100g": 9,
+      "fatPer100g": 3,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Yogurt - Plain",
+      "caloriesPer100g": 59,
+      "proteinPer100g": 10,
+      "carbsPer100g": 3.6,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Yogurt - Vanilla",
+      "caloriesPer100g": 97,
+      "proteinPer100g": 9,
+      "carbsPer100g": 9,
+      "fatPer100g": 3,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Cottage Cheese - Full Fat",
+      "caloriesPer100g": 98,
+      "proteinPer100g": 11,
+      "carbsPer100g": 3.4,
+      "fatPer100g": 4.3,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Cottage Cheese - Low Fat",
+      "caloriesPer100g": 72,
+      "proteinPer100g": 12,
+      "carbsPer100g": 2.7,
+      "fatPer100g": 1,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Cottage Cheese - Fat Free",
+      "caloriesPer100g": 72,
+      "proteinPer100g": 12,
+      "carbsPer100g": 2.7,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Milk - Whole",
+      "caloriesPer100g": 61,
+      "proteinPer100g": 3.2,
+      "carbsPer100g": 4.8,
+      "fatPer100g": 3.3,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Milk - 2%",
+      "caloriesPer100g": 50,
+      "proteinPer100g": 3.3,
+      "carbsPer100g": 4.8,
+      "fatPer100g": 2,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Milk - 1%",
+      "caloriesPer100g": 42,
+      "proteinPer100g": 3.4,
+      "carbsPer100g": 5,
+      "fatPer100g": 1,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Milk - Skim",
+      "caloriesPer100g": 34,
+      "proteinPer100g": 3.4,
+      "carbsPer100g": 5,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Almond Milk - Unsweetened",
+      "caloriesPer100g": 17,
+      "proteinPer100g": 0.6,
+      "carbsPer100g": 1.5,
+      "fatPer100g": 1.2,
+      "fiberPer100g": 0.2
+    },
+    {
+      "name": "Almond Milk - Sweetened",
+      "caloriesPer100g": 29,
+      "proteinPer100g": 0.6,
+      "carbsPer100g": 3.4,
+      "fatPer100g": 1.2,
+      "fiberPer100g": 0.2
+    },
+    {
+      "name": "Soy Milk",
+      "caloriesPer100g": 33,
+      "proteinPer100g": 2.9,
+      "carbsPer100g": 1.8,
+      "fatPer100g": 1.8,
+      "fiberPer100g": 0.6
+    },
+    {
+      "name": "Oat Milk",
+      "caloriesPer100g": 47,
+      "proteinPer100g": 1.3,
+      "carbsPer100g": 7,
+      "fatPer100g": 1.5,
+      "fiberPer100g": 0.8
+    },
+    {
+      "name": "Coconut Milk",
+      "caloriesPer100g": 230,
+      "proteinPer100g": 2.3,
+      "carbsPer100g": 6,
+      "fatPer100g": 24,
+      "fiberPer100g": 2.2
+    },
+    {
+      "name": "Cheese - Cheddar",
+      "caloriesPer100g": 402,
+      "proteinPer100g": 25,
+      "carbsPer100g": 1.3,
+      "fatPer100g": 33,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Cheese - Mozzarella",
+      "caloriesPer100g": 280,
+      "proteinPer100g": 18,
+      "carbsPer100g": 3.1,
+      "fatPer100g": 22,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Cheese - Swiss",
+      "caloriesPer100g": 380,
+      "proteinPer100g": 27,
+      "carbsPer100g": 1.5,
+      "fatPer100g": 28,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Cheese - Feta",
+      "caloriesPer100g": 264,
+      "proteinPer100g": 14,
+      "carbsPer100g": 4,
+      "fatPer100g": 21,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Cheese - Parmesan",
+      "caloriesPer100g": 431,
+      "proteinPer100g": 38,
+      "carbsPer100g": 4.1,
+      "fatPer100g": 29,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Cheese - Cottage",
+      "caloriesPer100g": 98,
+      "proteinPer100g": 11,
+      "carbsPer100g": 3.4,
+      "fatPer100g": 4.3,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Cream Cheese",
+      "caloriesPer100g": 342,
+      "proteinPer100g": 6,
+      "carbsPer100g": 4.1,
+      "fatPer100g": 34,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Sour Cream",
+      "caloriesPer100g": 198,
+      "proteinPer100g": 2.3,
+      "carbsPer100g": 4.6,
+      "fatPer100g": 20,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Brown Rice - Uncooked",
+      "caloriesPer100g": 367,
+      "proteinPer100g": 7.5,
+      "carbsPer100g": 77,
+      "fatPer100g": 2.7,
+      "fiberPer100g": 3.4
+    },
+    {
+      "name": "Brown Rice - Cooked",
+      "caloriesPer100g": 111,
+      "proteinPer100g": 2.6,
+      "carbsPer100g": 23,
+      "fatPer100g": 0.9,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "White Rice - Uncooked",
+      "caloriesPer100g": 365,
+      "proteinPer100g": 7.1,
+      "carbsPer100g": 80,
+      "fatPer100g": 0.7,
+      "fiberPer100g": 1.3
+    },
+    {
+      "name": "White Rice - Cooked",
+      "caloriesPer100g": 130,
+      "proteinPer100g": 2.7,
+      "carbsPer100g": 28,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 0.4
+    },
+    {
+      "name": "Jasmine Rice",
+      "caloriesPer100g": 130,
+      "proteinPer100g": 2.7,
+      "carbsPer100g": 28,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 0.4
+    },
+    {
+      "name": "Basmati Rice",
+      "caloriesPer100g": 130,
+      "proteinPer100g": 2.7,
+      "carbsPer100g": 28,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 0.4
+    },
+    {
+      "name": "Wild Rice",
+      "caloriesPer100g": 101,
+      "proteinPer100g": 4,
+      "carbsPer100g": 21,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Arborio Rice",
+      "caloriesPer100g": 130,
+      "proteinPer100g": 2.7,
+      "carbsPer100g": 28,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 0.4
+    },
+    {
+      "name": "Sushi Rice",
+      "caloriesPer100g": 130,
+      "proteinPer100g": 2.7,
+      "carbsPer100g": 28,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 0.4
+    },
+    {
+      "name": "Pasta - Spaghetti",
+      "caloriesPer100g": 131,
+      "proteinPer100g": 5,
+      "carbsPer100g": 25,
+      "fatPer100g": 1.1,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Pasta - Penne",
+      "caloriesPer100g": 131,
+      "proteinPer100g": 5,
+      "carbsPer100g": 25,
+      "fatPer100g": 1.1,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Pasta - Fusilli",
+      "caloriesPer100g": 131,
+      "proteinPer100g": 5,
+      "carbsPer100g": 25,
+      "fatPer100g": 1.1,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Pasta - Macaroni",
+      "caloriesPer100g": 131,
+      "proteinPer100g": 5,
+      "carbsPer100g": 25,
+      "fatPer100g": 1.1,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Pasta - Linguine",
+      "caloriesPer100g": 131,
+      "proteinPer100g": 5,
+      "carbsPer100g": 25,
+      "fatPer100g": 1.1,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Pasta - Fettuccine",
+      "caloriesPer100g": 131,
+      "proteinPer100g": 5,
+      "carbsPer100g": 25,
+      "fatPer100g": 1.1,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Whole Wheat Pasta",
+      "caloriesPer100g": 124,
+      "proteinPer100g": 5,
+      "carbsPer100g": 25,
+      "fatPer100g": 1.5,
+      "fiberPer100g": 3.2
+    },
+    {
+      "name": "Gluten Free Pasta",
+      "caloriesPer100g": 131,
+      "proteinPer100g": 5,
+      "carbsPer100g": 25,
+      "fatPer100g": 1.1,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "White Bread",
+      "caloriesPer100g": 265,
+      "proteinPer100g": 9,
+      "carbsPer100g": 49,
+      "fatPer100g": 3.2,
+      "fiberPer100g": 2.7
+    },
+    {
+      "name": "Multigrain Bread",
+      "caloriesPer100g": 265,
+      "proteinPer100g": 13,
+      "carbsPer100g": 43,
+      "fatPer100g": 4.2,
+      "fiberPer100g": 7
+    },
+    {
+      "name": "Sourdough Bread",
+      "caloriesPer100g": 289,
+      "proteinPer100g": 11,
+      "carbsPer100g": 56,
+      "fatPer100g": 2.2,
+      "fiberPer100g": 2.7
+    },
+    {
+      "name": "Rye Bread",
+      "caloriesPer100g": 259,
+      "proteinPer100g": 9,
+      "carbsPer100g": 48,
+      "fatPer100g": 3.3,
+      "fiberPer100g": 5.8
+    },
+    {
+      "name": "Pita Bread",
+      "caloriesPer100g": 275,
+      "proteinPer100g": 9,
+      "carbsPer100g": 56,
+      "fatPer100g": 1.2,
+      "fiberPer100g": 2.2
+    },
+    {
+      "name": "Bagel",
+      "caloriesPer100g": 257,
+      "proteinPer100g": 10,
+      "carbsPer100g": 51,
+      "fatPer100g": 1.7,
+      "fiberPer100g": 2.3
+    },
+    {
+      "name": "English Muffin",
+      "caloriesPer100g": 235,
+      "proteinPer100g": 8,
+      "carbsPer100g": 46,
+      "fatPer100g": 1.8,
+      "fiberPer100g": 2.7
+    },
+    {
+      "name": "Tortilla - Flour",
+      "caloriesPer100g": 298,
+      "proteinPer100g": 7.3,
+      "carbsPer100g": 49,
+      "fatPer100g": 7.3,
+      "fiberPer100g": 2.3
+    },
+    {
+      "name": "Tortilla - Whole Wheat",
+      "caloriesPer100g": 293,
+      "proteinPer100g": 9.8,
+      "carbsPer100g": 45,
+      "fatPer100g": 7.3,
+      "fiberPer100g": 6.2
+    },
+    {
+      "name": "Tortilla - Corn",
+      "caloriesPer100g": 218,
+      "proteinPer100g": 5.7,
+      "carbsPer100g": 45,
+      "fatPer100g": 2.9,
+      "fiberPer100g": 5.7
+    },
+    {
+      "name": "Oats - Rolled",
+      "caloriesPer100g": 389,
+      "proteinPer100g": 17,
+      "carbsPer100g": 66,
+      "fatPer100g": 7,
+      "fiberPer100g": 11
+    },
+    {
+      "name": "Oats - Steel Cut",
+      "caloriesPer100g": 389,
+      "proteinPer100g": 17,
+      "carbsPer100g": 66,
+      "fatPer100g": 7,
+      "fiberPer100g": 11
+    },
+    {
+      "name": "Oats - Quick",
+      "caloriesPer100g": 389,
+      "proteinPer100g": 17,
+      "carbsPer100g": 66,
+      "fatPer100g": 7,
+      "fiberPer100g": 11
+    },
+    {
+      "name": "Quinoa - Uncooked",
+      "caloriesPer100g": 368,
+      "proteinPer100g": 14,
+      "carbsPer100g": 64,
+      "fatPer100g": 6,
+      "fiberPer100g": 7
+    },
+    {
+      "name": "Quinoa - Cooked",
+      "caloriesPer100g": 120,
+      "proteinPer100g": 4.4,
+      "carbsPer100g": 22,
+      "fatPer100g": 1.9,
+      "fiberPer100g": 2.8
+    },
+    {
+      "name": "Barley",
+      "caloriesPer100g": 123,
+      "proteinPer100g": 2.3,
+      "carbsPer100g": 28,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 3.8
+    },
+    {
+      "name": "Bulgur",
+      "caloriesPer100g": 83,
+      "proteinPer100g": 3.1,
+      "carbsPer100g": 19,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 4.5
+    },
+    {
+      "name": "Couscous",
+      "caloriesPer100g": 112,
+      "proteinPer100g": 3.8,
+      "carbsPer100g": 23,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 1.4
+    },
+    {
+      "name": "Farro",
+      "caloriesPer100g": 127,
+      "proteinPer100g": 5,
+      "carbsPer100g": 25,
+      "fatPer100g": 1.1,
+      "fiberPer100g": 3.5
+    },
+    {
+      "name": "Millet",
+      "caloriesPer100g": 119,
+      "proteinPer100g": 3.5,
+      "carbsPer100g": 23,
+      "fatPer100g": 1,
+      "fiberPer100g": 1.3
+    },
+    {
+      "name": "Buckwheat",
+      "caloriesPer100g": 343,
+      "proteinPer100g": 13,
+      "carbsPer100g": 72,
+      "fatPer100g": 3.4,
+      "fiberPer100g": 10
+    },
+    {
+      "name": "Amaranth",
+      "caloriesPer100g": 102,
+      "proteinPer100g": 3.8,
+      "carbsPer100g": 19,
+      "fatPer100g": 1.6,
+      "fiberPer100g": 2.1
+    },
+    {
+      "name": "Sweet Potato - Raw",
+      "caloriesPer100g": 86,
+      "proteinPer100g": 1.6,
+      "carbsPer100g": 20,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 3
+    },
+    {
+      "name": "Sweet Potato - Baked",
+      "caloriesPer100g": 90,
+      "proteinPer100g": 2,
+      "carbsPer100g": 21,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 3.3
+    },
+    {
+      "name": "White Potato - Raw",
+      "caloriesPer100g": 77,
+      "proteinPer100g": 2,
+      "carbsPer100g": 17,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 2.2
+    },
+    {
+      "name": "White Potato - Baked",
+      "caloriesPer100g": 93,
+      "proteinPer100g": 2.5,
+      "carbsPer100g": 21,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 2.2
+    },
+    {
+      "name": "White Potato - Boiled",
+      "caloriesPer100g": 87,
+      "proteinPer100g": 2,
+      "carbsPer100g": 20,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "White Potato - Mashed",
+      "caloriesPer100g": 88,
+      "proteinPer100g": 1.9,
+      "carbsPer100g": 17,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "French Fries",
+      "caloriesPer100g": 312,
+      "proteinPer100g": 3.4,
+      "carbsPer100g": 41,
+      "fatPer100g": 15,
+      "fiberPer100g": 3.8
+    },
+    {
+      "name": "Red Potato",
+      "caloriesPer100g": 77,
+      "proteinPer100g": 2,
+      "carbsPer100g": 17,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 2.2
+    },
+    {
+      "name": "Yukon Gold Potato",
+      "caloriesPer100g": 77,
+      "proteinPer100g": 2,
+      "carbsPer100g": 17,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 2.2
+    },
+    {
+      "name": "Russet Potato",
+      "caloriesPer100g": 79,
+      "proteinPer100g": 2.1,
+      "carbsPer100g": 18,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.3
+    },
+    {
+      "name": "Spinach - Raw",
+      "caloriesPer100g": 23,
+      "proteinPer100g": 2.9,
+      "carbsPer100g": 3.6,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 2.2
+    },
+    {
+      "name": "Spinach - Cooked",
+      "caloriesPer100g": 23,
+      "proteinPer100g": 3,
+      "carbsPer100g": 3.8,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 2.4
+    },
+    {
+      "name": "Kale - Raw",
+      "caloriesPer100g": 49,
+      "proteinPer100g": 4.3,
+      "carbsPer100g": 9,
+      "fatPer100g": 0.9,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Kale - Cooked",
+      "caloriesPer100g": 28,
+      "proteinPer100g": 1.9,
+      "carbsPer100g": 4.4,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Lettuce - Romaine",
+      "caloriesPer100g": 17,
+      "proteinPer100g": 1.2,
+      "carbsPer100g": 3.3,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 2.1
+    },
+    {
+      "name": "Lettuce - Iceberg",
+      "caloriesPer100g": 14,
+      "proteinPer100g": 0.9,
+      "carbsPer100g": 3,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.2
+    },
+    {
+      "name": "Lettuce - Butter",
+      "caloriesPer100g": 13,
+      "proteinPer100g": 1.4,
+      "carbsPer100g": 2.2,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 1.1
+    },
+    {
+      "name": "Arugula",
+      "caloriesPer100g": 25,
+      "proteinPer100g": 2.6,
+      "carbsPer100g": 3.7,
+      "fatPer100g": 0.7,
+      "fiberPer100g": 1.6
+    },
+    {
+      "name": "Swiss Chard",
+      "caloriesPer100g": 19,
+      "proteinPer100g": 1.8,
+      "carbsPer100g": 3.7,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 1.6
+    },
+    {
+      "name": "Collard Greens",
+      "caloriesPer100g": 32,
+      "proteinPer100g": 3,
+      "carbsPer100g": 5.4,
+      "fatPer100g": 0.6,
+      "fiberPer100g": 4
+    },
+    {
+      "name": "Mustard Greens",
+      "caloriesPer100g": 27,
+      "proteinPer100g": 2.9,
+      "carbsPer100g": 4.7,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 3.2
+    },
+    {
+      "name": "Cabbage - Green",
+      "caloriesPer100g": 25,
+      "proteinPer100g": 1.3,
+      "carbsPer100g": 6,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 2.5
+    },
+    {
+      "name": "Cabbage - Red",
+      "caloriesPer100g": 31,
+      "proteinPer100g": 1.4,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2.1
+    },
+    {
+      "name": "Cabbage - Napa",
+      "caloriesPer100g": 16,
+      "proteinPer100g": 1.2,
+      "carbsPer100g": 3.2,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 1.2
+    },
+    {
+      "name": "Broccoli - Raw",
+      "caloriesPer100g": 34,
+      "proteinPer100g": 2.8,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 2.6
+    },
+    {
+      "name": "Broccoli - Cooked",
+      "caloriesPer100g": 35,
+      "proteinPer100g": 2.8,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 2.6
+    },
+    {
+      "name": "Cauliflower - Raw",
+      "caloriesPer100g": 25,
+      "proteinPer100g": 1.9,
+      "carbsPer100g": 5,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Cauliflower - Cooked",
+      "caloriesPer100g": 25,
+      "proteinPer100g": 1.8,
+      "carbsPer100g": 5,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 2.3
+    },
+    {
+      "name": "Cauliflower - Rice",
+      "caloriesPer100g": 25,
+      "proteinPer100g": 1.9,
+      "carbsPer100g": 5,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Brussels Sprouts - Raw",
+      "caloriesPer100g": 43,
+      "proteinPer100g": 3.4,
+      "carbsPer100g": 9,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 3.8
+    },
+    {
+      "name": "Brussels Sprouts - Cooked",
+      "caloriesPer100g": 36,
+      "proteinPer100g": 2.6,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.5,
+      "fiberPer100g": 3.8
+    },
+    {
+      "name": "Cabbage",
+      "caloriesPer100g": 25,
+      "proteinPer100g": 1.3,
+      "carbsPer100g": 6,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 2.5
+    },
+    {
+      "name": "Bok Choy",
+      "caloriesPer100g": 13,
+      "proteinPer100g": 1.5,
+      "carbsPer100g": 2.2,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 1
+    },
+    {
+      "name": "Carrots - Raw",
+      "caloriesPer100g": 41,
+      "proteinPer100g": 0.9,
+      "carbsPer100g": 10,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2.8
+    },
+    {
+      "name": "Carrots - Cooked",
+      "caloriesPer100g": 35,
+      "proteinPer100g": 0.8,
+      "carbsPer100g": 8.2,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 3
+    },
+    {
+      "name": "Beets - Raw",
+      "caloriesPer100g": 43,
+      "proteinPer100g": 1.6,
+      "carbsPer100g": 10,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2.8
+    },
+    {
+      "name": "Beets - Cooked",
+      "caloriesPer100g": 44,
+      "proteinPer100g": 1.7,
+      "carbsPer100g": 10,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2.8
+    },
+    {
+      "name": "Radish",
+      "caloriesPer100g": 16,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 3.4,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.6
+    },
+    {
+      "name": "Turnip",
+      "caloriesPer100g": 28,
+      "proteinPer100g": 0.9,
+      "carbsPer100g": 6,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Parsnip",
+      "caloriesPer100g": 75,
+      "proteinPer100g": 1.2,
+      "carbsPer100g": 18,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 4.9
+    },
+    {
+      "name": "Rutabaga",
+      "caloriesPer100g": 36,
+      "proteinPer100g": 1,
+      "carbsPer100g": 8.6,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2.3
+    },
+    {
+      "name": "Tomato - Raw",
+      "caloriesPer100g": 18,
+      "proteinPer100g": 0.9,
+      "carbsPer100g": 3.9,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 1.2
+    },
+    {
+      "name": "Tomato - Cooked",
+      "caloriesPer100g": 18,
+      "proteinPer100g": 1,
+      "carbsPer100g": 4,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.1
+    },
+    {
+      "name": "Tomato - Cherry",
+      "caloriesPer100g": 18,
+      "proteinPer100g": 0.9,
+      "carbsPer100g": 3.9,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 1.2
+    },
+    {
+      "name": "Bell Pepper - Red",
+      "caloriesPer100g": 31,
+      "proteinPer100g": 1,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 2.5
+    },
+    {
+      "name": "Bell Pepper - Green",
+      "caloriesPer100g": 20,
+      "proteinPer100g": 0.9,
+      "carbsPer100g": 4.6,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 1.5
+    },
+    {
+      "name": "Bell Pepper - Yellow",
+      "caloriesPer100g": 27,
+      "proteinPer100g": 1,
+      "carbsPer100g": 6,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 0.9
+    },
+    {
+      "name": "Bell Pepper - Orange",
+      "caloriesPer100g": 31,
+      "proteinPer100g": 1,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 2.5
+    },
+    {
+      "name": "Jalapeno",
+      "caloriesPer100g": 29,
+      "proteinPer100g": 1.3,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 2.8
+    },
+    {
+      "name": "Eggplant",
+      "caloriesPer100g": 25,
+      "proteinPer100g": 1,
+      "carbsPer100g": 6,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 3
+    },
+    {
+      "name": "Zucchini - Raw",
+      "caloriesPer100g": 17,
+      "proteinPer100g": 1.2,
+      "carbsPer100g": 3.1,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 1
+    },
+    {
+      "name": "Zucchini - Cooked",
+      "caloriesPer100g": 17,
+      "proteinPer100g": 1.1,
+      "carbsPer100g": 3,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 1
+    },
+    {
+      "name": "Yellow Squash",
+      "caloriesPer100g": 16,
+      "proteinPer100g": 1.2,
+      "carbsPer100g": 3.4,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 1.1
+    },
+    {
+      "name": "Asparagus - Raw",
+      "caloriesPer100g": 20,
+      "proteinPer100g": 2.2,
+      "carbsPer100g": 3.9,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 2.1
+    },
+    {
+      "name": "Asparagus - Cooked",
+      "caloriesPer100g": 22,
+      "proteinPer100g": 2.4,
+      "carbsPer100g": 4.1,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Green Beans - Raw",
+      "caloriesPer100g": 31,
+      "proteinPer100g": 1.8,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2.7
+    },
+    {
+      "name": "Green Beans - Cooked",
+      "caloriesPer100g": 35,
+      "proteinPer100g": 1.9,
+      "carbsPer100g": 8,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 3.2
+    },
+    {
+      "name": "Snap Peas",
+      "caloriesPer100g": 42,
+      "proteinPer100g": 2.8,
+      "carbsPer100g": 7.6,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2.6
+    },
+    {
+      "name": "Snow Peas",
+      "caloriesPer100g": 42,
+      "proteinPer100g": 2.8,
+      "carbsPer100g": 7.6,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2.6
+    },
+    {
+      "name": "Peas - Green",
+      "caloriesPer100g": 81,
+      "proteinPer100g": 5.4,
+      "carbsPer100g": 14,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 5.1
+    },
+    {
+      "name": "Corn - Sweet",
+      "caloriesPer100g": 86,
+      "proteinPer100g": 3.3,
+      "carbsPer100g": 19,
+      "fatPer100g": 1.2,
+      "fiberPer100g": 2.7
+    },
+    {
+      "name": "Corn - Canned",
+      "caloriesPer100g": 86,
+      "proteinPer100g": 3.3,
+      "carbsPer100g": 19,
+      "fatPer100g": 1.2,
+      "fiberPer100g": 2.7
+    },
+    {
+      "name": "Mushrooms - White",
+      "caloriesPer100g": 22,
+      "proteinPer100g": 3.1,
+      "carbsPer100g": 3.3,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 1
+    },
+    {
+      "name": "Mushrooms - Cremini",
+      "caloriesPer100g": 22,
+      "proteinPer100g": 3.1,
+      "carbsPer100g": 3.3,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 1
+    },
+    {
+      "name": "Mushrooms - Portobello",
+      "caloriesPer100g": 22,
+      "proteinPer100g": 3.1,
+      "carbsPer100g": 3.3,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 1
+    },
+    {
+      "name": "Mushrooms - Shiitake",
+      "caloriesPer100g": 34,
+      "proteinPer100g": 2.2,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.5,
+      "fiberPer100g": 2.5
+    },
+    {
+      "name": "Onion - Yellow",
+      "caloriesPer100g": 40,
+      "proteinPer100g": 1.1,
+      "carbsPer100g": 9,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.7
+    },
+    {
+      "name": "Onion - Red",
+      "caloriesPer100g": 40,
+      "proteinPer100g": 1.1,
+      "carbsPer100g": 9,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.7
+    },
+    {
+      "name": "Onion - White",
+      "caloriesPer100g": 40,
+      "proteinPer100g": 1.1,
+      "carbsPer100g": 9,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.7
+    },
+    {
+      "name": "Onion - Sweet",
+      "caloriesPer100g": 32,
+      "proteinPer100g": 0.8,
+      "carbsPer100g": 7.6,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.7
+    },
+    {
+      "name": "Garlic",
+      "caloriesPer100g": 149,
+      "proteinPer100g": 6.4,
+      "carbsPer100g": 33,
+      "fatPer100g": 0.5,
+      "fiberPer100g": 2.1
+    },
+    {
+      "name": "Leeks",
+      "caloriesPer100g": 61,
+      "proteinPer100g": 1.5,
+      "carbsPer100g": 14,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Shallots",
+      "caloriesPer100g": 72,
+      "proteinPer100g": 2.5,
+      "carbsPer100g": 17,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 3.2
+    },
+    {
+      "name": "Celery",
+      "caloriesPer100g": 16,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 3,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 1.6
+    },
+    {
+      "name": "Fennel",
+      "caloriesPer100g": 31,
+      "proteinPer100g": 1.2,
+      "carbsPer100g": 7.3,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 3.1
+    },
+    {
+      "name": "Apple - Red",
+      "caloriesPer100g": 52,
+      "proteinPer100g": 0.3,
+      "carbsPer100g": 14,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2.4
+    },
+    {
+      "name": "Apple - Green",
+      "caloriesPer100g": 52,
+      "proteinPer100g": 0.3,
+      "carbsPer100g": 14,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2.4
+    },
+    {
+      "name": "Apple - Gala",
+      "caloriesPer100g": 52,
+      "proteinPer100g": 0.3,
+      "carbsPer100g": 14,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2.4
+    },
+    {
+      "name": "Apple - Fuji",
+      "caloriesPer100g": 52,
+      "proteinPer100g": 0.3,
+      "carbsPer100g": 14,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2.4
+    },
+    {
+      "name": "Orange - Navel",
+      "caloriesPer100g": 47,
+      "proteinPer100g": 0.9,
+      "carbsPer100g": 12,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 2.4
+    },
+    {
+      "name": "Orange - Blood",
+      "caloriesPer100g": 47,
+      "proteinPer100g": 0.9,
+      "carbsPer100g": 12,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 2.4
+    },
+    {
+      "name": "Grapefruit",
+      "caloriesPer100g": 42,
+      "proteinPer100g": 0.8,
+      "carbsPer100g": 11,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.6
+    },
+    {
+      "name": "Lemon",
+      "caloriesPer100g": 29,
+      "proteinPer100g": 1.1,
+      "carbsPer100g": 9,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 2.8
+    },
+    {
+      "name": "Lime",
+      "caloriesPer100g": 30,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 10,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2.8
+    },
+    {
+      "name": "Grapes - Red",
+      "caloriesPer100g": 69,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 18,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 0.9
+    },
+    {
+      "name": "Grapes - Green",
+      "caloriesPer100g": 69,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 18,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 0.9
+    },
+    {
+      "name": "Grapes - Black",
+      "caloriesPer100g": 69,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 18,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 0.9
+    },
+    {
+      "name": "Raspberries",
+      "caloriesPer100g": 52,
+      "proteinPer100g": 1.2,
+      "carbsPer100g": 12,
+      "fatPer100g": 0.7,
+      "fiberPer100g": 6.5
+    },
+    {
+      "name": "Blackberries",
+      "caloriesPer100g": 43,
+      "proteinPer100g": 1.4,
+      "carbsPer100g": 10,
+      "fatPer100g": 0.5,
+      "fiberPer100g": 5.3
+    },
+    {
+      "name": "Cranberries",
+      "caloriesPer100g": 46,
+      "proteinPer100g": 0.4,
+      "carbsPer100g": 12,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 4.6
+    },
+    {
+      "name": "Cantaloupe",
+      "caloriesPer100g": 34,
+      "proteinPer100g": 0.8,
+      "carbsPer100g": 8,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 0.9
+    },
+    {
+      "name": "Honeydew",
+      "caloriesPer100g": 36,
+      "proteinPer100g": 0.5,
+      "carbsPer100g": 9,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 0.8
+    },
+    {
+      "name": "Pineapple",
+      "caloriesPer100g": 50,
+      "proteinPer100g": 0.5,
+      "carbsPer100g": 13,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.4
+    },
+    {
+      "name": "Mango",
+      "caloriesPer100g": 60,
+      "proteinPer100g": 0.8,
+      "carbsPer100g": 15,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 1.6
+    },
+    {
+      "name": "Papaya",
+      "caloriesPer100g": 43,
+      "proteinPer100g": 0.5,
+      "carbsPer100g": 11,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 1.7
+    },
+    {
+      "name": "Kiwi",
+      "caloriesPer100g": 61,
+      "proteinPer100g": 1.1,
+      "carbsPer100g": 15,
+      "fatPer100g": 0.5,
+      "fiberPer100g": 3
+    },
+    {
+      "name": "Peach",
+      "caloriesPer100g": 39,
+      "proteinPer100g": 0.9,
+      "carbsPer100g": 10,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 1.5
+    },
+    {
+      "name": "Nectarine",
+      "caloriesPer100g": 44,
+      "proteinPer100g": 1.1,
+      "carbsPer100g": 11,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 1.7
+    },
+    {
+      "name": "Plum",
+      "caloriesPer100g": 46,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 11,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 1.4
+    },
+    {
+      "name": "Apricot",
+      "caloriesPer100g": 48,
+      "proteinPer100g": 1.4,
+      "carbsPer100g": 11,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Cherry - Sweet",
+      "caloriesPer100g": 63,
+      "proteinPer100g": 1,
+      "carbsPer100g": 16,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2.1
+    },
+    {
+      "name": "Cherry - Sour",
+      "caloriesPer100g": 50,
+      "proteinPer100g": 1,
+      "carbsPer100g": 12,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 1.6
+    },
+    {
+      "name": "Pear",
+      "caloriesPer100g": 57,
+      "proteinPer100g": 0.4,
+      "carbsPer100g": 15,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 3.1
+    },
+    {
+      "name": "Pomegranate",
+      "caloriesPer100g": 83,
+      "proteinPer100g": 1.7,
+      "carbsPer100g": 19,
+      "fatPer100g": 1.2,
+      "fiberPer100g": 4
+    },
+    {
+      "name": "Fig",
+      "caloriesPer100g": 74,
+      "proteinPer100g": 0.8,
+      "carbsPer100g": 19,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 2.9
+    },
+    {
+      "name": "Dates",
+      "caloriesPer100g": 282,
+      "proteinPer100g": 2.5,
+      "carbsPer100g": 75,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 8
+    },
+    {
+      "name": "Almonds - Raw",
+      "caloriesPer100g": 579,
+      "proteinPer100g": 21,
+      "carbsPer100g": 22,
+      "fatPer100g": 50,
+      "fiberPer100g": 12
+    },
+    {
+      "name": "Almonds - Roasted",
+      "caloriesPer100g": 598,
+      "proteinPer100g": 21,
+      "carbsPer100g": 22,
+      "fatPer100g": 52,
+      "fiberPer100g": 11
+    },
+    {
+      "name": "Almonds - Sliced",
+      "caloriesPer100g": 579,
+      "proteinPer100g": 21,
+      "carbsPer100g": 22,
+      "fatPer100g": 50,
+      "fiberPer100g": 12
+    },
+    {
+      "name": "Walnuts",
+      "caloriesPer100g": 654,
+      "proteinPer100g": 15,
+      "carbsPer100g": 14,
+      "fatPer100g": 65,
+      "fiberPer100g": 6.7
+    },
+    {
+      "name": "Cashews - Raw",
+      "caloriesPer100g": 553,
+      "proteinPer100g": 18,
+      "carbsPer100g": 30,
+      "fatPer100g": 44,
+      "fiberPer100g": 3.3
+    },
+    {
+      "name": "Cashews - Roasted",
+      "caloriesPer100g": 574,
+      "proteinPer100g": 15,
+      "carbsPer100g": 33,
+      "fatPer100g": 46,
+      "fiberPer100g": 3
+    },
+    {
+      "name": "Peanuts - Raw",
+      "caloriesPer100g": 567,
+      "proteinPer100g": 26,
+      "carbsPer100g": 16,
+      "fatPer100g": 49,
+      "fiberPer100g": 8.5
+    },
+    {
+      "name": "Peanuts - Roasted",
+      "caloriesPer100g": 587,
+      "proteinPer100g": 24,
+      "carbsPer100g": 22,
+      "fatPer100g": 50,
+      "fiberPer100g": 8
+    },
+    {
+      "name": "Peanut Butter - Natural",
+      "caloriesPer100g": 588,
+      "proteinPer100g": 25,
+      "carbsPer100g": 20,
+      "fatPer100g": 50,
+      "fiberPer100g": 6
+    },
+    {
+      "name": "Peanut Butter - Creamy",
+      "caloriesPer100g": 588,
+      "proteinPer100g": 22,
+      "carbsPer100g": 22,
+      "fatPer100g": 51,
+      "fiberPer100g": 5
+    },
+    {
+      "name": "Peanut Butter - Crunchy",
+      "caloriesPer100g": 588,
+      "proteinPer100g": 22,
+      "carbsPer100g": 22,
+      "fatPer100g": 51,
+      "fiberPer100g": 5
+    },
+    {
+      "name": "Pistachios",
+      "caloriesPer100g": 560,
+      "proteinPer100g": 20,
+      "carbsPer100g": 28,
+      "fatPer100g": 45,
+      "fiberPer100g": 10.3
+    },
+    {
+      "name": "Pecans",
+      "caloriesPer100g": 691,
+      "proteinPer100g": 9,
+      "carbsPer100g": 14,
+      "fatPer100g": 72,
+      "fiberPer100g": 9.6
+    },
+    {
+      "name": "Hazelnuts",
+      "caloriesPer100g": 628,
+      "proteinPer100g": 15,
+      "carbsPer100g": 17,
+      "fatPer100g": 61,
+      "fiberPer100g": 10
+    },
+    {
+      "name": "Macadamia Nuts",
+      "caloriesPer100g": 718,
+      "proteinPer100g": 8,
+      "carbsPer100g": 14,
+      "fatPer100g": 76,
+      "fiberPer100g": 8.6
+    },
+    {
+      "name": "Brazil Nuts",
+      "caloriesPer100g": 659,
+      "proteinPer100g": 14,
+      "carbsPer100g": 12,
+      "fatPer100g": 67,
+      "fiberPer100g": 7.5
+    },
+    {
+      "name": "Pine Nuts",
+      "caloriesPer100g": 673,
+      "proteinPer100g": 14,
+      "carbsPer100g": 13,
+      "fatPer100g": 68,
+      "fiberPer100g": 3.7
+    },
+    {
+      "name": "Sunflower Seeds",
+      "caloriesPer100g": 584,
+      "proteinPer100g": 21,
+      "carbsPer100g": 20,
+      "fatPer100g": 51,
+      "fiberPer100g": 8.6
+    },
+    {
+      "name": "Pumpkin Seeds",
+      "caloriesPer100g": 559,
+      "proteinPer100g": 30,
+      "carbsPer100g": 11,
+      "fatPer100g": 49,
+      "fiberPer100g": 6
+    },
+    {
+      "name": "Chia Seeds",
+      "caloriesPer100g": 486,
+      "proteinPer100g": 17,
+      "carbsPer100g": 42,
+      "fatPer100g": 31,
+      "fiberPer100g": 34
+    },
+    {
+      "name": "Flax Seeds",
+      "caloriesPer100g": 534,
+      "proteinPer100g": 18,
+      "carbsPer100g": 29,
+      "fatPer100g": 42,
+      "fiberPer100g": 27
+    },
+    {
+      "name": "Hemp Seeds",
+      "caloriesPer100g": 553,
+      "proteinPer100g": 31,
+      "carbsPer100g": 9,
+      "fatPer100g": 49,
+      "fiberPer100g": 4
+    },
+    {
+      "name": "Sesame Seeds",
+      "caloriesPer100g": 573,
+      "proteinPer100g": 18,
+      "carbsPer100g": 23,
+      "fatPer100g": 50,
+      "fiberPer100g": 12
+    },
+    {
+      "name": "Black Beans - Canned",
+      "caloriesPer100g": 132,
+      "proteinPer100g": 8.9,
+      "carbsPer100g": 24,
+      "fatPer100g": 0.5,
+      "fiberPer100g": 8.7
+    },
+    {
+      "name": "Black Beans - Cooked",
+      "caloriesPer100g": 132,
+      "proteinPer100g": 8.9,
+      "carbsPer100g": 24,
+      "fatPer100g": 0.5,
+      "fiberPer100g": 8.7
+    },
+    {
+      "name": "Kidney Beans - Canned",
+      "caloriesPer100g": 127,
+      "proteinPer100g": 8.7,
+      "carbsPer100g": 23,
+      "fatPer100g": 0.5,
+      "fiberPer100g": 6.4
+    },
+    {
+      "name": "Kidney Beans - Cooked",
+      "caloriesPer100g": 127,
+      "proteinPer100g": 8.7,
+      "carbsPer100g": 23,
+      "fatPer100g": 0.5,
+      "fiberPer100g": 6.4
+    },
+    {
+      "name": "Pinto Beans - Canned",
+      "caloriesPer100g": 143,
+      "proteinPer100g": 9,
+      "carbsPer100g": 26,
+      "fatPer100g": 0.6,
+      "fiberPer100g": 9
+    },
+    {
+      "name": "Pinto Beans - Cooked",
+      "caloriesPer100g": 143,
+      "proteinPer100g": 9,
+      "carbsPer100g": 26,
+      "fatPer100g": 0.6,
+      "fiberPer100g": 9
+    },
+    {
+      "name": "Navy Beans",
+      "caloriesPer100g": 140,
+      "proteinPer100g": 8.2,
+      "carbsPer100g": 26,
+      "fatPer100g": 0.6,
+      "fiberPer100g": 10.5
+    },
+    {
+      "name": "Lima Beans",
+      "caloriesPer100g": 115,
+      "proteinPer100g": 7.8,
+      "carbsPer100g": 21,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 7
+    },
+    {
+      "name": "Garbanzo Beans - Canned",
+      "caloriesPer100g": 139,
+      "proteinPer100g": 7.1,
+      "carbsPer100g": 22,
+      "fatPer100g": 2.8,
+      "fiberPer100g": 6.4
+    },
+    {
+      "name": "Garbanzo Beans - Cooked",
+      "caloriesPer100g": 164,
+      "proteinPer100g": 8.9,
+      "carbsPer100g": 27,
+      "fatPer100g": 2.6,
+      "fiberPer100g": 7.6
+    },
+    {
+      "name": "Chickpeas - Canned",
+      "caloriesPer100g": 139,
+      "proteinPer100g": 7.1,
+      "carbsPer100g": 22,
+      "fatPer100g": 2.8,
+      "fiberPer100g": 6.4
+    },
+    {
+      "name": "Chickpeas - Cooked",
+      "caloriesPer100g": 164,
+      "proteinPer100g": 8.9,
+      "carbsPer100g": 27,
+      "fatPer100g": 2.6,
+      "fiberPer100g": 7.6
+    },
+    {
+      "name": "Lentils - Brown",
+      "caloriesPer100g": 116,
+      "proteinPer100g": 9,
+      "carbsPer100g": 20,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 7.9
+    },
+    {
+      "name": "Lentils - Red",
+      "caloriesPer100g": 116,
+      "proteinPer100g": 9,
+      "carbsPer100g": 20,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 7.9
+    },
+    {
+      "name": "Lentils - Green",
+      "caloriesPer100g": 116,
+      "proteinPer100g": 9,
+      "carbsPer100g": 20,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 7.9
+    },
+    {
+      "name": "Lentils - Black",
+      "caloriesPer100g": 116,
+      "proteinPer100g": 9,
+      "carbsPer100g": 20,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 7.9
+    },
+    {
+      "name": "Edamame",
+      "caloriesPer100g": 122,
+      "proteinPer100g": 11,
+      "carbsPer100g": 10,
+      "fatPer100g": 5.2,
+      "fiberPer100g": 5.2
+    },
+    {
+      "name": "Soybeans - Cooked",
+      "caloriesPer100g": 173,
+      "proteinPer100g": 17,
+      "carbsPer100g": 10,
+      "fatPer100g": 9,
+      "fiberPer100g": 6
+    },
+    {
+      "name": "Tofu - Firm",
+      "caloriesPer100g": 76,
+      "proteinPer100g": 8,
+      "carbsPer100g": 1.9,
+      "fatPer100g": 4.8,
+      "fiberPer100g": 0.3
+    },
+    {
+      "name": "Tofu - Soft",
+      "caloriesPer100g": 61,
+      "proteinPer100g": 6.6,
+      "carbsPer100g": 1.2,
+      "fatPer100g": 3.7,
+      "fiberPer100g": 0.2
+    },
+    {
+      "name": "Tempeh",
+      "caloriesPer100g": 192,
+      "proteinPer100g": 19,
+      "carbsPer100g": 9,
+      "fatPer100g": 11,
+      "fiberPer100g": 9
+    },
+    {
+      "name": "Olive Oil - Extra Virgin",
+      "caloriesPer100g": 884,
+      "proteinPer100g": 0,
+      "carbsPer100g": 0,
+      "fatPer100g": 100,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Olive Oil - Regular",
+      "caloriesPer100g": 884,
+      "proteinPer100g": 0,
+      "carbsPer100g": 0,
+      "fatPer100g": 100,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Avocado Oil",
+      "caloriesPer100g": 884,
+      "proteinPer100g": 0,
+      "carbsPer100g": 0,
+      "fatPer100g": 100,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Canola Oil",
+      "caloriesPer100g": 884,
+      "proteinPer100g": 0,
+      "carbsPer100g": 0,
+      "fatPer100g": 100,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Vegetable Oil",
+      "caloriesPer100g": 884,
+      "proteinPer100g": 0,
+      "carbsPer100g": 0,
+      "fatPer100g": 100,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Sesame Oil",
+      "caloriesPer100g": 884,
+      "proteinPer100g": 0,
+      "carbsPer100g": 0,
+      "fatPer100g": 100,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Grapeseed Oil",
+      "caloriesPer100g": 884,
+      "proteinPer100g": 0,
+      "carbsPer100g": 0,
+      "fatPer100g": 100,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Butter",
+      "caloriesPer100g": 717,
+      "proteinPer100g": 0.9,
+      "carbsPer100g": 0.1,
+      "fatPer100g": 81,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Ghee",
+      "caloriesPer100g": 900,
+      "proteinPer100g": 0,
+      "carbsPer100g": 0,
+      "fatPer100g": 100,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Lard",
+      "caloriesPer100g": 902,
+      "proteinPer100g": 0,
+      "carbsPer100g": 0,
+      "fatPer100g": 100,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Whey Protein - Isolate",
+      "caloriesPer100g": 370,
+      "proteinPer100g": 90,
+      "carbsPer100g": 1,
+      "fatPer100g": 1,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Whey Protein - Concentrate",
+      "caloriesPer100g": 370,
+      "proteinPer100g": 75,
+      "carbsPer100g": 8,
+      "fatPer100g": 5,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Casein Protein",
+      "caloriesPer100g": 370,
+      "proteinPer100g": 80,
+      "carbsPer100g": 4,
+      "fatPer100g": 2,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Plant Protein - Pea",
+      "caloriesPer100g": 370,
+      "proteinPer100g": 75,
+      "carbsPer100g": 5,
+      "fatPer100g": 5,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Plant Protein - Hemp",
+      "caloriesPer100g": 370,
+      "proteinPer100g": 50,
+      "carbsPer100g": 20,
+      "fatPer100g": 10,
+      "fiberPer100g": 5
+    },
+    {
+      "name": "Plant Protein - Brown Rice",
+      "caloriesPer100g": 370,
+      "proteinPer100g": 70,
+      "carbsPer100g": 8,
+      "fatPer100g": 3,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "BCAA Powder",
+      "caloriesPer100g": 400,
+      "proteinPer100g": 100,
+      "carbsPer100g": 0,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Creatine Monohydrate",
+      "caloriesPer100g": 0,
+      "proteinPer100g": 0,
+      "carbsPer100g": 0,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Chicken Breast - Rotisserie",
+      "caloriesPer100g": 184,
+      "proteinPer100g": 27,
+      "carbsPer100g": 0,
+      "fatPer100g": 8,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Grilled Chicken",
+      "caloriesPer100g": 165,
+      "proteinPer100g": 31,
+      "carbsPer100g": 0,
+      "fatPer100g": 3.6,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Chicken Nuggets",
+      "caloriesPer100g": 296,
+      "proteinPer100g": 15,
+      "carbsPer100g": 15,
+      "fatPer100g": 19,
+      "fiberPer100g": 1.1
+    },
+    {
+      "name": "Chicken Tenders",
+      "caloriesPer100g": 246,
+      "proteinPer100g": 18,
+      "carbsPer100g": 11,
+      "fatPer100g": 14,
+      "fiberPer100g": 0.5
+    },
+    {
+      "name": "Beef Burger - 80/20",
+      "caloriesPer100g": 250,
+      "proteinPer100g": 20,
+      "carbsPer100g": 0,
+      "fatPer100g": 18,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Beef Burger - 90/10",
+      "caloriesPer100g": 200,
+      "proteinPer100g": 22,
+      "carbsPer100g": 0,
+      "fatPer100g": 10,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Turkey Burger",
+      "caloriesPer100g": 189,
+      "proteinPer100g": 27,
+      "carbsPer100g": 0,
+      "fatPer100g": 8,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Salmon Burger",
+      "caloriesPer100g": 124,
+      "proteinPer100g": 19,
+      "carbsPer100g": 6,
+      "fatPer100g": 3,
+      "fiberPer100g": 0.5
+    },
+    {
+      "name": "Tuna Salad",
+      "caloriesPer100g": 187,
+      "proteinPer100g": 16,
+      "carbsPer100g": 1,
+      "fatPer100g": 13,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Chicken Salad",
+      "caloriesPer100g": 200,
+      "proteinPer100g": 18,
+      "carbsPer100g": 2,
+      "fatPer100g": 13,
+      "fiberPer100g": 0.3
+    },
+    {
+      "name": "Egg Salad",
+      "caloriesPer100g": 211,
+      "proteinPer100g": 9,
+      "carbsPer100g": 1.2,
+      "fatPer100g": 18,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Hummus",
+      "caloriesPer100g": 166,
+      "proteinPer100g": 8,
+      "carbsPer100g": 14,
+      "fatPer100g": 10,
+      "fiberPer100g": 6
+    },
+    {
+      "name": "Guacamole",
+      "caloriesPer100g": 160,
+      "proteinPer100g": 2,
+      "carbsPer100g": 9,
+      "fatPer100g": 15,
+      "fiberPer100g": 7
+    },
+    {
+      "name": "Salsa",
+      "caloriesPer100g": 36,
+      "proteinPer100g": 1.5,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 1.4
+    },
+    {
+      "name": "Pesto",
+      "caloriesPer100g": 263,
+      "proteinPer100g": 5,
+      "carbsPer100g": 5,
+      "fatPer100g": 24,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Chicken - Whole Roasted",
+      "caloriesPer100g": 239,
+      "proteinPer100g": 27,
+      "carbsPer100g": 0,
+      "fatPer100g": 14,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Duck Breast",
+      "caloriesPer100g": 201,
+      "proteinPer100g": 19,
+      "carbsPer100g": 0,
+      "fatPer100g": 14,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Lamb - Leg",
+      "caloriesPer100g": 250,
+      "proteinPer100g": 25,
+      "carbsPer100g": 0,
+      "fatPer100g": 17,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Lamb - Chop",
+      "caloriesPer100g": 294,
+      "proteinPer100g": 25,
+      "carbsPer100g": 0,
+      "fatPer100g": 21,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Venison",
+      "caloriesPer100g": 158,
+      "proteinPer100g": 30,
+      "carbsPer100g": 0,
+      "fatPer100g": 3.2,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Bison",
+      "caloriesPer100g": 143,
+      "proteinPer100g": 28,
+      "carbsPer100g": 0,
+      "fatPer100g": 2.4,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Elk",
+      "caloriesPer100g": 146,
+      "proteinPer100g": 30,
+      "carbsPer100g": 0,
+      "fatPer100g": 2.4,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Halibut - Cooked",
+      "caloriesPer100g": 111,
+      "proteinPer100g": 23,
+      "carbsPer100g": 0,
+      "fatPer100g": 2,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Swordfish",
+      "caloriesPer100g": 172,
+      "proteinPer100g": 23,
+      "carbsPer100g": 0,
+      "fatPer100g": 8,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Mahi Mahi - Cooked",
+      "caloriesPer100g": 85,
+      "proteinPer100g": 20,
+      "carbsPer100g": 0,
+      "fatPer100g": 0.7,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Sea Bass - Cooked",
+      "caloriesPer100g": 97,
+      "proteinPer100g": 18,
+      "carbsPer100g": 0,
+      "fatPer100g": 2,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Snapper - Cooked",
+      "caloriesPer100g": 100,
+      "proteinPer100g": 20,
+      "carbsPer100g": 0,
+      "fatPer100g": 1.3,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Grouper - Cooked",
+      "caloriesPer100g": 92,
+      "proteinPer100g": 19,
+      "carbsPer100g": 0,
+      "fatPer100g": 1.3,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Flounder",
+      "caloriesPer100g": 70,
+      "proteinPer100g": 12,
+      "carbsPer100g": 0,
+      "fatPer100g": 1.9,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Haddock",
+      "caloriesPer100g": 90,
+      "proteinPer100g": 20,
+      "carbsPer100g": 0,
+      "fatPer100g": 0.7,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Pollock",
+      "caloriesPer100g": 92,
+      "proteinPer100g": 20,
+      "carbsPer100g": 0,
+      "fatPer100g": 0.9,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Anchovies - Canned",
+      "caloriesPer100g": 210,
+      "proteinPer100g": 28,
+      "carbsPer100g": 0,
+      "fatPer100g": 10,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Herring",
+      "caloriesPer100g": 158,
+      "proteinPer100g": 18,
+      "carbsPer100g": 0,
+      "fatPer100g": 9,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Wheat Berries",
+      "caloriesPer100g": 340,
+      "proteinPer100g": 13,
+      "carbsPer100g": 72,
+      "fatPer100g": 2,
+      "fiberPer100g": 12
+    },
+    {
+      "name": "Spelt",
+      "caloriesPer100g": 338,
+      "proteinPer100g": 15,
+      "carbsPer100g": 71,
+      "fatPer100g": 2.4,
+      "fiberPer100g": 11
+    },
+    {
+      "name": "Kamut",
+      "caloriesPer100g": 337,
+      "proteinPer100g": 15,
+      "carbsPer100g": 71,
+      "fatPer100g": 2.1,
+      "fiberPer100g": 9
+    },
+    {
+      "name": "Teff",
+      "caloriesPer100g": 367,
+      "proteinPer100g": 13,
+      "carbsPer100g": 73,
+      "fatPer100g": 2.4,
+      "fiberPer100g": 8
+    },
+    {
+      "name": "Sorghum",
+      "caloriesPer100g": 339,
+      "proteinPer100g": 11,
+      "carbsPer100g": 75,
+      "fatPer100g": 3.3,
+      "fiberPer100g": 6.7
+    },
+    {
+      "name": "Artichoke",
+      "caloriesPer100g": 47,
+      "proteinPer100g": 3.3,
+      "carbsPer100g": 11,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 5.4
+    },
+    {
+      "name": "Okra",
+      "caloriesPer100g": 33,
+      "proteinPer100g": 2,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 3.2
+    },
+    {
+      "name": "Bamboo Shoots",
+      "caloriesPer100g": 27,
+      "proteinPer100g": 2.6,
+      "carbsPer100g": 5,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 2.2
+    },
+    {
+      "name": "Jicama",
+      "caloriesPer100g": 38,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 9,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 4.9
+    },
+    {
+      "name": "Kohlrabi",
+      "caloriesPer100g": 27,
+      "proteinPer100g": 1.7,
+      "carbsPer100g": 6,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 3.6
+    },
+    {
+      "name": "Daikon",
+      "caloriesPer100g": 18,
+      "proteinPer100g": 0.6,
+      "carbsPer100g": 4.1,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.6
+    },
+    {
+      "name": "Water Chestnuts",
+      "caloriesPer100g": 97,
+      "proteinPer100g": 1.4,
+      "carbsPer100g": 24,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 3
+    },
+    {
+      "name": "Hearts of Palm",
+      "caloriesPer100g": 28,
+      "proteinPer100g": 2.5,
+      "carbsPer100g": 5,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 1.5
+    },
+    {
+      "name": "Seaweed - Nori",
+      "caloriesPer100g": 35,
+      "proteinPer100g": 5.8,
+      "carbsPer100g": 5,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 0.3
+    },
+    {
+      "name": "Seaweed - Wakame",
+      "caloriesPer100g": 45,
+      "proteinPer100g": 3,
+      "carbsPer100g": 9,
+      "fatPer100g": 0.6,
+      "fiberPer100g": 0.5
+    },
+    {
+      "name": "Dragon Fruit",
+      "caloriesPer100g": 60,
+      "proteinPer100g": 1.2,
+      "carbsPer100g": 13,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 3
+    },
+    {
+      "name": "Passion Fruit",
+      "caloriesPer100g": 97,
+      "proteinPer100g": 2.2,
+      "carbsPer100g": 23,
+      "fatPer100g": 0.7,
+      "fiberPer100g": 10
+    },
+    {
+      "name": "Guava",
+      "caloriesPer100g": 68,
+      "proteinPer100g": 2.6,
+      "carbsPer100g": 14,
+      "fatPer100g": 1,
+      "fiberPer100g": 5.4
+    },
+    {
+      "name": "Lychee",
+      "caloriesPer100g": 66,
+      "proteinPer100g": 0.8,
+      "carbsPer100g": 17,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 1.3
+    },
+    {
+      "name": "Rambutan",
+      "caloriesPer100g": 82,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 21,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 0.9
+    },
+    {
+      "name": "Longan",
+      "caloriesPer100g": 60,
+      "proteinPer100g": 1.3,
+      "carbsPer100g": 15,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.1
+    },
+    {
+      "name": "Jackfruit",
+      "caloriesPer100g": 95,
+      "proteinPer100g": 1.7,
+      "carbsPer100g": 23,
+      "fatPer100g": 0.6,
+      "fiberPer100g": 1.5
+    },
+    {
+      "name": "Durian",
+      "caloriesPer100g": 147,
+      "proteinPer100g": 1.5,
+      "carbsPer100g": 27,
+      "fatPer100g": 5.3,
+      "fiberPer100g": 3.8
+    },
+    {
+      "name": "Star Fruit",
+      "caloriesPer100g": 31,
+      "proteinPer100g": 1,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 2.8
+    },
+    {
+      "name": "Persimmon",
+      "caloriesPer100g": 70,
+      "proteinPer100g": 0.6,
+      "carbsPer100g": 18,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 3.6
+    },
+    {
+      "name": "Pomegranate Seeds",
+      "caloriesPer100g": 83,
+      "proteinPer100g": 1.7,
+      "carbsPer100g": 19,
+      "fatPer100g": 1.2,
+      "fiberPer100g": 4
+    },
+    {
+      "name": "Goji Berries - Dried",
+      "caloriesPer100g": 349,
+      "proteinPer100g": 14,
+      "carbsPer100g": 77,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 13
+    },
+    {
+      "name": "Acai Berries",
+      "caloriesPer100g": 70,
+      "proteinPer100g": 1,
+      "carbsPer100g": 4,
+      "fatPer100g": 5,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Protein Bar",
+      "caloriesPer100g": 400,
+      "proteinPer100g": 20,
+      "carbsPer100g": 40,
+      "fatPer100g": 15,
+      "fiberPer100g": 5
+    },
+    {
+      "name": "Energy Bar",
+      "caloriesPer100g": 450,
+      "proteinPer100g": 10,
+      "carbsPer100g": 60,
+      "fatPer100g": 15,
+      "fiberPer100g": 5
+    },
+    {
+      "name": "Granola Bar",
+      "caloriesPer100g": 471,
+      "proteinPer100g": 10,
+      "carbsPer100g": 64,
+      "fatPer100g": 20,
+      "fiberPer100g": 5
+    },
+    {
+      "name": "Trail Mix",
+      "caloriesPer100g": 462,
+      "proteinPer100g": 13,
+      "carbsPer100g": 45,
+      "fatPer100g": 30,
+      "fiberPer100g": 4.5
+    },
+    {
+      "name": "Protein Shake",
+      "caloriesPer100g": 75,
+      "proteinPer100g": 15,
+      "carbsPer100g": 3,
+      "fatPer100g": 1,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Smoothie - Berry",
+      "caloriesPer100g": 50,
+      "proteinPer100g": 1,
+      "carbsPer100g": 12,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Smoothie - Green",
+      "caloriesPer100g": 35,
+      "proteinPer100g": 1.5,
+      "carbsPer100g": 8,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 2.5
+    },
+    {
+      "name": "Smoothie - Protein",
+      "caloriesPer100g": 80,
+      "proteinPer100g": 20,
+      "carbsPer100g": 5,
+      "fatPer100g": 1,
+      "fiberPer100g": 1
+    },
+    {
+      "name": "Chicken - Raw",
+      "caloriesPer100g": 165,
+      "proteinPer100g": 31,
+      "carbsPer100g": 0,
+      "fatPer100g": 3,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Chicken - Cooked",
+      "caloriesPer100g": 165,
+      "proteinPer100g": 31,
+      "carbsPer100g": 0,
+      "fatPer100g": 3,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Chicken - Grilled",
+      "caloriesPer100g": 165,
+      "proteinPer100g": 31,
+      "carbsPer100g": 0,
+      "fatPer100g": 3,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Chicken - Baked",
+      "caloriesPer100g": 165,
+      "proteinPer100g": 31,
+      "carbsPer100g": 0,
+      "fatPer100g": 3,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Chicken - Roasted",
+      "caloriesPer100g": 173,
+      "proteinPer100g": 32,
+      "carbsPer100g": 0,
+      "fatPer100g": 3,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Chicken - Fried",
+      "caloriesPer100g": 230,
+      "proteinPer100g": 43,
+      "carbsPer100g": 0,
+      "fatPer100g": 5,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Chicken - Steamed",
+      "caloriesPer100g": 156,
+      "proteinPer100g": 31,
+      "carbsPer100g": 0,
+      "fatPer100g": 3,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Chicken - Boiled",
+      "caloriesPer100g": 156,
+      "proteinPer100g": 31,
+      "carbsPer100g": 0,
+      "fatPer100g": 3,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Chicken - Pan Seared",
+      "caloriesPer100g": 181,
+      "proteinPer100g": 34,
+      "carbsPer100g": 0,
+      "fatPer100g": 3,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Chicken - Smoked",
+      "caloriesPer100g": 99,
+      "proteinPer100g": 31,
+      "carbsPer100g": 0,
+      "fatPer100g": 2,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Turkey - Raw",
+      "caloriesPer100g": 189,
+      "proteinPer100g": 27,
+      "carbsPer100g": 0,
+      "fatPer100g": 8,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Turkey - Cooked",
+      "caloriesPer100g": 189,
+      "proteinPer100g": 27,
+      "carbsPer100g": 0,
+      "fatPer100g": 8,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Turkey - Grilled",
+      "caloriesPer100g": 189,
+      "proteinPer100g": 27,
+      "carbsPer100g": 0,
+      "fatPer100g": 8,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Turkey - Baked",
+      "caloriesPer100g": 189,
+      "proteinPer100g": 27,
+      "carbsPer100g": 0,
+      "fatPer100g": 8,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Turkey - Roasted",
+      "caloriesPer100g": 198,
+      "proteinPer100g": 28,
+      "carbsPer100g": 0,
+      "fatPer100g": 8,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Turkey - Fried",
+      "caloriesPer100g": 264,
+      "proteinPer100g": 37,
+      "carbsPer100g": 0,
+      "fatPer100g": 11,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Turkey - Steamed",
+      "caloriesPer100g": 179,
+      "proteinPer100g": 27,
+      "carbsPer100g": 0,
+      "fatPer100g": 7,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Turkey - Boiled",
+      "caloriesPer100g": 179,
+      "proteinPer100g": 27,
+      "carbsPer100g": 0,
+      "fatPer100g": 7,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Turkey - Pan Seared",
+      "caloriesPer100g": 207,
+      "proteinPer100g": 29,
+      "carbsPer100g": 0,
+      "fatPer100g": 8,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Turkey - Smoked",
+      "caloriesPer100g": 113,
+      "proteinPer100g": 27,
+      "carbsPer100g": 0,
+      "fatPer100g": 4,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Beef - Raw",
+      "caloriesPer100g": 250,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0,
+      "fatPer100g": 17,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Beef - Cooked",
+      "caloriesPer100g": 250,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0,
+      "fatPer100g": 17,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Beef - Grilled",
+      "caloriesPer100g": 250,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0,
+      "fatPer100g": 17,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Beef - Baked",
+      "caloriesPer100g": 250,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0,
+      "fatPer100g": 17,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Beef - Roasted",
+      "caloriesPer100g": 262,
+      "proteinPer100g": 27,
+      "carbsPer100g": 0,
+      "fatPer100g": 17,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Beef - Fried",
+      "caloriesPer100g": 350,
+      "proteinPer100g": 36,
+      "carbsPer100g": 0,
+      "fatPer100g": 23,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Beef - Steamed",
+      "caloriesPer100g": 237,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0,
+      "fatPer100g": 16,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Beef - Boiled",
+      "caloriesPer100g": 237,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0,
+      "fatPer100g": 16,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Beef - Pan Seared",
+      "caloriesPer100g": 275,
+      "proteinPer100g": 28,
+      "carbsPer100g": 0,
+      "fatPer100g": 18,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Beef - Smoked",
+      "caloriesPer100g": 150,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0,
+      "fatPer100g": 10,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Pork - Raw",
+      "caloriesPer100g": 242,
+      "proteinPer100g": 27,
+      "carbsPer100g": 0,
+      "fatPer100g": 14,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Pork - Cooked",
+      "caloriesPer100g": 242,
+      "proteinPer100g": 27,
+      "carbsPer100g": 0,
+      "fatPer100g": 14,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Pork - Grilled",
+      "caloriesPer100g": 242,
+      "proteinPer100g": 27,
+      "carbsPer100g": 0,
+      "fatPer100g": 14,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Pork - Baked",
+      "caloriesPer100g": 242,
+      "proteinPer100g": 27,
+      "carbsPer100g": 0,
+      "fatPer100g": 14,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Pork - Roasted",
+      "caloriesPer100g": 254,
+      "proteinPer100g": 28,
+      "carbsPer100g": 0,
+      "fatPer100g": 14,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Pork - Fried",
+      "caloriesPer100g": 338,
+      "proteinPer100g": 37,
+      "carbsPer100g": 0,
+      "fatPer100g": 19,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Pork - Steamed",
+      "caloriesPer100g": 229,
+      "proteinPer100g": 27,
+      "carbsPer100g": 0,
+      "fatPer100g": 13,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Pork - Boiled",
+      "caloriesPer100g": 229,
+      "proteinPer100g": 27,
+      "carbsPer100g": 0,
+      "fatPer100g": 13,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Pork - Pan Seared",
+      "caloriesPer100g": 266,
+      "proteinPer100g": 29,
+      "carbsPer100g": 0,
+      "fatPer100g": 15,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Pork - Smoked",
+      "caloriesPer100g": 145,
+      "proteinPer100g": 27,
+      "carbsPer100g": 0,
+      "fatPer100g": 8,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Lamb - Raw",
+      "caloriesPer100g": 250,
+      "proteinPer100g": 25,
+      "carbsPer100g": 0,
+      "fatPer100g": 17,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Lamb - Cooked",
+      "caloriesPer100g": 250,
+      "proteinPer100g": 25,
+      "carbsPer100g": 0,
+      "fatPer100g": 17,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Lamb - Grilled",
+      "caloriesPer100g": 250,
+      "proteinPer100g": 25,
+      "carbsPer100g": 0,
+      "fatPer100g": 17,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Lamb - Baked",
+      "caloriesPer100g": 250,
+      "proteinPer100g": 25,
+      "carbsPer100g": 0,
+      "fatPer100g": 17,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Lamb - Roasted",
+      "caloriesPer100g": 262,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0,
+      "fatPer100g": 17,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Lamb - Fried",
+      "caloriesPer100g": 350,
+      "proteinPer100g": 35,
+      "carbsPer100g": 0,
+      "fatPer100g": 23,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Lamb - Steamed",
+      "caloriesPer100g": 237,
+      "proteinPer100g": 25,
+      "carbsPer100g": 0,
+      "fatPer100g": 16,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Lamb - Boiled",
+      "caloriesPer100g": 237,
+      "proteinPer100g": 25,
+      "carbsPer100g": 0,
+      "fatPer100g": 16,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Lamb - Pan Seared",
+      "caloriesPer100g": 275,
+      "proteinPer100g": 27,
+      "carbsPer100g": 0,
+      "fatPer100g": 18,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Lamb - Smoked",
+      "caloriesPer100g": 150,
+      "proteinPer100g": 25,
+      "carbsPer100g": 0,
+      "fatPer100g": 10,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Duck - Raw",
+      "caloriesPer100g": 201,
+      "proteinPer100g": 19,
+      "carbsPer100g": 0,
+      "fatPer100g": 14,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Duck - Cooked",
+      "caloriesPer100g": 201,
+      "proteinPer100g": 19,
+      "carbsPer100g": 0,
+      "fatPer100g": 14,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Duck - Grilled",
+      "caloriesPer100g": 201,
+      "proteinPer100g": 19,
+      "carbsPer100g": 0,
+      "fatPer100g": 14,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Duck - Baked",
+      "caloriesPer100g": 201,
+      "proteinPer100g": 19,
+      "carbsPer100g": 0,
+      "fatPer100g": 14,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Duck - Roasted",
+      "caloriesPer100g": 211,
+      "proteinPer100g": 19,
+      "carbsPer100g": 0,
+      "fatPer100g": 14,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Duck - Fried",
+      "caloriesPer100g": 281,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0,
+      "fatPer100g": 19,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Duck - Steamed",
+      "caloriesPer100g": 190,
+      "proteinPer100g": 19,
+      "carbsPer100g": 0,
+      "fatPer100g": 13,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Duck - Boiled",
+      "caloriesPer100g": 190,
+      "proteinPer100g": 19,
+      "carbsPer100g": 0,
+      "fatPer100g": 13,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Duck - Pan Seared",
+      "caloriesPer100g": 221,
+      "proteinPer100g": 20,
+      "carbsPer100g": 0,
+      "fatPer100g": 15,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Duck - Smoked",
+      "caloriesPer100g": 120,
+      "proteinPer100g": 19,
+      "carbsPer100g": 0,
+      "fatPer100g": 8,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Salmon - Grilled",
+      "caloriesPer100g": 208,
+      "proteinPer100g": 20,
+      "carbsPer100g": 0,
+      "fatPer100g": 12,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Salmon - Baked",
+      "caloriesPer100g": 208,
+      "proteinPer100g": 20,
+      "carbsPer100g": 0,
+      "fatPer100g": 12,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Salmon - Roasted",
+      "caloriesPer100g": 218,
+      "proteinPer100g": 21,
+      "carbsPer100g": 0,
+      "fatPer100g": 12,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Salmon - Fried",
+      "caloriesPer100g": 291,
+      "proteinPer100g": 28,
+      "carbsPer100g": 0,
+      "fatPer100g": 16,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Salmon - Steamed",
+      "caloriesPer100g": 197,
+      "proteinPer100g": 20,
+      "carbsPer100g": 0,
+      "fatPer100g": 11,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Salmon - Boiled",
+      "caloriesPer100g": 197,
+      "proteinPer100g": 20,
+      "carbsPer100g": 0,
+      "fatPer100g": 11,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Salmon - Pan Seared",
+      "caloriesPer100g": 228,
+      "proteinPer100g": 22,
+      "carbsPer100g": 0,
+      "fatPer100g": 13,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Tuna - Cooked",
+      "caloriesPer100g": 144,
+      "proteinPer100g": 30,
+      "carbsPer100g": 0,
+      "fatPer100g": 1,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Tuna - Grilled",
+      "caloriesPer100g": 144,
+      "proteinPer100g": 30,
+      "carbsPer100g": 0,
+      "fatPer100g": 1,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Tuna - Baked",
+      "caloriesPer100g": 144,
+      "proteinPer100g": 30,
+      "carbsPer100g": 0,
+      "fatPer100g": 1,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Tuna - Roasted",
+      "caloriesPer100g": 151,
+      "proteinPer100g": 31,
+      "carbsPer100g": 0,
+      "fatPer100g": 1,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Tuna - Fried",
+      "caloriesPer100g": 201,
+      "proteinPer100g": 42,
+      "carbsPer100g": 0,
+      "fatPer100g": 1,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Tuna - Steamed",
+      "caloriesPer100g": 136,
+      "proteinPer100g": 30,
+      "carbsPer100g": 0,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Tuna - Boiled",
+      "caloriesPer100g": 136,
+      "proteinPer100g": 30,
+      "carbsPer100g": 0,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Tuna - Pan Seared",
+      "caloriesPer100g": 158,
+      "proteinPer100g": 33,
+      "carbsPer100g": 0,
+      "fatPer100g": 1,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Tuna - Smoked",
+      "caloriesPer100g": 86,
+      "proteinPer100g": 30,
+      "carbsPer100g": 0,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Cod - Grilled",
+      "caloriesPer100g": 82,
+      "proteinPer100g": 18,
+      "carbsPer100g": 0,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Cod - Baked",
+      "caloriesPer100g": 82,
+      "proteinPer100g": 18,
+      "carbsPer100g": 0,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Cod - Roasted",
+      "caloriesPer100g": 86,
+      "proteinPer100g": 18,
+      "carbsPer100g": 0,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Cod - Fried",
+      "caloriesPer100g": 114,
+      "proteinPer100g": 25,
+      "carbsPer100g": 0,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Cod - Steamed",
+      "caloriesPer100g": 77,
+      "proteinPer100g": 18,
+      "carbsPer100g": 0,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Cod - Boiled",
+      "caloriesPer100g": 77,
+      "proteinPer100g": 18,
+      "carbsPer100g": 0,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Cod - Pan Seared",
+      "caloriesPer100g": 90,
+      "proteinPer100g": 19,
+      "carbsPer100g": 0,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Cod - Smoked",
+      "caloriesPer100g": 49,
+      "proteinPer100g": 18,
+      "carbsPer100g": 0,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Tilapia - Grilled",
+      "caloriesPer100g": 128,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0,
+      "fatPer100g": 2,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Tilapia - Baked",
+      "caloriesPer100g": 128,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0,
+      "fatPer100g": 2,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Tilapia - Roasted",
+      "caloriesPer100g": 134,
+      "proteinPer100g": 27,
+      "carbsPer100g": 0,
+      "fatPer100g": 2,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Tilapia - Fried",
+      "caloriesPer100g": 179,
+      "proteinPer100g": 36,
+      "carbsPer100g": 0,
+      "fatPer100g": 3,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Tilapia - Steamed",
+      "caloriesPer100g": 121,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0,
+      "fatPer100g": 2,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Tilapia - Boiled",
+      "caloriesPer100g": 121,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0,
+      "fatPer100g": 2,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Tilapia - Pan Seared",
+      "caloriesPer100g": 140,
+      "proteinPer100g": 28,
+      "carbsPer100g": 0,
+      "fatPer100g": 2,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Tilapia - Smoked",
+      "caloriesPer100g": 76,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0,
+      "fatPer100g": 1,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Shrimp - Grilled",
+      "caloriesPer100g": 99,
+      "proteinPer100g": 24,
+      "carbsPer100g": 0.2,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Shrimp - Baked",
+      "caloriesPer100g": 99,
+      "proteinPer100g": 24,
+      "carbsPer100g": 0.2,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Shrimp - Roasted",
+      "caloriesPer100g": 103,
+      "proteinPer100g": 25,
+      "carbsPer100g": 0.2,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Shrimp - Fried",
+      "caloriesPer100g": 138,
+      "proteinPer100g": 33,
+      "carbsPer100g": 0.2,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Shrimp - Steamed",
+      "caloriesPer100g": 94,
+      "proteinPer100g": 24,
+      "carbsPer100g": 0.2,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Shrimp - Boiled",
+      "caloriesPer100g": 94,
+      "proteinPer100g": 24,
+      "carbsPer100g": 0.2,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Shrimp - Pan Seared",
+      "caloriesPer100g": 108,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0.2,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Shrimp - Smoked",
+      "caloriesPer100g": 59,
+      "proteinPer100g": 24,
+      "carbsPer100g": 0.2,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Scallops - Raw",
+      "caloriesPer100g": 69,
+      "proteinPer100g": 12,
+      "carbsPer100g": 3.2,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Scallops - Cooked",
+      "caloriesPer100g": 69,
+      "proteinPer100g": 12,
+      "carbsPer100g": 3.2,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Scallops - Grilled",
+      "caloriesPer100g": 69,
+      "proteinPer100g": 12,
+      "carbsPer100g": 3.2,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Scallops - Baked",
+      "caloriesPer100g": 69,
+      "proteinPer100g": 12,
+      "carbsPer100g": 3.2,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Scallops - Roasted",
+      "caloriesPer100g": 72,
+      "proteinPer100g": 12,
+      "carbsPer100g": 3.2,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Scallops - Fried",
+      "caloriesPer100g": 96,
+      "proteinPer100g": 16,
+      "carbsPer100g": 3.2,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Scallops - Steamed",
+      "caloriesPer100g": 65,
+      "proteinPer100g": 12,
+      "carbsPer100g": 3.2,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Scallops - Boiled",
+      "caloriesPer100g": 65,
+      "proteinPer100g": 12,
+      "carbsPer100g": 3.2,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Scallops - Pan Seared",
+      "caloriesPer100g": 75,
+      "proteinPer100g": 13,
+      "carbsPer100g": 3.2,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Scallops - Smoked",
+      "caloriesPer100g": 41,
+      "proteinPer100g": 12,
+      "carbsPer100g": 3.2,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Lobster - Raw",
+      "caloriesPer100g": 89,
+      "proteinPer100g": 19,
+      "carbsPer100g": 0.5,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Lobster - Cooked",
+      "caloriesPer100g": 89,
+      "proteinPer100g": 19,
+      "carbsPer100g": 0.5,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Lobster - Grilled",
+      "caloriesPer100g": 89,
+      "proteinPer100g": 19,
+      "carbsPer100g": 0.5,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Lobster - Baked",
+      "caloriesPer100g": 89,
+      "proteinPer100g": 19,
+      "carbsPer100g": 0.5,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Lobster - Roasted",
+      "caloriesPer100g": 93,
+      "proteinPer100g": 19,
+      "carbsPer100g": 0.5,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Lobster - Fried",
+      "caloriesPer100g": 124,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0.5,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Lobster - Steamed",
+      "caloriesPer100g": 84,
+      "proteinPer100g": 19,
+      "carbsPer100g": 0.5,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Lobster - Boiled",
+      "caloriesPer100g": 84,
+      "proteinPer100g": 19,
+      "carbsPer100g": 0.5,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Lobster - Pan Seared",
+      "caloriesPer100g": 97,
+      "proteinPer100g": 20,
+      "carbsPer100g": 0.5,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Lobster - Smoked",
+      "caloriesPer100g": 53,
+      "proteinPer100g": 19,
+      "carbsPer100g": 0.5,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Crab - Raw",
+      "caloriesPer100g": 87,
+      "proteinPer100g": 18,
+      "carbsPer100g": 0,
+      "fatPer100g": 1,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Crab - Cooked",
+      "caloriesPer100g": 87,
+      "proteinPer100g": 18,
+      "carbsPer100g": 0,
+      "fatPer100g": 1,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Crab - Grilled",
+      "caloriesPer100g": 87,
+      "proteinPer100g": 18,
+      "carbsPer100g": 0,
+      "fatPer100g": 1,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Crab - Baked",
+      "caloriesPer100g": 87,
+      "proteinPer100g": 18,
+      "carbsPer100g": 0,
+      "fatPer100g": 1,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Crab - Roasted",
+      "caloriesPer100g": 91,
+      "proteinPer100g": 18,
+      "carbsPer100g": 0,
+      "fatPer100g": 1,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Crab - Fried",
+      "caloriesPer100g": 121,
+      "proteinPer100g": 25,
+      "carbsPer100g": 0,
+      "fatPer100g": 1,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Crab - Steamed",
+      "caloriesPer100g": 82,
+      "proteinPer100g": 18,
+      "carbsPer100g": 0,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Crab - Boiled",
+      "caloriesPer100g": 82,
+      "proteinPer100g": 18,
+      "carbsPer100g": 0,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Crab - Pan Seared",
+      "caloriesPer100g": 95,
+      "proteinPer100g": 19,
+      "carbsPer100g": 0,
+      "fatPer100g": 1,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Crab - Smoked",
+      "caloriesPer100g": 52,
+      "proteinPer100g": 18,
+      "carbsPer100g": 0,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Broccoli - Steamed",
+      "caloriesPer100g": 34,
+      "proteinPer100g": 2.8,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 2.6
+    },
+    {
+      "name": "Broccoli - Roasted",
+      "caloriesPer100g": 37,
+      "proteinPer100g": 2.8,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 2.6
+    },
+    {
+      "name": "Broccoli - Grilled",
+      "caloriesPer100g": 34,
+      "proteinPer100g": 2.8,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 2.6
+    },
+    {
+      "name": "Cauliflower - Steamed",
+      "caloriesPer100g": 25,
+      "proteinPer100g": 1.9,
+      "carbsPer100g": 5,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Cauliflower - Roasted",
+      "caloriesPer100g": 27,
+      "proteinPer100g": 1.9,
+      "carbsPer100g": 5,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Cauliflower - Grilled",
+      "caloriesPer100g": 25,
+      "proteinPer100g": 1.9,
+      "carbsPer100g": 5,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Spinach - Steamed",
+      "caloriesPer100g": 23,
+      "proteinPer100g": 2.9,
+      "carbsPer100g": 3,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 2.2
+    },
+    {
+      "name": "Spinach - Roasted",
+      "caloriesPer100g": 25,
+      "proteinPer100g": 2.9,
+      "carbsPer100g": 3,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 2.2
+    },
+    {
+      "name": "Spinach - Grilled",
+      "caloriesPer100g": 23,
+      "proteinPer100g": 2.9,
+      "carbsPer100g": 3,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 2.2
+    },
+    {
+      "name": "Kale - Steamed",
+      "caloriesPer100g": 49,
+      "proteinPer100g": 4.3,
+      "carbsPer100g": 9,
+      "fatPer100g": 0.9,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Kale - Roasted",
+      "caloriesPer100g": 53,
+      "proteinPer100g": 4.3,
+      "carbsPer100g": 9,
+      "fatPer100g": 0.9,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Kale - Grilled",
+      "caloriesPer100g": 49,
+      "proteinPer100g": 4.3,
+      "carbsPer100g": 9,
+      "fatPer100g": 0.9,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Asparagus - Steamed",
+      "caloriesPer100g": 20,
+      "proteinPer100g": 2.2,
+      "carbsPer100g": 3,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 2.1
+    },
+    {
+      "name": "Asparagus - Roasted",
+      "caloriesPer100g": 22,
+      "proteinPer100g": 2.2,
+      "carbsPer100g": 4,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 2.1
+    },
+    {
+      "name": "Asparagus - Grilled",
+      "caloriesPer100g": 20,
+      "proteinPer100g": 2.2,
+      "carbsPer100g": 3,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 2.1
+    },
+    {
+      "name": "Green Beans - Steamed",
+      "caloriesPer100g": 31,
+      "proteinPer100g": 1.8,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2.7
+    },
+    {
+      "name": "Green Beans - Roasted",
+      "caloriesPer100g": 34,
+      "proteinPer100g": 1.8,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2.7
+    },
+    {
+      "name": "Green Beans - Grilled",
+      "caloriesPer100g": 31,
+      "proteinPer100g": 1.8,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2.7
+    },
+    {
+      "name": "Zucchini - Steamed",
+      "caloriesPer100g": 17,
+      "proteinPer100g": 1.2,
+      "carbsPer100g": 3,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 1
+    },
+    {
+      "name": "Zucchini - Roasted",
+      "caloriesPer100g": 18,
+      "proteinPer100g": 1.2,
+      "carbsPer100g": 3,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 1
+    },
+    {
+      "name": "Zucchini - Grilled",
+      "caloriesPer100g": 17,
+      "proteinPer100g": 1.2,
+      "carbsPer100g": 3,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 1
+    },
+    {
+      "name": "Carrots - Steamed",
+      "caloriesPer100g": 41,
+      "proteinPer100g": 0.9,
+      "carbsPer100g": 10,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2.8
+    },
+    {
+      "name": "Carrots - Roasted",
+      "caloriesPer100g": 45,
+      "proteinPer100g": 0.9,
+      "carbsPer100g": 11,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2.8
+    },
+    {
+      "name": "Carrots - Grilled",
+      "caloriesPer100g": 41,
+      "proteinPer100g": 0.9,
+      "carbsPer100g": 10,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2.8
+    },
+    {
+      "name": "Bell Pepper - Raw",
+      "caloriesPer100g": 31,
+      "proteinPer100g": 1,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 2.5
+    },
+    {
+      "name": "Bell Pepper - Cooked",
+      "caloriesPer100g": 31,
+      "proteinPer100g": 1,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 2.5
+    },
+    {
+      "name": "Bell Pepper - Steamed",
+      "caloriesPer100g": 31,
+      "proteinPer100g": 1,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 2.5
+    },
+    {
+      "name": "Bell Pepper - Roasted",
+      "caloriesPer100g": 34,
+      "proteinPer100g": 1,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 2.5
+    },
+    {
+      "name": "Bell Pepper - Grilled",
+      "caloriesPer100g": 31,
+      "proteinPer100g": 1,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 2.5
+    },
+    {
+      "name": "Tomato - Steamed",
+      "caloriesPer100g": 18,
+      "proteinPer100g": 0.9,
+      "carbsPer100g": 3,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 1.2
+    },
+    {
+      "name": "Tomato - Roasted",
+      "caloriesPer100g": 19,
+      "proteinPer100g": 0.9,
+      "carbsPer100g": 4,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 1.2
+    },
+    {
+      "name": "Tomato - Grilled",
+      "caloriesPer100g": 18,
+      "proteinPer100g": 0.9,
+      "carbsPer100g": 3,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 1.2
+    },
+    {
+      "name": "Cucumber - Raw",
+      "caloriesPer100g": 16,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 4,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 0.5
+    },
+    {
+      "name": "Cucumber - Cooked",
+      "caloriesPer100g": 16,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 4,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 0.5
+    },
+    {
+      "name": "Cucumber - Steamed",
+      "caloriesPer100g": 16,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 4,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 0.5
+    },
+    {
+      "name": "Cucumber - Roasted",
+      "caloriesPer100g": 17,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 4,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 0.5
+    },
+    {
+      "name": "Cucumber - Grilled",
+      "caloriesPer100g": 16,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 4,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 0.5
+    },
+    {
+      "name": "Mushrooms - Raw",
+      "caloriesPer100g": 22,
+      "proteinPer100g": 3.1,
+      "carbsPer100g": 3,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 1
+    },
+    {
+      "name": "Mushrooms - Cooked",
+      "caloriesPer100g": 22,
+      "proteinPer100g": 3.1,
+      "carbsPer100g": 3,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 1
+    },
+    {
+      "name": "Mushrooms - Steamed",
+      "caloriesPer100g": 22,
+      "proteinPer100g": 3.1,
+      "carbsPer100g": 3,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 1
+    },
+    {
+      "name": "Mushrooms - Roasted",
+      "caloriesPer100g": 24,
+      "proteinPer100g": 3.1,
+      "carbsPer100g": 3,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 1
+    },
+    {
+      "name": "Mushrooms - Grilled",
+      "caloriesPer100g": 22,
+      "proteinPer100g": 3.1,
+      "carbsPer100g": 3,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 1
+    },
+    {
+      "name": "Onion - Raw",
+      "caloriesPer100g": 40,
+      "proteinPer100g": 1.1,
+      "carbsPer100g": 9,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.7
+    },
+    {
+      "name": "Onion - Cooked",
+      "caloriesPer100g": 40,
+      "proteinPer100g": 1.1,
+      "carbsPer100g": 9,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.7
+    },
+    {
+      "name": "Onion - Steamed",
+      "caloriesPer100g": 40,
+      "proteinPer100g": 1.1,
+      "carbsPer100g": 9,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.7
+    },
+    {
+      "name": "Onion - Roasted",
+      "caloriesPer100g": 44,
+      "proteinPer100g": 1.1,
+      "carbsPer100g": 9,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.7
+    },
+    {
+      "name": "Onion - Grilled",
+      "caloriesPer100g": 40,
+      "proteinPer100g": 1.1,
+      "carbsPer100g": 9,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.7
+    },
+    {
+      "name": "Celery - Raw",
+      "caloriesPer100g": 16,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 3,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 1.6
+    },
+    {
+      "name": "Celery - Cooked",
+      "caloriesPer100g": 16,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 3,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 1.6
+    },
+    {
+      "name": "Celery - Steamed",
+      "caloriesPer100g": 16,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 3,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 1.6
+    },
+    {
+      "name": "Celery - Roasted",
+      "caloriesPer100g": 17,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 3,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 1.6
+    },
+    {
+      "name": "Celery - Grilled",
+      "caloriesPer100g": 16,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 3,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 1.6
+    },
+    {
+      "name": "Cabbage - Raw",
+      "caloriesPer100g": 25,
+      "proteinPer100g": 1.3,
+      "carbsPer100g": 6,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 2.5
+    },
+    {
+      "name": "Cabbage - Cooked",
+      "caloriesPer100g": 25,
+      "proteinPer100g": 1.3,
+      "carbsPer100g": 6,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 2.5
+    },
+    {
+      "name": "Cabbage - Steamed",
+      "caloriesPer100g": 25,
+      "proteinPer100g": 1.3,
+      "carbsPer100g": 6,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 2.5
+    },
+    {
+      "name": "Cabbage - Roasted",
+      "caloriesPer100g": 27,
+      "proteinPer100g": 1.3,
+      "carbsPer100g": 6,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 2.5
+    },
+    {
+      "name": "Cabbage - Grilled",
+      "caloriesPer100g": 25,
+      "proteinPer100g": 1.3,
+      "carbsPer100g": 6,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 2.5
+    },
+    {
+      "name": "Brussels Sprouts - Steamed",
+      "caloriesPer100g": 43,
+      "proteinPer100g": 3.4,
+      "carbsPer100g": 9,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 3.8
+    },
+    {
+      "name": "Brussels Sprouts - Roasted",
+      "caloriesPer100g": 47,
+      "proteinPer100g": 3.4,
+      "carbsPer100g": 9,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 3.8
+    },
+    {
+      "name": "Brussels Sprouts - Grilled",
+      "caloriesPer100g": 43,
+      "proteinPer100g": 3.4,
+      "carbsPer100g": 9,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 3.8
+    },
+    {
+      "name": "Beets - Steamed",
+      "caloriesPer100g": 43,
+      "proteinPer100g": 1.6,
+      "carbsPer100g": 10,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2.8
+    },
+    {
+      "name": "Beets - Roasted",
+      "caloriesPer100g": 47,
+      "proteinPer100g": 1.6,
+      "carbsPer100g": 11,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2.8
+    },
+    {
+      "name": "Beets - Grilled",
+      "caloriesPer100g": 43,
+      "proteinPer100g": 1.6,
+      "carbsPer100g": 10,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2.8
+    },
+    {
+      "name": "Radish - Raw",
+      "caloriesPer100g": 16,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 3,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.6
+    },
+    {
+      "name": "Radish - Cooked",
+      "caloriesPer100g": 16,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 3,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.6
+    },
+    {
+      "name": "Radish - Steamed",
+      "caloriesPer100g": 16,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 3,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.6
+    },
+    {
+      "name": "Radish - Roasted",
+      "caloriesPer100g": 17,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 3,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.6
+    },
+    {
+      "name": "Radish - Grilled",
+      "caloriesPer100g": 16,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 3,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.6
+    },
+    {
+      "name": "Turnip - Raw",
+      "caloriesPer100g": 28,
+      "proteinPer100g": 0.9,
+      "carbsPer100g": 6,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Turnip - Cooked",
+      "caloriesPer100g": 28,
+      "proteinPer100g": 0.9,
+      "carbsPer100g": 6,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Turnip - Steamed",
+      "caloriesPer100g": 28,
+      "proteinPer100g": 0.9,
+      "carbsPer100g": 6,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Turnip - Roasted",
+      "caloriesPer100g": 30,
+      "proteinPer100g": 0.9,
+      "carbsPer100g": 6,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Turnip - Grilled",
+      "caloriesPer100g": 28,
+      "proteinPer100g": 0.9,
+      "carbsPer100g": 6,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Eggplant - Raw",
+      "caloriesPer100g": 25,
+      "proteinPer100g": 1,
+      "carbsPer100g": 6,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 3
+    },
+    {
+      "name": "Eggplant - Cooked",
+      "caloriesPer100g": 25,
+      "proteinPer100g": 1,
+      "carbsPer100g": 6,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 3
+    },
+    {
+      "name": "Eggplant - Steamed",
+      "caloriesPer100g": 25,
+      "proteinPer100g": 1,
+      "carbsPer100g": 6,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 3
+    },
+    {
+      "name": "Eggplant - Roasted",
+      "caloriesPer100g": 27,
+      "proteinPer100g": 1,
+      "carbsPer100g": 6,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 3
+    },
+    {
+      "name": "Eggplant - Grilled",
+      "caloriesPer100g": 25,
+      "proteinPer100g": 1,
+      "carbsPer100g": 6,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 3
+    },
+    {
+      "name": "Okra - Raw",
+      "caloriesPer100g": 33,
+      "proteinPer100g": 2,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 3.2
+    },
+    {
+      "name": "Okra - Cooked",
+      "caloriesPer100g": 33,
+      "proteinPer100g": 2,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 3.2
+    },
+    {
+      "name": "Okra - Steamed",
+      "caloriesPer100g": 33,
+      "proteinPer100g": 2,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 3.2
+    },
+    {
+      "name": "Okra - Roasted",
+      "caloriesPer100g": 36,
+      "proteinPer100g": 2,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 3.2
+    },
+    {
+      "name": "Okra - Grilled",
+      "caloriesPer100g": 33,
+      "proteinPer100g": 2,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 3.2
+    },
+    {
+      "name": "Artichoke - Raw",
+      "caloriesPer100g": 47,
+      "proteinPer100g": 3.3,
+      "carbsPer100g": 11,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 5.4
+    },
+    {
+      "name": "Artichoke - Cooked",
+      "caloriesPer100g": 47,
+      "proteinPer100g": 3.3,
+      "carbsPer100g": 11,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 5.4
+    },
+    {
+      "name": "Artichoke - Steamed",
+      "caloriesPer100g": 47,
+      "proteinPer100g": 3.3,
+      "carbsPer100g": 11,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 5.4
+    },
+    {
+      "name": "Artichoke - Roasted",
+      "caloriesPer100g": 51,
+      "proteinPer100g": 3.3,
+      "carbsPer100g": 12,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 5.4
+    },
+    {
+      "name": "Artichoke - Grilled",
+      "caloriesPer100g": 47,
+      "proteinPer100g": 3.3,
+      "carbsPer100g": 11,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 5.4
+    },
+    {
+      "name": "Leeks - Raw",
+      "caloriesPer100g": 61,
+      "proteinPer100g": 1.5,
+      "carbsPer100g": 14,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Leeks - Cooked",
+      "caloriesPer100g": 61,
+      "proteinPer100g": 1.5,
+      "carbsPer100g": 14,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Leeks - Steamed",
+      "caloriesPer100g": 61,
+      "proteinPer100g": 1.5,
+      "carbsPer100g": 14,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Leeks - Roasted",
+      "caloriesPer100g": 67,
+      "proteinPer100g": 1.5,
+      "carbsPer100g": 15,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Leeks - Grilled",
+      "caloriesPer100g": 61,
+      "proteinPer100g": 1.5,
+      "carbsPer100g": 14,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Fennel - Raw",
+      "caloriesPer100g": 31,
+      "proteinPer100g": 1.2,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 3.1
+    },
+    {
+      "name": "Fennel - Cooked",
+      "caloriesPer100g": 31,
+      "proteinPer100g": 1.2,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 3.1
+    },
+    {
+      "name": "Fennel - Steamed",
+      "caloriesPer100g": 31,
+      "proteinPer100g": 1.2,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 3.1
+    },
+    {
+      "name": "Fennel - Roasted",
+      "caloriesPer100g": 34,
+      "proteinPer100g": 1.2,
+      "carbsPer100g": 8,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 3.1
+    },
+    {
+      "name": "Fennel - Grilled",
+      "caloriesPer100g": 31,
+      "proteinPer100g": 1.2,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 3.1
+    },
+    {
+      "name": "Jicama - Raw",
+      "caloriesPer100g": 38,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 9,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 4.9
+    },
+    {
+      "name": "Jicama - Cooked",
+      "caloriesPer100g": 38,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 9,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 4.9
+    },
+    {
+      "name": "Jicama - Steamed",
+      "caloriesPer100g": 38,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 9,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 4.9
+    },
+    {
+      "name": "Jicama - Roasted",
+      "caloriesPer100g": 41,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 9,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 4.9
+    },
+    {
+      "name": "Jicama - Grilled",
+      "caloriesPer100g": 38,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 9,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 4.9
+    },
+    {
+      "name": "Cherry",
+      "caloriesPer100g": 63,
+      "proteinPer100g": 1,
+      "carbsPer100g": 16,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2.1
+    },
+    {
+      "name": "Coconut - Fresh",
+      "caloriesPer100g": 354,
+      "proteinPer100g": 3.3,
+      "carbsPer100g": 15,
+      "fatPer100g": 33,
+      "fiberPer100g": 9
+    },
+    {
+      "name": "Coconut - Shredded",
+      "caloriesPer100g": 660,
+      "proteinPer100g": 6.9,
+      "carbsPer100g": 24,
+      "fatPer100g": 65,
+      "fiberPer100g": 16
+    },
+    {
+      "name": "Olives - Green",
+      "caloriesPer100g": 116,
+      "proteinPer100g": 0.8,
+      "carbsPer100g": 6,
+      "fatPer100g": 11,
+      "fiberPer100g": 3.2
+    },
+    {
+      "name": "Olives - Black",
+      "caloriesPer100g": 116,
+      "proteinPer100g": 0.8,
+      "carbsPer100g": 6,
+      "fatPer100g": 11,
+      "fiberPer100g": 3.2
+    },
+    {
+      "name": "Wild Rice - Cooked",
+      "caloriesPer100g": 101,
+      "proteinPer100g": 4,
+      "carbsPer100g": 21,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Arborio Rice - Cooked",
+      "caloriesPer100g": 130,
+      "proteinPer100g": 2.7,
+      "carbsPer100g": 28,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 0.4
+    },
+    {
+      "name": "Jasmine Rice - Cooked",
+      "caloriesPer100g": 130,
+      "proteinPer100g": 2.7,
+      "carbsPer100g": 28,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 0.4
+    },
+    {
+      "name": "Basmati Rice - Cooked",
+      "caloriesPer100g": 130,
+      "proteinPer100g": 2.7,
+      "carbsPer100g": 28,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 0.4
+    },
+    {
+      "name": "Sushi Rice - Cooked",
+      "caloriesPer100g": 130,
+      "proteinPer100g": 2.7,
+      "carbsPer100g": 28,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 0.4
+    },
+    {
+      "name": "Risotto",
+      "caloriesPer100g": 130,
+      "proteinPer100g": 2.7,
+      "carbsPer100g": 28,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 0.4
+    },
+    {
+      "name": "Paella Rice",
+      "caloriesPer100g": 130,
+      "proteinPer100g": 2.7,
+      "carbsPer100g": 28,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 0.4
+    },
+    {
+      "name": "Bulgur - Cooked",
+      "caloriesPer100g": 83,
+      "proteinPer100g": 3.1,
+      "carbsPer100g": 19,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 4.5
+    },
+    {
+      "name": "Couscous - Cooked",
+      "caloriesPer100g": 112,
+      "proteinPer100g": 3.8,
+      "carbsPer100g": 23,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 1.4
+    },
+    {
+      "name": "Farro - Cooked",
+      "caloriesPer100g": 127,
+      "proteinPer100g": 5,
+      "carbsPer100g": 25,
+      "fatPer100g": 1.1,
+      "fiberPer100g": 3.5
+    },
+    {
+      "name": "Millet - Cooked",
+      "caloriesPer100g": 119,
+      "proteinPer100g": 3.5,
+      "carbsPer100g": 23,
+      "fatPer100g": 1,
+      "fiberPer100g": 1.3
+    },
+    {
+      "name": "Buckwheat - Cooked",
+      "caloriesPer100g": 92,
+      "proteinPer100g": 3.4,
+      "carbsPer100g": 20,
+      "fatPer100g": 0.6,
+      "fiberPer100g": 2.7
+    },
+    {
+      "name": "Amaranth - Cooked",
+      "caloriesPer100g": 102,
+      "proteinPer100g": 3.8,
+      "carbsPer100g": 19,
+      "fatPer100g": 1.6,
+      "fiberPer100g": 2.1
+    },
+    {
+      "name": "Teff - Cooked",
+      "caloriesPer100g": 101,
+      "proteinPer100g": 3.9,
+      "carbsPer100g": 20,
+      "fatPer100g": 0.7,
+      "fiberPer100g": 2.8
+    },
+    {
+      "name": "Sorghum - Cooked",
+      "caloriesPer100g": 110,
+      "proteinPer100g": 3.1,
+      "carbsPer100g": 24,
+      "fatPer100g": 1.1,
+      "fiberPer100g": 2.2
+    },
+    {
+      "name": "Barley - Cooked",
+      "caloriesPer100g": 123,
+      "proteinPer100g": 2.3,
+      "carbsPer100g": 28,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 3.8
+    },
+    {
+      "name": "Wheat Berries - Cooked",
+      "caloriesPer100g": 120,
+      "proteinPer100g": 4.5,
+      "carbsPer100g": 25,
+      "fatPer100g": 0.7,
+      "fiberPer100g": 4.2
+    },
+    {
+      "name": "Spelt - Cooked",
+      "caloriesPer100g": 127,
+      "proteinPer100g": 5.5,
+      "carbsPer100g": 27,
+      "fatPer100g": 0.9,
+      "fiberPer100g": 4
+    },
+    {
+      "name": "Kamut - Cooked",
+      "caloriesPer100g": 132,
+      "proteinPer100g": 5.7,
+      "carbsPer100g": 28,
+      "fatPer100g": 0.8,
+      "fiberPer100g": 4.3
+    },
+    {
+      "name": "Pasta - Angel Hair",
+      "caloriesPer100g": 131,
+      "proteinPer100g": 5,
+      "carbsPer100g": 25,
+      "fatPer100g": 1.1,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Pasta - Capellini",
+      "caloriesPer100g": 131,
+      "proteinPer100g": 5,
+      "carbsPer100g": 25,
+      "fatPer100g": 1.1,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Pasta - Bucatini",
+      "caloriesPer100g": 131,
+      "proteinPer100g": 5,
+      "carbsPer100g": 25,
+      "fatPer100g": 1.1,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Pasta - Rigatoni",
+      "caloriesPer100g": 131,
+      "proteinPer100g": 5,
+      "carbsPer100g": 25,
+      "fatPer100g": 1.1,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Pasta - Ziti",
+      "caloriesPer100g": 131,
+      "proteinPer100g": 5,
+      "carbsPer100g": 25,
+      "fatPer100g": 1.1,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Pasta - Orzo",
+      "caloriesPer100g": 131,
+      "proteinPer100g": 5,
+      "carbsPer100g": 25,
+      "fatPer100g": 1.1,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Pasta - Farfalle",
+      "caloriesPer100g": 131,
+      "proteinPer100g": 5,
+      "carbsPer100g": 25,
+      "fatPer100g": 1.1,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Pasta - Rotini",
+      "caloriesPer100g": 131,
+      "proteinPer100g": 5,
+      "carbsPer100g": 25,
+      "fatPer100g": 1.1,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Pasta - Cavatappi",
+      "caloriesPer100g": 131,
+      "proteinPer100g": 5,
+      "carbsPer100g": 25,
+      "fatPer100g": 1.1,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Pasta - Gemelli",
+      "caloriesPer100g": 131,
+      "proteinPer100g": 5,
+      "carbsPer100g": 25,
+      "fatPer100g": 1.1,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Pasta - Orecchiette",
+      "caloriesPer100g": 131,
+      "proteinPer100g": 5,
+      "carbsPer100g": 25,
+      "fatPer100g": 1.1,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Pasta - Gnocchi",
+      "caloriesPer100g": 131,
+      "proteinPer100g": 5,
+      "carbsPer100g": 25,
+      "fatPer100g": 1.1,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Pasta - Ravioli",
+      "caloriesPer100g": 131,
+      "proteinPer100g": 5,
+      "carbsPer100g": 25,
+      "fatPer100g": 1.1,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Pasta - Tortellini",
+      "caloriesPer100g": 131,
+      "proteinPer100g": 5,
+      "carbsPer100g": 25,
+      "fatPer100g": 1.1,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Pasta - Lasagna Noodles",
+      "caloriesPer100g": 131,
+      "proteinPer100g": 5,
+      "carbsPer100g": 25,
+      "fatPer100g": 1.1,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Brioche",
+      "caloriesPer100g": 329,
+      "proteinPer100g": 8.4,
+      "carbsPer100g": 50,
+      "fatPer100g": 14,
+      "fiberPer100g": 2.2
+    },
+    {
+      "name": "Ciabatta",
+      "caloriesPer100g": 271,
+      "proteinPer100g": 8.8,
+      "carbsPer100g": 54,
+      "fatPer100g": 3.2,
+      "fiberPer100g": 2.7
+    },
+    {
+      "name": "Focaccia",
+      "caloriesPer100g": 249,
+      "proteinPer100g": 8.8,
+      "carbsPer100g": 36,
+      "fatPer100g": 8.2,
+      "fiberPer100g": 2.7
+    },
+    {
+      "name": "Naan",
+      "caloriesPer100g": 310,
+      "proteinPer100g": 9.6,
+      "carbsPer100g": 50,
+      "fatPer100g": 9.5,
+      "fiberPer100g": 2.2
+    },
+    {
+      "name": "Flatbread",
+      "caloriesPer100g": 275,
+      "proteinPer100g": 9,
+      "carbsPer100g": 56,
+      "fatPer100g": 1.2,
+      "fiberPer100g": 2.2
+    },
+    {
+      "name": "Pita - White",
+      "caloriesPer100g": 275,
+      "proteinPer100g": 9,
+      "carbsPer100g": 56,
+      "fatPer100g": 1.2,
+      "fiberPer100g": 2.2
+    },
+    {
+      "name": "Pita - Whole Wheat",
+      "caloriesPer100g": 266,
+      "proteinPer100g": 9.8,
+      "carbsPer100g": 55,
+      "fatPer100g": 1.2,
+      "fiberPer100g": 7.4
+    },
+    {
+      "name": "Naan - Garlic",
+      "caloriesPer100g": 310,
+      "proteinPer100g": 9.6,
+      "carbsPer100g": 50,
+      "fatPer100g": 9.5,
+      "fiberPer100g": 2.2
+    },
+    {
+      "name": "Challah",
+      "caloriesPer100g": 329,
+      "proteinPer100g": 8.4,
+      "carbsPer100g": 50,
+      "fatPer100g": 14,
+      "fiberPer100g": 2.2
+    },
+    {
+      "name": "Baguette",
+      "caloriesPer100g": 289,
+      "proteinPer100g": 11,
+      "carbsPer100g": 56,
+      "fatPer100g": 2.2,
+      "fiberPer100g": 2.7
+    },
+    {
+      "name": "Focaccia - Herb",
+      "caloriesPer100g": 249,
+      "proteinPer100g": 8.8,
+      "carbsPer100g": 36,
+      "fatPer100g": 8.2,
+      "fiberPer100g": 2.7
+    },
+    {
+      "name": "Buttermilk",
+      "caloriesPer100g": 40,
+      "proteinPer100g": 3.3,
+      "carbsPer100g": 4.8,
+      "fatPer100g": 0.9,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Half and Half",
+      "caloriesPer100g": 131,
+      "proteinPer100g": 3.1,
+      "carbsPer100g": 4.3,
+      "fatPer100g": 11,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Heavy Cream",
+      "caloriesPer100g": 345,
+      "proteinPer100g": 2.8,
+      "carbsPer100g": 2.8,
+      "fatPer100g": 37,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Sour Cream - Full Fat",
+      "caloriesPer100g": 198,
+      "proteinPer100g": 2.3,
+      "carbsPer100g": 4.6,
+      "fatPer100g": 20,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Sour Cream - Light",
+      "caloriesPer100g": 136,
+      "proteinPer100g": 3.1,
+      "carbsPer100g": 4.6,
+      "fatPer100g": 10,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Cream Cheese - Full Fat",
+      "caloriesPer100g": 342,
+      "proteinPer100g": 6,
+      "carbsPer100g": 4.1,
+      "fatPer100g": 34,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Cream Cheese - Light",
+      "caloriesPer100g": 201,
+      "proteinPer100g": 7,
+      "carbsPer100g": 4.1,
+      "fatPer100g": 15,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Ricotta - Whole Milk",
+      "caloriesPer100g": 174,
+      "proteinPer100g": 11,
+      "carbsPer100g": 3,
+      "fatPer100g": 13,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Ricotta - Part Skim",
+      "caloriesPer100g": 138,
+      "proteinPer100g": 11,
+      "carbsPer100g": 5,
+      "fatPer100g": 8,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Mascarpone",
+      "caloriesPer100g": 429,
+      "proteinPer100g": 4.6,
+      "carbsPer100g": 4.6,
+      "fatPer100g": 44,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Goat Cheese",
+      "caloriesPer100g": 364,
+      "proteinPer100g": 22,
+      "carbsPer100g": 2.5,
+      "fatPer100g": 30,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Feta Cheese",
+      "caloriesPer100g": 264,
+      "proteinPer100g": 14,
+      "carbsPer100g": 4,
+      "fatPer100g": 21,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Mozzarella - Whole Milk",
+      "caloriesPer100g": 280,
+      "proteinPer100g": 18,
+      "carbsPer100g": 3.1,
+      "fatPer100g": 22,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Mozzarella - Part Skim",
+      "caloriesPer100g": 254,
+      "proteinPer100g": 18,
+      "carbsPer100g": 3.1,
+      "fatPer100g": 16,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Cheddar - Sharp",
+      "caloriesPer100g": 402,
+      "proteinPer100g": 25,
+      "carbsPer100g": 1.3,
+      "fatPer100g": 33,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Cheddar - Mild",
+      "caloriesPer100g": 402,
+      "proteinPer100g": 25,
+      "carbsPer100g": 1.3,
+      "fatPer100g": 33,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Swiss Cheese",
+      "caloriesPer100g": 380,
+      "proteinPer100g": 27,
+      "carbsPer100g": 1.5,
+      "fatPer100g": 28,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Provolone",
+      "caloriesPer100g": 351,
+      "proteinPer100g": 26,
+      "carbsPer100g": 2.1,
+      "fatPer100g": 27,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Gouda",
+      "caloriesPer100g": 356,
+      "proteinPer100g": 25,
+      "carbsPer100g": 2.2,
+      "fatPer100g": 27,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Brie",
+      "caloriesPer100g": 334,
+      "proteinPer100g": 21,
+      "carbsPer100g": 0.5,
+      "fatPer100g": 28,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Camembert",
+      "caloriesPer100g": 300,
+      "proteinPer100g": 20,
+      "carbsPer100g": 0.5,
+      "fatPer100g": 24,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Blue Cheese",
+      "caloriesPer100g": 353,
+      "proteinPer100g": 21,
+      "carbsPer100g": 2.3,
+      "fatPer100g": 29,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Parmesan - Grated",
+      "caloriesPer100g": 431,
+      "proteinPer100g": 38,
+      "carbsPer100g": 4.1,
+      "fatPer100g": 29,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Parmesan - Shredded",
+      "caloriesPer100g": 431,
+      "proteinPer100g": 38,
+      "carbsPer100g": 4.1,
+      "fatPer100g": 29,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Pecorino Romano",
+      "caloriesPer100g": 387,
+      "proteinPer100g": 32,
+      "carbsPer100g": 0,
+      "fatPer100g": 27,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Manchego",
+      "caloriesPer100g": 364,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0,
+      "fatPer100g": 30,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Soy Milk - Unsweetened",
+      "caloriesPer100g": 33,
+      "proteinPer100g": 2.9,
+      "carbsPer100g": 1.8,
+      "fatPer100g": 1.8,
+      "fiberPer100g": 0.6
+    },
+    {
+      "name": "Soy Milk - Sweetened",
+      "caloriesPer100g": 54,
+      "proteinPer100g": 2.9,
+      "carbsPer100g": 6,
+      "fatPer100g": 1.8,
+      "fiberPer100g": 0.6
+    },
+    {
+      "name": "Oat Milk - Unsweetened",
+      "caloriesPer100g": 47,
+      "proteinPer100g": 1.3,
+      "carbsPer100g": 7,
+      "fatPer100g": 1.5,
+      "fiberPer100g": 0.8
+    },
+    {
+      "name": "Oat Milk - Sweetened",
+      "caloriesPer100g": 54,
+      "proteinPer100g": 1.3,
+      "carbsPer100g": 9,
+      "fatPer100g": 1.5,
+      "fiberPer100g": 0.8
+    },
+    {
+      "name": "Coconut Milk - Canned",
+      "caloriesPer100g": 230,
+      "proteinPer100g": 2.3,
+      "carbsPer100g": 6,
+      "fatPer100g": 24,
+      "fiberPer100g": 2.2
+    },
+    {
+      "name": "Coconut Milk - Carton",
+      "caloriesPer100g": 21,
+      "proteinPer100g": 0.2,
+      "carbsPer100g": 2,
+      "fatPer100g": 2.1,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Rice Milk",
+      "caloriesPer100g": 47,
+      "proteinPer100g": 0.3,
+      "carbsPer100g": 9,
+      "fatPer100g": 1,
+      "fiberPer100g": 0.3
+    },
+    {
+      "name": "Hemp Milk",
+      "caloriesPer100g": 35,
+      "proteinPer100g": 2,
+      "carbsPer100g": 1.3,
+      "fatPer100g": 3,
+      "fiberPer100g": 0.5
+    },
+    {
+      "name": "Cashew Milk",
+      "caloriesPer100g": 23,
+      "proteinPer100g": 0.5,
+      "carbsPer100g": 1.5,
+      "fatPer100g": 2,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Pea Milk",
+      "caloriesPer100g": 35,
+      "proteinPer100g": 3.3,
+      "carbsPer100g": 0,
+      "fatPer100g": 1.9,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Flax Milk",
+      "caloriesPer100g": 11,
+      "proteinPer100g": 0,
+      "carbsPer100g": 1,
+      "fatPer100g": 0.5,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Almonds - Blanched",
+      "caloriesPer100g": 579,
+      "proteinPer100g": 21,
+      "carbsPer100g": 22,
+      "fatPer100g": 50,
+      "fiberPer100g": 12
+    },
+    {
+      "name": "Walnuts - English",
+      "caloriesPer100g": 654,
+      "proteinPer100g": 15,
+      "carbsPer100g": 14,
+      "fatPer100g": 65,
+      "fiberPer100g": 6.7
+    },
+    {
+      "name": "Walnuts - Black",
+      "caloriesPer100g": 619,
+      "proteinPer100g": 24,
+      "carbsPer100g": 10,
+      "fatPer100g": 59,
+      "fiberPer100g": 6.7
+    },
+    {
+      "name": "Cashews - Salted",
+      "caloriesPer100g": 574,
+      "proteinPer100g": 15,
+      "carbsPer100g": 33,
+      "fatPer100g": 46,
+      "fiberPer100g": 3
+    },
+    {
+      "name": "Peanuts - Salted",
+      "caloriesPer100g": 587,
+      "proteinPer100g": 24,
+      "carbsPer100g": 22,
+      "fatPer100g": 50,
+      "fiberPer100g": 8
+    },
+    {
+      "name": "Pistachios - Shelled",
+      "caloriesPer100g": 560,
+      "proteinPer100g": 20,
+      "carbsPer100g": 28,
+      "fatPer100g": 45,
+      "fiberPer100g": 10.3
+    },
+    {
+      "name": "Pistachios - Unsalted",
+      "caloriesPer100g": 560,
+      "proteinPer100g": 20,
+      "carbsPer100g": 28,
+      "fatPer100g": 45,
+      "fiberPer100g": 10.3
+    },
+    {
+      "name": "Sunflower Seeds - Shelled",
+      "caloriesPer100g": 584,
+      "proteinPer100g": 21,
+      "carbsPer100g": 20,
+      "fatPer100g": 51,
+      "fiberPer100g": 8.6
+    },
+    {
+      "name": "Sunflower Seeds - Roasted",
+      "caloriesPer100g": 582,
+      "proteinPer100g": 20,
+      "carbsPer100g": 20,
+      "fatPer100g": 51,
+      "fiberPer100g": 8.6
+    },
+    {
+      "name": "Pumpkin Seeds - Shelled",
+      "caloriesPer100g": 559,
+      "proteinPer100g": 30,
+      "carbsPer100g": 11,
+      "fatPer100g": 49,
+      "fiberPer100g": 6
+    },
+    {
+      "name": "Pumpkin Seeds - Roasted",
+      "caloriesPer100g": 559,
+      "proteinPer100g": 30,
+      "carbsPer100g": 11,
+      "fatPer100g": 49,
+      "fiberPer100g": 6
+    },
+    {
+      "name": "Flax Seeds - Whole",
+      "caloriesPer100g": 534,
+      "proteinPer100g": 18,
+      "carbsPer100g": 29,
+      "fatPer100g": 42,
+      "fiberPer100g": 27
+    },
+    {
+      "name": "Flax Seeds - Ground",
+      "caloriesPer100g": 534,
+      "proteinPer100g": 18,
+      "carbsPer100g": 29,
+      "fatPer100g": 42,
+      "fiberPer100g": 27
+    },
+    {
+      "name": "Hemp Seeds - Hulled",
+      "caloriesPer100g": 553,
+      "proteinPer100g": 31,
+      "carbsPer100g": 9,
+      "fatPer100g": 49,
+      "fiberPer100g": 4
+    },
+    {
+      "name": "Sesame Seeds - Whole",
+      "caloriesPer100g": 573,
+      "proteinPer100g": 18,
+      "carbsPer100g": 23,
+      "fatPer100g": 50,
+      "fiberPer100g": 12
+    },
+    {
+      "name": "Sesame Seeds - Hulled",
+      "caloriesPer100g": 573,
+      "proteinPer100g": 18,
+      "carbsPer100g": 23,
+      "fatPer100g": 50,
+      "fiberPer100g": 12
+    },
+    {
+      "name": "Tahini",
+      "caloriesPer100g": 595,
+      "proteinPer100g": 17,
+      "carbsPer100g": 21,
+      "fatPer100g": 54,
+      "fiberPer100g": 9
+    },
+    {
+      "name": "Poppy Seeds",
+      "caloriesPer100g": 525,
+      "proteinPer100g": 18,
+      "carbsPer100g": 28,
+      "fatPer100g": 42,
+      "fiberPer100g": 20
+    },
+    {
+      "name": "Kidney Beans - Red Canned",
+      "caloriesPer100g": 127,
+      "proteinPer100g": 8.7,
+      "carbsPer100g": 23,
+      "fatPer100g": 0.5,
+      "fiberPer100g": 6.4
+    },
+    {
+      "name": "Kidney Beans - Red Cooked",
+      "caloriesPer100g": 127,
+      "proteinPer100g": 8.7,
+      "carbsPer100g": 23,
+      "fatPer100g": 0.5,
+      "fiberPer100g": 6.4
+    },
+    {
+      "name": "Kidney Beans - White",
+      "caloriesPer100g": 127,
+      "proteinPer100g": 8.7,
+      "carbsPer100g": 23,
+      "fatPer100g": 0.5,
+      "fiberPer100g": 6.4
+    },
+    {
+      "name": "Navy Beans - Canned",
+      "caloriesPer100g": 140,
+      "proteinPer100g": 8.2,
+      "carbsPer100g": 26,
+      "fatPer100g": 0.6,
+      "fiberPer100g": 10.5
+    },
+    {
+      "name": "Navy Beans - Cooked",
+      "caloriesPer100g": 140,
+      "proteinPer100g": 8.2,
+      "carbsPer100g": 26,
+      "fatPer100g": 0.6,
+      "fiberPer100g": 10.5
+    },
+    {
+      "name": "Lima Beans - Canned",
+      "caloriesPer100g": 115,
+      "proteinPer100g": 7.8,
+      "carbsPer100g": 21,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 7
+    },
+    {
+      "name": "Lima Beans - Cooked",
+      "caloriesPer100g": 115,
+      "proteinPer100g": 7.8,
+      "carbsPer100g": 21,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 7
+    },
+    {
+      "name": "Lentils - Brown Cooked",
+      "caloriesPer100g": 116,
+      "proteinPer100g": 9,
+      "carbsPer100g": 20,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 7.9
+    },
+    {
+      "name": "Lentils - Red Cooked",
+      "caloriesPer100g": 116,
+      "proteinPer100g": 9,
+      "carbsPer100g": 20,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 7.9
+    },
+    {
+      "name": "Lentils - Green Cooked",
+      "caloriesPer100g": 116,
+      "proteinPer100g": 9,
+      "carbsPer100g": 20,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 7.9
+    },
+    {
+      "name": "Lentils - Black Cooked",
+      "caloriesPer100g": 116,
+      "proteinPer100g": 9,
+      "carbsPer100g": 20,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 7.9
+    },
+    {
+      "name": "Lentils - French",
+      "caloriesPer100g": 116,
+      "proteinPer100g": 9,
+      "carbsPer100g": 20,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 7.9
+    },
+    {
+      "name": "Edamame - Shelled",
+      "caloriesPer100g": 122,
+      "proteinPer100g": 11,
+      "carbsPer100g": 10,
+      "fatPer100g": 5.2,
+      "fiberPer100g": 5.2
+    },
+    {
+      "name": "Edamame - In Pod",
+      "caloriesPer100g": 122,
+      "proteinPer100g": 11,
+      "carbsPer100g": 10,
+      "fatPer100g": 5.2,
+      "fiberPer100g": 5.2
+    },
+    {
+      "name": "Tofu - Extra Firm",
+      "caloriesPer100g": 83,
+      "proteinPer100g": 10,
+      "carbsPer100g": 2.3,
+      "fatPer100g": 5.3,
+      "fiberPer100g": 0.3
+    },
+    {
+      "name": "Tofu - Silken",
+      "caloriesPer100g": 55,
+      "proteinPer100g": 5.2,
+      "carbsPer100g": 1.2,
+      "fatPer100g": 2.7,
+      "fiberPer100g": 0.2
+    },
+    {
+      "name": "Miso",
+      "caloriesPer100g": 199,
+      "proteinPer100g": 12,
+      "carbsPer100g": 26,
+      "fatPer100g": 6,
+      "fiberPer100g": 5
+    },
+    {
+      "name": "Natto",
+      "caloriesPer100g": 212,
+      "proteinPer100g": 18,
+      "carbsPer100g": 14,
+      "fatPer100g": 11,
+      "fiberPer100g": 5
+    },
+    {
+      "name": "Ketchup",
+      "caloriesPer100g": 112,
+      "proteinPer100g": 1.7,
+      "carbsPer100g": 26,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 0.4
+    },
+    {
+      "name": "Mustard - Yellow",
+      "caloriesPer100g": 66,
+      "proteinPer100g": 3.7,
+      "carbsPer100g": 5.8,
+      "fatPer100g": 3.3,
+      "fiberPer100g": 3.2
+    },
+    {
+      "name": "Mustard - Dijon",
+      "caloriesPer100g": 143,
+      "proteinPer100g": 5.7,
+      "carbsPer100g": 6.4,
+      "fatPer100g": 10,
+      "fiberPer100g": 3.2
+    },
+    {
+      "name": "Mayonnaise",
+      "caloriesPer100g": 680,
+      "proteinPer100g": 1,
+      "carbsPer100g": 0.6,
+      "fatPer100g": 75,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Mayonnaise - Light",
+      "caloriesPer100g": 324,
+      "proteinPer100g": 0.4,
+      "carbsPer100g": 7.1,
+      "fatPer100g": 33,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "BBQ Sauce",
+      "caloriesPer100g": 172,
+      "proteinPer100g": 0.8,
+      "carbsPer100g": 42,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 0.8
+    },
+    {
+      "name": "Hot Sauce",
+      "caloriesPer100g": 6,
+      "proteinPer100g": 0.5,
+      "carbsPer100g": 1.3,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 0.5
+    },
+    {
+      "name": "Sriracha",
+      "caloriesPer100g": 93,
+      "proteinPer100g": 1.8,
+      "carbsPer100g": 20,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 1.1
+    },
+    {
+      "name": "Soy Sauce",
+      "caloriesPer100g": 53,
+      "proteinPer100g": 8,
+      "carbsPer100g": 4.9,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 0.8
+    },
+    {
+      "name": "Worcestershire Sauce",
+      "caloriesPer100g": 78,
+      "proteinPer100g": 0,
+      "carbsPer100g": 19,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Teriyaki Sauce",
+      "caloriesPer100g": 89,
+      "proteinPer100g": 1.1,
+      "carbsPer100g": 19,
+      "fatPer100g": 0,
+      "fiberPer100g": 0.2
+    },
+    {
+      "name": "Hoisin Sauce",
+      "caloriesPer100g": 220,
+      "proteinPer100g": 3.3,
+      "carbsPer100g": 44,
+      "fatPer100g": 2.3,
+      "fiberPer100g": 0.8
+    },
+    {
+      "name": "Oyster Sauce",
+      "caloriesPer100g": 51,
+      "proteinPer100g": 1.4,
+      "carbsPer100g": 10,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 0.2
+    },
+    {
+      "name": "Fish Sauce",
+      "caloriesPer100g": 35,
+      "proteinPer100g": 5.8,
+      "carbsPer100g": 3.5,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Almond Butter",
+      "caloriesPer100g": 614,
+      "proteinPer100g": 21,
+      "carbsPer100g": 19,
+      "fatPer100g": 56,
+      "fiberPer100g": 10
+    },
+    {
+      "name": "Cashew Butter",
+      "caloriesPer100g": 587,
+      "proteinPer100g": 18,
+      "carbsPer100g": 28,
+      "fatPer100g": 50,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Sunflower Seed Butter",
+      "caloriesPer100g": 617,
+      "proteinPer100g": 20,
+      "carbsPer100g": 23,
+      "fatPer100g": 55,
+      "fiberPer100g": 5.4
+    },
+    {
+      "name": "Popcorn - Air Popped",
+      "caloriesPer100g": 387,
+      "proteinPer100g": 13,
+      "carbsPer100g": 78,
+      "fatPer100g": 5,
+      "fiberPer100g": 15
+    },
+    {
+      "name": "Popcorn - Oil Popped",
+      "caloriesPer100g": 500,
+      "proteinPer100g": 9,
+      "carbsPer100g": 58,
+      "fatPer100g": 28,
+      "fiberPer100g": 10
+    },
+    {
+      "name": "Pretzels",
+      "caloriesPer100g": 384,
+      "proteinPer100g": 10,
+      "carbsPer100g": 80,
+      "fatPer100g": 3,
+      "fiberPer100g": 2.8
+    },
+    {
+      "name": "Crackers - Saltine",
+      "caloriesPer100g": 418,
+      "proteinPer100g": 9,
+      "carbsPer100g": 74,
+      "fatPer100g": 11,
+      "fiberPer100g": 2.3
+    },
+    {
+      "name": "Crackers - Whole Wheat",
+      "caloriesPer100g": 412,
+      "proteinPer100g": 10,
+      "carbsPer100g": 70,
+      "fatPer100g": 14,
+      "fiberPer100g": 10
+    },
+    {
+      "name": "Rice Cakes",
+      "caloriesPer100g": 387,
+      "proteinPer100g": 7.2,
+      "carbsPer100g": 82,
+      "fatPer100g": 2.8,
+      "fiberPer100g": 1.2
+    },
+    {
+      "name": "Rice Cakes - Brown Rice",
+      "caloriesPer100g": 387,
+      "proteinPer100g": 7.2,
+      "carbsPer100g": 82,
+      "fatPer100g": 2.8,
+      "fiberPer100g": 1.2
+    },
+    {
+      "name": "Rice Cakes - Quinoa",
+      "caloriesPer100g": 387,
+      "proteinPer100g": 7.2,
+      "carbsPer100g": 82,
+      "fatPer100g": 2.8,
+      "fiberPer100g": 1.2
+    },
+    {
+      "name": "Chicken Soup",
+      "caloriesPer100g": 36,
+      "proteinPer100g": 3.2,
+      "carbsPer100g": 3.5,
+      "fatPer100g": 1.2,
+      "fiberPer100g": 0.3
+    },
+    {
+      "name": "Beef Stew",
+      "caloriesPer100g": 98,
+      "proteinPer100g": 6.8,
+      "carbsPer100g": 7.2,
+      "fatPer100g": 4.8,
+      "fiberPer100g": 1.2
+    },
+    {
+      "name": "Chili - Beef",
+      "caloriesPer100g": 157,
+      "proteinPer100g": 9.2,
+      "carbsPer100g": 12,
+      "fatPer100g": 7.3,
+      "fiberPer100g": 3.2
+    },
+    {
+      "name": "Chili - Turkey",
+      "caloriesPer100g": 135,
+      "proteinPer100g": 10,
+      "carbsPer100g": 12,
+      "fatPer100g": 5.2,
+      "fiberPer100g": 3.2
+    },
+    {
+      "name": "Chili - Vegetarian",
+      "caloriesPer100g": 100,
+      "proteinPer100g": 5,
+      "carbsPer100g": 18,
+      "fatPer100g": 1.5,
+      "fiberPer100g": 6
+    },
+    {
+      "name": "Beef Jerky",
+      "caloriesPer100g": 410,
+      "proteinPer100g": 33,
+      "carbsPer100g": 11,
+      "fatPer100g": 26,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Turkey Jerky",
+      "caloriesPer100g": 280,
+      "proteinPer100g": 33,
+      "carbsPer100g": 11,
+      "fatPer100g": 4,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Beef Stroganoff",
+      "caloriesPer100g": 132,
+      "proteinPer100g": 8.5,
+      "carbsPer100g": 6.2,
+      "fatPer100g": 7.8,
+      "fiberPer100g": 0.5
+    },
+    {
+      "name": "Meatballs",
+      "caloriesPer100g": 221,
+      "proteinPer100g": 14,
+      "carbsPer100g": 8.2,
+      "fatPer100g": 14,
+      "fiberPer100g": 0.5
+    },
+    {
+      "name": "Meatloaf",
+      "caloriesPer100g": 149,
+      "proteinPer100g": 12,
+      "carbsPer100g": 6.8,
+      "fatPer100g": 7.5,
+      "fiberPer100g": 0.5
+    },
+    {
+      "name": "Crab Cakes",
+      "caloriesPer100g": 155,
+      "proteinPer100g": 11,
+      "carbsPer100g": 8.2,
+      "fatPer100g": 8.5,
+      "fiberPer100g": 0.3
+    },
+    {
+      "name": "Fish Tacos",
+      "caloriesPer100g": 198,
+      "proteinPer100g": 12,
+      "carbsPer100g": 18,
+      "fatPer100g": 8.2,
+      "fiberPer100g": 2.1
+    },
+    {
+      "name": "Shrimp Scampi",
+      "caloriesPer100g": 143,
+      "proteinPer100g": 15,
+      "carbsPer100g": 3.2,
+      "fatPer100g": 7.2,
+      "fiberPer100g": 0.2
+    },
+    {
+      "name": "Lobster Roll",
+      "caloriesPer100g": 198,
+      "proteinPer100g": 15,
+      "carbsPer100g": 18,
+      "fatPer100g": 7.2,
+      "fiberPer100g": 0.8
+    },
+    {
+      "name": "Ceviche",
+      "caloriesPer100g": 95,
+      "proteinPer100g": 18,
+      "carbsPer100g": 3.2,
+      "fatPer100g": 1.2,
+      "fiberPer100g": 0.5
+    },
+    {
+      "name": "Oatmeal - Plain",
+      "caloriesPer100g": 68,
+      "proteinPer100g": 2.4,
+      "carbsPer100g": 12,
+      "fatPer100g": 1.4,
+      "fiberPer100g": 1.7
+    },
+    {
+      "name": "Oatmeal - Instant",
+      "caloriesPer100g": 68,
+      "proteinPer100g": 2.4,
+      "carbsPer100g": 12,
+      "fatPer100g": 1.4,
+      "fiberPer100g": 1.7
+    },
+    {
+      "name": "Oatmeal - Steel Cut",
+      "caloriesPer100g": 68,
+      "proteinPer100g": 2.4,
+      "carbsPer100g": 12,
+      "fatPer100g": 1.4,
+      "fiberPer100g": 1.7
+    },
+    {
+      "name": "Granola",
+      "caloriesPer100g": 471,
+      "proteinPer100g": 10,
+      "carbsPer100g": 64,
+      "fatPer100g": 20,
+      "fiberPer100g": 5
+    },
+    {
+      "name": "Cereal - Corn Flakes",
+      "caloriesPer100g": 357,
+      "proteinPer100g": 7,
+      "carbsPer100g": 84,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 2.4
+    },
+    {
+      "name": "Cereal - Rice Krispies",
+      "caloriesPer100g": 381,
+      "proteinPer100g": 6,
+      "carbsPer100g": 87,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 0.9
+    },
+    {
+      "name": "Cereal - Cheerios",
+      "caloriesPer100g": 379,
+      "proteinPer100g": 12,
+      "carbsPer100g": 73,
+      "fatPer100g": 6.9,
+      "fiberPer100g": 10
+    },
+    {
+      "name": "Cereal - Oat Bran",
+      "caloriesPer100g": 246,
+      "proteinPer100g": 18,
+      "carbsPer100g": 66,
+      "fatPer100g": 7,
+      "fiberPer100g": 15
+    },
+    {
+      "name": "Pancakes",
+      "caloriesPer100g": 227,
+      "proteinPer100g": 5.9,
+      "carbsPer100g": 28,
+      "fatPer100g": 9.7,
+      "fiberPer100g": 1.2
+    },
+    {
+      "name": "Waffles",
+      "caloriesPer100g": 291,
+      "proteinPer100g": 7.9,
+      "carbsPer100g": 33,
+      "fatPer100g": 14,
+      "fiberPer100g": 1.7
+    },
+    {
+      "name": "French Toast",
+      "caloriesPer100g": 229,
+      "proteinPer100g": 7.7,
+      "carbsPer100g": 25,
+      "fatPer100g": 10,
+      "fiberPer100g": 1.2
+    },
+    {
+      "name": "Hash Browns",
+      "caloriesPer100g": 164,
+      "proteinPer100g": 2.3,
+      "carbsPer100g": 28,
+      "fatPer100g": 5.5,
+      "fiberPer100g": 2.3
+    },
+    {
+      "name": "Home Fries",
+      "caloriesPer100g": 133,
+      "proteinPer100g": 2.1,
+      "carbsPer100g": 24,
+      "fatPer100g": 3.2,
+      "fiberPer100g": 2.2
+    },
+    {
+      "name": "Chicken - Drumstick",
+      "caloriesPer100g": 172,
+      "proteinPer100g": 28,
+      "carbsPer100g": 0,
+      "fatPer100g": 5.7,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Chicken - Wing",
+      "caloriesPer100g": 203,
+      "proteinPer100g": 30,
+      "carbsPer100g": 0,
+      "fatPer100g": 8,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Chicken - Back",
+      "caloriesPer100g": 300,
+      "proteinPer100g": 18,
+      "carbsPer100g": 0,
+      "fatPer100g": 25,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Chicken - Giblets",
+      "caloriesPer100g": 124,
+      "proteinPer100g": 18,
+      "carbsPer100g": 1,
+      "fatPer100g": 4.5,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Beef - Ribeye",
+      "caloriesPer100g": 291,
+      "proteinPer100g": 25,
+      "carbsPer100g": 0,
+      "fatPer100g": 21,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Beef - Sirloin",
+      "caloriesPer100g": 252,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0,
+      "fatPer100g": 15,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Beef - Tenderloin",
+      "caloriesPer100g": 267,
+      "proteinPer100g": 27,
+      "carbsPer100g": 0,
+      "fatPer100g": 17,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Beef - Chuck",
+      "caloriesPer100g": 250,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0,
+      "fatPer100g": 17,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Beef - Round",
+      "caloriesPer100g": 133,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0,
+      "fatPer100g": 3,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Beef - Flank",
+      "caloriesPer100g": 192,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0,
+      "fatPer100g": 8,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Beef - Skirt",
+      "caloriesPer100g": 221,
+      "proteinPer100g": 26,
+      "carbsPer100g": 0,
+      "fatPer100g": 12,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Beef - Short Ribs",
+      "caloriesPer100g": 351,
+      "proteinPer100g": 20,
+      "carbsPer100g": 0,
+      "fatPer100g": 29,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Beef - Beef Liver",
+      "caloriesPer100g": 135,
+      "proteinPer100g": 20,
+      "carbsPer100g": 4,
+      "fatPer100g": 3.6,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Pork - Shoulder",
+      "caloriesPer100g": 242,
+      "proteinPer100g": 27,
+      "carbsPer100g": 0,
+      "fatPer100g": 14,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Pork - Loin",
+      "caloriesPer100g": 242,
+      "proteinPer100g": 27,
+      "carbsPer100g": 0,
+      "fatPer100g": 14,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Pork - Ribs",
+      "caloriesPer100g": 361,
+      "proteinPer100g": 22,
+      "carbsPer100g": 0,
+      "fatPer100g": 30,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Pork - Belly",
+      "caloriesPer100g": 518,
+      "proteinPer100g": 9,
+      "carbsPer100g": 0,
+      "fatPer100g": 53,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Pork - Ham",
+      "caloriesPer100g": 145,
+      "proteinPer100g": 21,
+      "carbsPer100g": 1.5,
+      "fatPer100g": 5.5,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Pork - Bacon",
+      "caloriesPer100g": 541,
+      "proteinPer100g": 37,
+      "carbsPer100g": 1.4,
+      "fatPer100g": 42,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Pork - Sausage - Italian",
+      "caloriesPer100g": 301,
+      "proteinPer100g": 13,
+      "carbsPer100g": 2,
+      "fatPer100g": 26,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Pork - Sausage - Breakfast",
+      "caloriesPer100g": 332,
+      "proteinPer100g": 14,
+      "carbsPer100g": 2,
+      "fatPer100g": 28,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Lamb - Shoulder",
+      "caloriesPer100g": 283,
+      "proteinPer100g": 25,
+      "carbsPer100g": 0,
+      "fatPer100g": 20,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Lamb - Rack",
+      "caloriesPer100g": 284,
+      "proteinPer100g": 25,
+      "carbsPer100g": 0,
+      "fatPer100g": 20,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Lamb - Shank",
+      "caloriesPer100g": 201,
+      "proteinPer100g": 28,
+      "carbsPer100g": 0,
+      "fatPer100g": 9,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Trout - Rainbow",
+      "caloriesPer100g": 148,
+      "proteinPer100g": 21,
+      "carbsPer100g": 0,
+      "fatPer100g": 6.6,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Trout - Brook",
+      "caloriesPer100g": 148,
+      "proteinPer100g": 21,
+      "carbsPer100g": 0,
+      "fatPer100g": 6.6,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Bass - Striped",
+      "caloriesPer100g": 97,
+      "proteinPer100g": 18,
+      "carbsPer100g": 0,
+      "fatPer100g": 2,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Bass - Sea",
+      "caloriesPer100g": 97,
+      "proteinPer100g": 18,
+      "carbsPer100g": 0,
+      "fatPer100g": 2,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Snapper - Red",
+      "caloriesPer100g": 100,
+      "proteinPer100g": 20,
+      "carbsPer100g": 0,
+      "fatPer100g": 1.3,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Grouper - Red",
+      "caloriesPer100g": 92,
+      "proteinPer100g": 19,
+      "carbsPer100g": 0,
+      "fatPer100g": 1.3,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Marlin",
+      "caloriesPer100g": 172,
+      "proteinPer100g": 23,
+      "carbsPer100g": 0,
+      "fatPer100g": 8,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Tuna - Yellowfin",
+      "caloriesPer100g": 144,
+      "proteinPer100g": 30,
+      "carbsPer100g": 0,
+      "fatPer100g": 1,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Tuna - Bluefin",
+      "caloriesPer100g": 144,
+      "proteinPer100g": 30,
+      "carbsPer100g": 0,
+      "fatPer100g": 1,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Tuna - Albacore",
+      "caloriesPer100g": 144,
+      "proteinPer100g": 30,
+      "carbsPer100g": 0,
+      "fatPer100g": 1,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Salmon - Atlantic",
+      "caloriesPer100g": 208,
+      "proteinPer100g": 20,
+      "carbsPer100g": 0,
+      "fatPer100g": 12,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Salmon - Sockeye",
+      "caloriesPer100g": 216,
+      "proteinPer100g": 25,
+      "carbsPer100g": 0,
+      "fatPer100g": 11,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Salmon - Coho",
+      "caloriesPer100g": 182,
+      "proteinPer100g": 24,
+      "carbsPer100g": 0,
+      "fatPer100g": 8,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Salmon - Chinook",
+      "caloriesPer100g": 231,
+      "proteinPer100g": 25,
+      "carbsPer100g": 0,
+      "fatPer100g": 15,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Salmon - Pink",
+      "caloriesPer100g": 127,
+      "proteinPer100g": 20,
+      "carbsPer100g": 0,
+      "fatPer100g": 4.4,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Roma",
+      "caloriesPer100g": 18,
+      "proteinPer100g": 0.9,
+      "carbsPer100g": 3.9,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 1.2
+    },
+    {
+      "name": "Beefsteak",
+      "caloriesPer100g": 18,
+      "proteinPer100g": 0.9,
+      "carbsPer100g": 3.9,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 1.2
+    },
+    {
+      "name": "Grape",
+      "caloriesPer100g": 18,
+      "proteinPer100g": 0.9,
+      "carbsPer100g": 3.9,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 1.2
+    },
+    {
+      "name": "Heirloom",
+      "caloriesPer100g": 18,
+      "proteinPer100g": 0.9,
+      "carbsPer100g": 3.9,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 1.2
+    },
+    {
+      "name": "Russet",
+      "caloriesPer100g": 79,
+      "proteinPer100g": 2.1,
+      "carbsPer100g": 18,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.3
+    },
+    {
+      "name": "Red",
+      "caloriesPer100g": 77,
+      "proteinPer100g": 2,
+      "carbsPer100g": 17,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 2.2
+    },
+    {
+      "name": "Yukon Gold",
+      "caloriesPer100g": 77,
+      "proteinPer100g": 2,
+      "carbsPer100g": 17,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 2.2
+    },
+    {
+      "name": "Fingerling",
+      "caloriesPer100g": 77,
+      "proteinPer100g": 2,
+      "carbsPer100g": 17,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 2.2
+    },
+    {
+      "name": "Purple",
+      "caloriesPer100g": 77,
+      "proteinPer100g": 2,
+      "carbsPer100g": 17,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 2.2
+    },
+    {
+      "name": "Yellow",
+      "caloriesPer100g": 40,
+      "proteinPer100g": 1.1,
+      "carbsPer100g": 9,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.7
+    },
+    {
+      "name": "White",
+      "caloriesPer100g": 40,
+      "proteinPer100g": 1.1,
+      "carbsPer100g": 9,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.7
+    },
+    {
+      "name": "Sweet",
+      "caloriesPer100g": 32,
+      "proteinPer100g": 0.8,
+      "carbsPer100g": 7.6,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.7
+    },
+    {
+      "name": "Vidalia",
+      "caloriesPer100g": 32,
+      "proteinPer100g": 0.8,
+      "carbsPer100g": 7.6,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.7
+    },
+    {
+      "name": "Pearl",
+      "caloriesPer100g": 40,
+      "proteinPer100g": 1.1,
+      "carbsPer100g": 9,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.7
+    },
+    {
+      "name": "Bell - Red",
+      "caloriesPer100g": 31,
+      "proteinPer100g": 1,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 2.5
+    },
+    {
+      "name": "Bell - Green",
+      "caloriesPer100g": 20,
+      "proteinPer100g": 0.9,
+      "carbsPer100g": 4.6,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 1.5
+    },
+    {
+      "name": "Bell - Yellow",
+      "caloriesPer100g": 27,
+      "proteinPer100g": 1,
+      "carbsPer100g": 6,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 0.9
+    },
+    {
+      "name": "Bell - Orange",
+      "caloriesPer100g": 31,
+      "proteinPer100g": 1,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 2.5
+    },
+    {
+      "name": "Serrano",
+      "caloriesPer100g": 32,
+      "proteinPer100g": 1.7,
+      "carbsPer100g": 7,
+      "fatPer100g": 0.4,
+      "fiberPer100g": 3.7
+    },
+    {
+      "name": "Habanero",
+      "caloriesPer100g": 40,
+      "proteinPer100g": 2,
+      "carbsPer100g": 9,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 3.7
+    },
+    {
+      "name": "Poblano",
+      "caloriesPer100g": 20,
+      "proteinPer100g": 1,
+      "carbsPer100g": 5,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2.8
+    },
+    {
+      "name": "Anaheim",
+      "caloriesPer100g": 27,
+      "proteinPer100g": 1,
+      "carbsPer100g": 6,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2.5
+    },
+    {
+      "name": "Red Delicious",
+      "caloriesPer100g": 52,
+      "proteinPer100g": 0.3,
+      "carbsPer100g": 14,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2.4
+    },
+    {
+      "name": "Granny Smith",
+      "caloriesPer100g": 52,
+      "proteinPer100g": 0.3,
+      "carbsPer100g": 14,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2.4
+    },
+    {
+      "name": "Gala",
+      "caloriesPer100g": 52,
+      "proteinPer100g": 0.3,
+      "carbsPer100g": 14,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2.4
+    },
+    {
+      "name": "Fuji",
+      "caloriesPer100g": 52,
+      "proteinPer100g": 0.3,
+      "carbsPer100g": 14,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2.4
+    },
+    {
+      "name": "Honeycrisp",
+      "caloriesPer100g": 52,
+      "proteinPer100g": 0.3,
+      "carbsPer100g": 14,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2.4
+    },
+    {
+      "name": "Pink Lady",
+      "caloriesPer100g": 52,
+      "proteinPer100g": 0.3,
+      "carbsPer100g": 14,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2.4
+    },
+    {
+      "name": "Braeburn",
+      "caloriesPer100g": 52,
+      "proteinPer100g": 0.3,
+      "carbsPer100g": 14,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 2.4
+    },
+    {
+      "name": "Navel",
+      "caloriesPer100g": 47,
+      "proteinPer100g": 0.9,
+      "carbsPer100g": 12,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 2.4
+    },
+    {
+      "name": "Valencia",
+      "caloriesPer100g": 47,
+      "proteinPer100g": 0.9,
+      "carbsPer100g": 12,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 2.4
+    },
+    {
+      "name": "Blood",
+      "caloriesPer100g": 47,
+      "proteinPer100g": 0.9,
+      "carbsPer100g": 12,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 2.4
+    },
+    {
+      "name": "Cara Cara",
+      "caloriesPer100g": 47,
+      "proteinPer100g": 0.9,
+      "carbsPer100g": 12,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 2.4
+    },
+    {
+      "name": "Mandarin",
+      "caloriesPer100g": 53,
+      "proteinPer100g": 0.8,
+      "carbsPer100g": 13,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Tangerine",
+      "caloriesPer100g": 53,
+      "proteinPer100g": 0.8,
+      "carbsPer100g": 13,
+      "fatPer100g": 0.3,
+      "fiberPer100g": 1.8
+    },
+    {
+      "name": "Clementine",
+      "caloriesPer100g": 47,
+      "proteinPer100g": 0.9,
+      "carbsPer100g": 12,
+      "fatPer100g": 0.1,
+      "fiberPer100g": 1.7
+    },
+    {
+      "name": "Green",
+      "caloriesPer100g": 69,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 18,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 0.9
+    },
+    {
+      "name": "Black",
+      "caloriesPer100g": 69,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 18,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 0.9
+    },
+    {
+      "name": "Concord",
+      "caloriesPer100g": 62,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 16,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 0.9
+    },
+    {
+      "name": "Muscat",
+      "caloriesPer100g": 69,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 18,
+      "fatPer100g": 0.2,
+      "fiberPer100g": 0.9
+    },
+    {
+      "name": "Gooseberries",
+      "caloriesPer100g": 44,
+      "proteinPer100g": 0.9,
+      "carbsPer100g": 10,
+      "fatPer100g": 0.6,
+      "fiberPer100g": 4.3
+    },
+    {
+      "name": "Elderberries",
+      "caloriesPer100g": 73,
+      "proteinPer100g": 0.7,
+      "carbsPer100g": 18,
+      "fatPer100g": 0.5,
+      "fiberPer100g": 7
+    },
+    {
+      "name": "Protein Shake - Vanilla",
+      "caloriesPer100g": 75,
+      "proteinPer100g": 15,
+      "carbsPer100g": 3,
+      "fatPer100g": 1,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Protein Shake - Chocolate",
+      "caloriesPer100g": 80,
+      "proteinPer100g": 15,
+      "carbsPer100g": 5,
+      "fatPer100g": 1,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Protein Shake - Strawberry",
+      "caloriesPer100g": 75,
+      "proteinPer100g": 15,
+      "carbsPer100g": 4,
+      "fatPer100g": 1,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Smoothie Bowl",
+      "caloriesPer100g": 120,
+      "proteinPer100g": 3,
+      "carbsPer100g": 28,
+      "fatPer100g": 0.5,
+      "fiberPer100g": 3
+    },
+    {
+      "name": "Acai Bowl",
+      "caloriesPer100g": 150,
+      "proteinPer100g": 2,
+      "carbsPer100g": 35,
+      "fatPer100g": 2,
+      "fiberPer100g": 3
+    },
+    {
+      "name": "Chia Pudding",
+      "caloriesPer100g": 120,
+      "proteinPer100g": 4,
+      "carbsPer100g": 12,
+      "fatPer100g": 6,
+      "fiberPer100g": 8
+    },
+    {
+      "name": "Overnight Oats",
+      "caloriesPer100g": 150,
+      "proteinPer100g": 5,
+      "carbsPer100g": 25,
+      "fatPer100g": 3,
+      "fiberPer100g": 4
+    },
+    {
+      "name": "Mixed Nuts",
+      "caloriesPer100g": 607,
+      "proteinPer100g": 20,
+      "carbsPer100g": 21,
+      "fatPer100g": 54,
+      "fiberPer100g": 7
+    },
+    {
+      "name": "Trail Mix - Classic",
+      "caloriesPer100g": 462,
+      "proteinPer100g": 13,
+      "carbsPer100g": 45,
+      "fatPer100g": 30,
+      "fiberPer100g": 4.5
+    },
+    {
+      "name": "Trail Mix - Tropical",
+      "caloriesPer100g": 450,
+      "proteinPer100g": 10,
+      "carbsPer100g": 55,
+      "fatPer100g": 22,
+      "fiberPer100g": 5
+    },
+    {
+      "name": "Energy Balls",
+      "caloriesPer100g": 400,
+      "proteinPer100g": 12,
+      "carbsPer100g": 45,
+      "fatPer100g": 18,
+      "fiberPer100g": 6
+    },
+    {
+      "name": "Protein Balls",
+      "caloriesPer100g": 380,
+      "proteinPer100g": 20,
+      "carbsPer100g": 35,
+      "fatPer100g": 15,
+      "fiberPer100g": 5
+    },
+    {
+      "name": "Kale Chips",
+      "caloriesPer100g": 50,
+      "proteinPer100g": 4.3,
+      "carbsPer100g": 9,
+      "fatPer100g": 0.9,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Sweet Potato Chips",
+      "caloriesPer100g": 532,
+      "proteinPer100g": 2.9,
+      "carbsPer100g": 57,
+      "fatPer100g": 32,
+      "fiberPer100g": 5.3
+    },
+    {
+      "name": "Plantain Chips",
+      "caloriesPer100g": 519,
+      "proteinPer100g": 2.3,
+      "carbsPer100g": 58,
+      "fatPer100g": 31,
+      "fiberPer100g": 4.3
+    },
+    {
+      "name": "Ranch Dressing",
+      "caloriesPer100g": 421,
+      "proteinPer100g": 1.3,
+      "carbsPer100g": 4.6,
+      "fatPer100g": 44,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Ranch Dressing - Light",
+      "caloriesPer100g": 200,
+      "proteinPer100g": 1,
+      "carbsPer100g": 8,
+      "fatPer100g": 18,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Caesar Dressing",
+      "caloriesPer100g": 542,
+      "proteinPer100g": 2.5,
+      "carbsPer100g": 3.2,
+      "fatPer100g": 58,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Italian Dressing",
+      "caloriesPer100g": 292,
+      "proteinPer100g": 0.3,
+      "carbsPer100g": 11,
+      "fatPer100g": 28,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Italian Dressing - Light",
+      "caloriesPer100g": 50,
+      "proteinPer100g": 0.2,
+      "carbsPer100g": 4,
+      "fatPer100g": 3.5,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Balsamic Vinaigrette",
+      "caloriesPer100g": 88,
+      "proteinPer100g": 0.5,
+      "carbsPer100g": 17,
+      "fatPer100g": 0,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Honey Mustard",
+      "caloriesPer100g": 304,
+      "proteinPer100g": 1.2,
+      "carbsPer100g": 28,
+      "fatPer100g": 20,
+      "fiberPer100g": 0.5
+    },
+    {
+      "name": "Thousand Island",
+      "caloriesPer100g": 390,
+      "proteinPer100g": 1.1,
+      "carbsPer100g": 11,
+      "fatPer100g": 38,
+      "fiberPer100g": 0.3
+    },
+    {
+      "name": "Blue Cheese Dressing",
+      "caloriesPer100g": 470,
+      "proteinPer100g": 2.8,
+      "carbsPer100g": 3.2,
+      "fatPer100g": 50,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "French Dressing",
+      "caloriesPer100g": 457,
+      "proteinPer100g": 0.6,
+      "carbsPer100g": 16,
+      "fatPer100g": 45,
+      "fiberPer100g": 0.2
+    },
+    {
+      "name": "Greek Dressing",
+      "caloriesPer100g": 263,
+      "proteinPer100g": 0.3,
+      "carbsPer100g": 3.2,
+      "fatPer100g": 28,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Lemon Vinaigrette",
+      "caloriesPer100g": 263,
+      "proteinPer100g": 0.1,
+      "carbsPer100g": 2.1,
+      "fatPer100g": 28,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Red Wine Vinaigrette",
+      "caloriesPer100g": 263,
+      "proteinPer100g": 0.1,
+      "carbsPer100g": 2.1,
+      "fatPer100g": 28,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Apple Cider Vinaigrette",
+      "caloriesPer100g": 263,
+      "proteinPer100g": 0.1,
+      "carbsPer100g": 2.1,
+      "fatPer100g": 28,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Chicken Stir Fry",
+      "caloriesPer100g": 95,
+      "proteinPer100g": 12,
+      "carbsPer100g": 6,
+      "fatPer100g": 2.5,
+      "fiberPer100g": 1.5
+    },
+    {
+      "name": "Beef Stir Fry",
+      "caloriesPer100g": 120,
+      "proteinPer100g": 12,
+      "carbsPer100g": 6,
+      "fatPer100g": 5,
+      "fiberPer100g": 1.5
+    },
+    {
+      "name": "Shrimp Stir Fry",
+      "caloriesPer100g": 85,
+      "proteinPer100g": 15,
+      "carbsPer100g": 6,
+      "fatPer100g": 1.5,
+      "fiberPer100g": 1.5
+    },
+    {
+      "name": "Vegetable Stir Fry",
+      "caloriesPer100g": 45,
+      "proteinPer100g": 2,
+      "carbsPer100g": 8,
+      "fatPer100g": 0.5,
+      "fiberPer100g": 2.5
+    },
+    {
+      "name": "Chicken Fajitas",
+      "caloriesPer100g": 150,
+      "proteinPer100g": 18,
+      "carbsPer100g": 8,
+      "fatPer100g": 5,
+      "fiberPer100g": 1.5
+    },
+    {
+      "name": "Beef Fajitas",
+      "caloriesPer100g": 180,
+      "proteinPer100g": 18,
+      "carbsPer100g": 8,
+      "fatPer100g": 8,
+      "fiberPer100g": 1.5
+    },
+    {
+      "name": "Chicken Quesadilla",
+      "caloriesPer100g": 280,
+      "proteinPer100g": 18,
+      "carbsPer100g": 25,
+      "fatPer100g": 12,
+      "fiberPer100g": 1.5
+    },
+    {
+      "name": "Beef Quesadilla",
+      "caloriesPer100g": 300,
+      "proteinPer100g": 18,
+      "carbsPer100g": 25,
+      "fatPer100g": 15,
+      "fiberPer100g": 1.5
+    },
+    {
+      "name": "Chicken Burrito",
+      "caloriesPer100g": 250,
+      "proteinPer100g": 15,
+      "carbsPer100g": 30,
+      "fatPer100g": 8,
+      "fiberPer100g": 3
+    },
+    {
+      "name": "Beef Burrito",
+      "caloriesPer100g": 280,
+      "proteinPer100g": 15,
+      "carbsPer100g": 30,
+      "fatPer100g": 12,
+      "fiberPer100g": 3
+    },
+    {
+      "name": "Bean Burrito",
+      "caloriesPer100g": 200,
+      "proteinPer100g": 8,
+      "carbsPer100g": 35,
+      "fatPer100g": 4,
+      "fiberPer100g": 8
+    },
+    {
+      "name": "Chicken Enchiladas",
+      "caloriesPer100g": 180,
+      "proteinPer100g": 12,
+      "carbsPer100g": 18,
+      "fatPer100g": 6,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Beef Enchiladas",
+      "caloriesPer100g": 200,
+      "proteinPer100g": 12,
+      "carbsPer100g": 18,
+      "fatPer100g": 8,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Chicken Tacos",
+      "caloriesPer100g": 180,
+      "proteinPer100g": 15,
+      "carbsPer100g": 15,
+      "fatPer100g": 6,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Beef Tacos",
+      "caloriesPer100g": 200,
+      "proteinPer100g": 15,
+      "carbsPer100g": 15,
+      "fatPer100g": 8,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Chicken Curry",
+      "caloriesPer100g": 150,
+      "proteinPer100g": 15,
+      "carbsPer100g": 8,
+      "fatPer100g": 6,
+      "fiberPer100g": 1.5
+    },
+    {
+      "name": "Beef Curry",
+      "caloriesPer100g": 180,
+      "proteinPer100g": 15,
+      "carbsPer100g": 8,
+      "fatPer100g": 9,
+      "fiberPer100g": 1.5
+    },
+    {
+      "name": "Lamb Curry",
+      "caloriesPer100g": 200,
+      "proteinPer100g": 15,
+      "carbsPer100g": 8,
+      "fatPer100g": 11,
+      "fiberPer100g": 1.5
+    },
+    {
+      "name": "Chicken Tikka Masala",
+      "caloriesPer100g": 180,
+      "proteinPer100g": 15,
+      "carbsPer100g": 10,
+      "fatPer100g": 8,
+      "fiberPer100g": 1.5
+    },
+    {
+      "name": "Butter Chicken",
+      "caloriesPer100g": 200,
+      "proteinPer100g": 15,
+      "carbsPer100g": 8,
+      "fatPer100g": 12,
+      "fiberPer100g": 1.5
+    },
+    {
+      "name": "Pad Thai",
+      "caloriesPer100g": 250,
+      "proteinPer100g": 12,
+      "carbsPer100g": 35,
+      "fatPer100g": 8,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Pad See Ew",
+      "caloriesPer100g": 220,
+      "proteinPer100g": 12,
+      "carbsPer100g": 30,
+      "fatPer100g": 7,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Chicken Teriyaki",
+      "caloriesPer100g": 180,
+      "proteinPer100g": 18,
+      "carbsPer100g": 15,
+      "fatPer100g": 5,
+      "fiberPer100g": 0.5
+    },
+    {
+      "name": "Beef Teriyaki",
+      "caloriesPer100g": 200,
+      "proteinPer100g": 18,
+      "carbsPer100g": 15,
+      "fatPer100g": 8,
+      "fiberPer100g": 0.5
+    },
+    {
+      "name": "Salmon Teriyaki",
+      "caloriesPer100g": 220,
+      "proteinPer100g": 20,
+      "carbsPer100g": 15,
+      "fatPer100g": 8,
+      "fiberPer100g": 0.5
+    },
+    {
+      "name": "Chicken Katsu",
+      "caloriesPer100g": 280,
+      "proteinPer100g": 18,
+      "carbsPer100g": 20,
+      "fatPer100g": 14,
+      "fiberPer100g": 1
+    },
+    {
+      "name": "Pork Katsu",
+      "caloriesPer100g": 300,
+      "proteinPer100g": 18,
+      "carbsPer100g": 20,
+      "fatPer100g": 16,
+      "fiberPer100g": 1
+    },
+    {
+      "name": "Chicken Parmesan",
+      "caloriesPer100g": 250,
+      "proteinPer100g": 20,
+      "carbsPer100g": 15,
+      "fatPer100g": 12,
+      "fiberPer100g": 1.5
+    },
+    {
+      "name": "Eggplant Parmesan",
+      "caloriesPer100g": 180,
+      "proteinPer100g": 8,
+      "carbsPer100g": 18,
+      "fatPer100g": 9,
+      "fiberPer100g": 4
+    },
+    {
+      "name": "Chicken Marsala",
+      "caloriesPer100g": 200,
+      "proteinPer100g": 20,
+      "carbsPer100g": 8,
+      "fatPer100g": 8,
+      "fiberPer100g": 0.5
+    },
+    {
+      "name": "Chicken Piccata",
+      "caloriesPer100g": 220,
+      "proteinPer100g": 20,
+      "carbsPer100g": 5,
+      "fatPer100g": 12,
+      "fiberPer100g": 0.3
+    },
+    {
+      "name": "Beef Bourguignon",
+      "caloriesPer100g": 150,
+      "proteinPer100g": 15,
+      "carbsPer100g": 5,
+      "fatPer100g": 7,
+      "fiberPer100g": 1
+    },
+    {
+      "name": "Coq au Vin",
+      "caloriesPer100g": 180,
+      "proteinPer100g": 18,
+      "carbsPer100g": 5,
+      "fatPer100g": 8,
+      "fiberPer100g": 1
+    },
+    {
+      "name": "Ratatouille",
+      "caloriesPer100g": 60,
+      "proteinPer100g": 2,
+      "carbsPer100g": 10,
+      "fatPer100g": 2,
+      "fiberPer100g": 3
+    },
+    {
+      "name": "Bouillabaisse",
+      "caloriesPer100g": 85,
+      "proteinPer100g": 12,
+      "carbsPer100g": 4,
+      "fatPer100g": 2,
+      "fiberPer100g": 0.5
+    },
+    {
+      "name": "Paella",
+      "caloriesPer100g": 180,
+      "proteinPer100g": 12,
+      "carbsPer100g": 25,
+      "fatPer100g": 4,
+      "fiberPer100g": 1.5
+    },
+    {
+      "name": "Risotto - Mushroom",
+      "caloriesPer100g": 140,
+      "proteinPer100g": 3.5,
+      "carbsPer100g": 28,
+      "fatPer100g": 2,
+      "fiberPer100g": 1.5
+    },
+    {
+      "name": "Risotto - Seafood",
+      "caloriesPer100g": 150,
+      "proteinPer100g": 8,
+      "carbsPer100g": 28,
+      "fatPer100g": 2.5,
+      "fiberPer100g": 0.5
+    },
+    {
+      "name": "Chicken Cacciatore",
+      "caloriesPer100g": 150,
+      "proteinPer100g": 18,
+      "carbsPer100g": 8,
+      "fatPer100g": 4,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Osso Buco",
+      "caloriesPer100g": 200,
+      "proteinPer100g": 20,
+      "carbsPer100g": 5,
+      "fatPer100g": 9,
+      "fiberPer100g": 1
+    },
+    {
+      "name": "Chicken Cordon Bleu",
+      "caloriesPer100g": 280,
+      "proteinPer100g": 22,
+      "carbsPer100g": 12,
+      "fatPer100g": 15,
+      "fiberPer100g": 0.5
+    },
+    {
+      "name": "Chicken Kiev",
+      "caloriesPer100g": 300,
+      "proteinPer100g": 20,
+      "carbsPer100g": 15,
+      "fatPer100g": 16,
+      "fiberPer100g": 1
+    },
+    {
+      "name": "Chicken Schnitzel",
+      "caloriesPer100g": 250,
+      "proteinPer100g": 20,
+      "carbsPer100g": 15,
+      "fatPer100g": 12,
+      "fiberPer100g": 1
+    },
+    {
+      "name": "Wiener Schnitzel",
+      "caloriesPer100g": 280,
+      "proteinPer100g": 20,
+      "carbsPer100g": 15,
+      "fatPer100g": 14,
+      "fiberPer100g": 1
+    },
+    {
+      "name": "Chicken Fricassee",
+      "caloriesPer100g": 180,
+      "proteinPer100g": 18,
+      "carbsPer100g": 6,
+      "fatPer100g": 8,
+      "fiberPer100g": 1
+    },
+    {
+      "name": "Duck Confit",
+      "caloriesPer100g": 300,
+      "proteinPer100g": 18,
+      "carbsPer100g": 0,
+      "fatPer100g": 25,
+      "fiberPer100g": 0
+    },
+    {
+      "name": "Cassoulet",
+      "caloriesPer100g": 200,
+      "proteinPer100g": 12,
+      "carbsPer100g": 20,
+      "fatPer100g": 8,
+      "fiberPer100g": 5
+    },
+    {
+      "name": "Moules Frites",
+      "caloriesPer100g": 120,
+      "proteinPer100g": 10,
+      "carbsPer100g": 15,
+      "fatPer100g": 3,
+      "fiberPer100g": 1
+    },
+    {
+      "name": "Fish and Chips",
+      "caloriesPer100g": 250,
+      "proteinPer100g": 15,
+      "carbsPer100g": 30,
+      "fatPer100g": 8,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Bangers and Mash",
+      "caloriesPer100g": 200,
+      "proteinPer100g": 10,
+      "carbsPer100g": 25,
+      "fatPer100g": 7,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Shepherds Pie",
+      "caloriesPer100g": 150,
+      "proteinPer100g": 8,
+      "carbsPer100g": 18,
+      "fatPer100g": 5,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Cottage Pie",
+      "caloriesPer100g": 150,
+      "proteinPer100g": 8,
+      "carbsPer100g": 18,
+      "fatPer100g": 5,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Beef Wellington",
+      "caloriesPer100g": 280,
+      "proteinPer100g": 20,
+      "carbsPer100g": 15,
+      "fatPer100g": 15,
+      "fiberPer100g": 1
+    },
+    {
+      "name": "Chicken Pot Pie",
+      "caloriesPer100g": 220,
+      "proteinPer100g": 12,
+      "carbsPer100g": 20,
+      "fatPer100g": 10,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Beef Pot Pie",
+      "caloriesPer100g": 240,
+      "proteinPer100g": 12,
+      "carbsPer100g": 20,
+      "fatPer100g": 12,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Chicken and Dumplings",
+      "caloriesPer100g": 180,
+      "proteinPer100g": 12,
+      "carbsPer100g": 18,
+      "fatPer100g": 6,
+      "fiberPer100g": 1.5
+    },
+    {
+      "name": "Jambalaya",
+      "caloriesPer100g": 180,
+      "proteinPer100g": 12,
+      "carbsPer100g": 25,
+      "fatPer100g": 4,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Gumbo",
+      "caloriesPer100g": 120,
+      "proteinPer100g": 8,
+      "carbsPer100g": 12,
+      "fatPer100g": 4,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Etouffee",
+      "caloriesPer100g": 150,
+      "proteinPer100g": 10,
+      "carbsPer100g": 15,
+      "fatPer100g": 5,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Red Beans and Rice",
+      "caloriesPer100g": 180,
+      "proteinPer100g": 8,
+      "carbsPer100g": 30,
+      "fatPer100g": 3,
+      "fiberPer100g": 8
+    },
+    {
+      "name": "Hoppin John",
+      "caloriesPer100g": 150,
+      "proteinPer100g": 7,
+      "carbsPer100g": 28,
+      "fatPer100g": 2,
+      "fiberPer100g": 6
+    },
+    {
+      "name": "Dirty Rice",
+      "caloriesPer100g": 200,
+      "proteinPer100g": 8,
+      "carbsPer100g": 30,
+      "fatPer100g": 5,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Jollof Rice",
+      "caloriesPer100g": 180,
+      "proteinPer100g": 5,
+      "carbsPer100g": 30,
+      "fatPer100g": 4,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Biryani",
+      "caloriesPer100g": 200,
+      "proteinPer100g": 10,
+      "carbsPer100g": 30,
+      "fatPer100g": 5,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Pilaf",
+      "caloriesPer100g": 140,
+      "proteinPer100g": 3,
+      "carbsPer100g": 28,
+      "fatPer100g": 2,
+      "fiberPer100g": 1
+    },
+    {
+      "name": "Fried Rice",
+      "caloriesPer100g": 180,
+      "proteinPer100g": 5,
+      "carbsPer100g": 30,
+      "fatPer100g": 5,
+      "fiberPer100g": 1.5
+    },
+    {
+      "name": "Chicken Fried Rice",
+      "caloriesPer100g": 200,
+      "proteinPer100g": 12,
+      "carbsPer100g": 30,
+      "fatPer100g": 5,
+      "fiberPer100g": 1.5
+    },
+    {
+      "name": "Beef Fried Rice",
+      "caloriesPer100g": 220,
+      "proteinPer100g": 12,
+      "carbsPer100g": 30,
+      "fatPer100g": 7,
+      "fiberPer100g": 1.5
+    },
+    {
+      "name": "Shrimp Fried Rice",
+      "caloriesPer100g": 190,
+      "proteinPer100g": 12,
+      "carbsPer100g": 30,
+      "fatPer100g": 4,
+      "fiberPer100g": 1.5
+    },
+    {
+      "name": "Pork Fried Rice",
+      "caloriesPer100g": 210,
+      "proteinPer100g": 12,
+      "carbsPer100g": 30,
+      "fatPer100g": 6,
+      "fiberPer100g": 1.5
+    },
+    {
+      "name": "Vegetable Fried Rice",
+      "caloriesPer100g": 150,
+      "proteinPer100g": 3,
+      "carbsPer100g": 30,
+      "fatPer100g": 3,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Lo Mein",
+      "caloriesPer100g": 220,
+      "proteinPer100g": 8,
+      "carbsPer100g": 35,
+      "fatPer100g": 6,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Chow Mein",
+      "caloriesPer100g": 200,
+      "proteinPer100g": 8,
+      "carbsPer100g": 30,
+      "fatPer100g": 6,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Drunken Noodles",
+      "caloriesPer100g": 250,
+      "proteinPer100g": 12,
+      "carbsPer100g": 35,
+      "fatPer100g": 8,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Pad Kee Mao",
+      "caloriesPer100g": 240,
+      "proteinPer100g": 12,
+      "carbsPer100g": 35,
+      "fatPer100g": 7,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Pad Woon Sen",
+      "caloriesPer100g": 200,
+      "proteinPer100g": 10,
+      "carbsPer100g": 30,
+      "fatPer100g": 5,
+      "fiberPer100g": 1.5
+    },
+    {
+      "name": "Tom Yum",
+      "caloriesPer100g": 50,
+      "proteinPer100g": 4,
+      "carbsPer100g": 5,
+      "fatPer100g": 1,
+      "fiberPer100g": 0.5
+    },
+    {
+      "name": "Tom Kha",
+      "caloriesPer100g": 80,
+      "proteinPer100g": 4,
+      "carbsPer100g": 5,
+      "fatPer100g": 4,
+      "fiberPer100g": 0.5
+    },
+    {
+      "name": "Green Curry",
+      "caloriesPer100g": 150,
+      "proteinPer100g": 8,
+      "carbsPer100g": 8,
+      "fatPer100g": 8,
+      "fiberPer100g": 1.5
+    },
+    {
+      "name": "Red Curry",
+      "caloriesPer100g": 150,
+      "proteinPer100g": 8,
+      "carbsPer100g": 8,
+      "fatPer100g": 8,
+      "fiberPer100g": 1.5
+    },
+    {
+      "name": "Yellow Curry",
+      "caloriesPer100g": 150,
+      "proteinPer100g": 8,
+      "carbsPer100g": 8,
+      "fatPer100g": 8,
+      "fiberPer100g": 1.5
+    },
+    {
+      "name": "Massaman Curry",
+      "caloriesPer100g": 180,
+      "proteinPer100g": 10,
+      "carbsPer100g": 10,
+      "fatPer100g": 10,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Panang Curry",
+      "caloriesPer100g": 170,
+      "proteinPer100g": 9,
+      "carbsPer100g": 9,
+      "fatPer100g": 9,
+      "fiberPer100g": 1.5
+    },
+    {
+      "name": "Khao Soi",
+      "caloriesPer100g": 200,
+      "proteinPer100g": 12,
+      "carbsPer100g": 25,
+      "fatPer100g": 6,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Larb",
+      "caloriesPer100g": 120,
+      "proteinPer100g": 15,
+      "carbsPer100g": 5,
+      "fatPer100g": 3,
+      "fiberPer100g": 1
+    },
+    {
+      "name": "Som Tam",
+      "caloriesPer100g": 50,
+      "proteinPer100g": 1,
+      "carbsPer100g": 10,
+      "fatPer100g": 0.5,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Pad Kra Pao",
+      "caloriesPer100g": 180,
+      "proteinPer100g": 15,
+      "carbsPer100g": 15,
+      "fatPer100g": 6,
+      "fiberPer100g": 1.5
+    },
+    {
+      "name": "Pad Prik King",
+      "caloriesPer100g": 150,
+      "proteinPer100g": 12,
+      "carbsPer100g": 12,
+      "fatPer100g": 5,
+      "fiberPer100g": 2
+    },
+    {
+      "name": "Pad Pak",
+      "caloriesPer100g": 80,
+      "proteinPer100g": 4,
+      "carbsPer100g": 10,
+      "fatPer100g": 2,
+      "fiberPer100g": 3
+    }
+  ]
+}

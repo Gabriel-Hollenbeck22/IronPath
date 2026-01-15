@@ -72,6 +72,42 @@ struct NutritionView: View {
             Text("Today's Macros")
                 .font(.cardTitle)
             
+            // Calorie Progress Bar
+            VStack(alignment: .leading, spacing: Spacing.xs) {
+                HStack {
+                    Text("Calories")
+                        .font(.subheadline.bold())
+                    Spacer()
+                    Text("\(Int(summary.totalCalories)) / \(Int(userProfile?.targetCalories ?? 2200))")
+                        .font(.subheadline)
+                        .foregroundStyle(.secondary)
+                }
+                
+                GeometryReader { geometry in
+                    ZStack(alignment: .leading) {
+                        RoundedRectangle(cornerRadius: 8)
+                            .fill(Color.gray.opacity(0.2))
+                            .frame(height: 12)
+                        
+                        RoundedRectangle(cornerRadius: 8)
+                            .fill(
+                                LinearGradient(
+                                    colors: [Color.ironPathPrimary, Color.ironPathPrimary.opacity(0.8)],
+                                    startPoint: .leading,
+                                    endPoint: .trailing
+                                )
+                            )
+                            .frame(
+                                width: geometry.size.width * min(summary.totalCalories / (userProfile?.targetCalories ?? 2200), 1.0),
+                                height: 12
+                            )
+                            .animation(.spring(response: 0.6, dampingFraction: 0.8), value: summary.totalCalories)
+                    }
+                }
+                .frame(height: 12)
+            }
+            .padding(.bottom, Spacing.sm)
+            
             HStack(spacing: Spacing.lg) {
                 MacroRingView(
                     current: summary.totalProtein,

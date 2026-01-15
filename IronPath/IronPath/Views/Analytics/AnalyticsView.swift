@@ -17,6 +17,10 @@ struct AnalyticsView: View {
         NavigationStack {
             ScrollView {
                 VStack(spacing: Spacing.sectionSpacing) {
+                    // Muscle Group Strength Visualization
+                    MuscleGroupVisualizationView()
+                    
+                    // Correlation Chart
                     if let data = correlationData, !data.dataPoints.isEmpty {
                         CorrelationChartView(data: data)
                     } else {
